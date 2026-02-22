@@ -1,0 +1,326 @@
+// ============================================================
+// SCHEMA: Distribución Mayorista MVP
+// Stack: PostgreSQL + Prisma + Next.js
+// ============================================================
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ============================================================
+// ENUMS
+// ============================================================
+
+enum Role {
+  SUPER_ADMIN // Administrador de la plataforma (dueño del SaaS)
+  ADMIN       // Dueño de la distribuidora
+  VENDOR      // Vendedor de campo
+  DELIVERY    // Repartidor
+}
+
+enum VisitResult {
+  ORDER_TAKEN // Pedido tomado
+  NOT_HOME    // No estaba
+  REFUSED     // No quiso comprar
+}
+
+enum OrderStatus {
+  PENDING     // Pedido tomado, pendiente de despacho
+  IN_DELIVERY // En camino con el repartidor
+  DELIVERED   // Entregado al cliente
+  CANCELLED   // Cancelado
+}
+
+enum DeliveryStatus {
+  PENDING   // Asignada, pendiente de salida
+  DELIVERED // Entregada exitosamente
+  FAILED    // No se pudo entregar
+}
+
+enum SubscriptionStatus {
+  TRIAL     // Período de prueba (14 días por defecto)
+  ACTIVE    // Activa y al día en pagos
+  PAST_DUE  // Pago vencido — acceso restringido
+  CANCELLED // Cancelada por el cliente
+  SUSPENDED // Suspendida por falta de pago
+}
+
+// ============================================================
+// PLANES Y SUSCRIPCIONES
+// ============================================================
+
+// Plan de suscripción — gestionado por super admin desde la UI
+model Plan {
+  id          String  @id @default(cuid())
+  name        String  @unique // "FREE" | "BASICO" | "PROFESIONAL" | "EMPRESARIAL"
+  displayName String          // "Gratuito", "Básico", etc.
+  description String?
+  price       Decimal @db.Decimal(10, 2) // precio mensual COP
+  currency    String  @default("COP")
+  active      Boolean @default(true)
+
+  // ── Restricciones ────────────────────────────────────────
+  maxVendors      Int     // -1 = ilimitado
+  maxCustomers    Int     // -1 = ilimitado
+  maxDelivery     Int     // -1 = ilimitado
+  dianEnabled     Boolean @default(false)  // facturación electrónica DIAN
+  reportsEnabled  Boolean @default(false)  // reportes avanzados
+  apiAccess       Boolean @default(false)  // acceso API REST
+  historyDays     Int     @default(90)     // días de historial, 0 = ilimitado
+  durationDays    Int?                     // duración del plan en días (null = mensual renovable)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  subscriptions Subscription[]
+
+  @@map("plans")
+}
+
+// Suscripción activa de una empresa a un plan
+model Subscription {
+  id        String             @id @default(cuid())
+  companyId String             @unique
+  planId    String
+  status    SubscriptionStatus @default(TRIAL)
+
+  billingPeriod      String    @default("MONTHLY") // "MONTHLY" | "YEARLY"
+  trialEndsAt        DateTime?
+  currentPeriodStart DateTime
+  currentPeriodEnd   DateTime
+  cancelledAt        DateTime?
+  notes              String?   // notas del super admin
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  company Company @relation(fields: [companyId], references: [id])
+  plan    Plan    @relation(fields: [planId], references: [id])
+
+  @@index([planId])
+  @@map("subscriptions")
+}
+
+// ============================================================
+// CONFIGURACIÓN DIAN (gestionada solo por super admin)
+// ============================================================
+
+model DianConfiguration {
+  id        String @id @default(cuid())
+  companyId String @unique
+
+  // Resolución de facturación electrónica
+  resolutionNumber String?   // Número de resolución DIAN
+  prefix           String?   // Prefijo de facturas (ej: "FE", "FV")
+  fromNumber       Int?      // Rango desde
+  toNumber         Int?      // Rango hasta
+  resolutionDate   DateTime? // Fecha inicio vigencia
+  endDate          DateTime? // Fecha fin vigencia
+
+  // Actividad económica
+  economicActivity String?   // Código CIIU
+
+  // Credenciales API DIAN
+  apiToken     String?  // Token autenticación API DIAN (sensible)
+  testUserId   String?  // ID usuario ambiente de pruebas
+  softwareId   String?  // Software ID registrado en DIAN
+  softwarePin  String?  // PIN del software
+  testMode     Boolean  @default(true) // true = ambiente pruebas
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  company Company @relation(fields: [companyId], references: [id])
+
+  @@map("dian_configurations")
+}
+
+// ============================================================
+// MODELOS PRINCIPALES
+// ============================================================
+
+// Empresa distribuidora — cada distribuidora es un tenant aislado
+model Company {
+  id        String  @id @default(cuid())
+  name      String
+  phone     String?
+  active    Boolean @default(true)
+
+  // ── Datos fiscales (el admin completa en /settings) ──────
+  nit              String? // NIT con dígito verificación: "900.123.456-7"
+  legalName        String? // Razón social legal
+  tradeName        String? // Nombre comercial
+  address          String? // Dirección fiscal
+  city             String? // Ciudad
+  department       String? // Departamento
+  postalCode       String? // Código postal
+  email            String? // Correo de facturación/contacto
+  taxRegime        String? // Régimen tributario
+  economicActivity String? // Código CIIU (referencia, DIAN config tiene el oficial)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  users         User[]
+  customers     Customer[]
+  orders        Order[]
+  subscription  Subscription?
+  dianConfig    DianConfiguration?
+
+  @@map("companies")
+}
+
+// Usuarios del sistema
+model User {
+  id        String  @id @default(cuid())
+  companyId String? // null para SUPER_ADMIN
+  name      String
+  email     String  @unique
+  password  String  // bcrypt hash
+  role      Role
+  active    Boolean @default(true)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  company           Company?         @relation(fields: [companyId], references: [id])
+  assignedCustomers Customer[]       @relation("VendorCustomers")
+  visits            Visit[]
+  deliveries        Delivery[]
+  scheduledVisits   ScheduledVisit[]
+
+  @@index([companyId])
+  @@map("users")
+}
+
+// Cliente de la distribuidora (negocio que compra)
+model Customer {
+  id               String  @id @default(cuid())
+  companyId        String
+  assignedVendorId String?
+
+  name      String   // nombre del negocio: "Tienda Don Mario"
+  ownerName String?  // nombre del dueño del negocio
+  phone     String?
+  address   String?  // dirección en texto libre
+  lat       Decimal  @db.Decimal(10, 8) // coordenada GPS
+  lng       Decimal  @db.Decimal(11, 8) // coordenada GPS
+  photoUrl  String?  // foto de fachada del negocio
+  notes     String?  // observaciones del vendedor
+
+  active      Boolean   @default(true)
+  lastVisitAt DateTime? // se actualiza automáticamente en cada visita
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  company         Company          @relation(fields: [companyId], references: [id])
+  assignedVendor  User?            @relation("VendorCustomers", fields: [assignedVendorId], references: [id])
+  visits          Visit[]
+  orders          Order[]
+  scheduledVisits ScheduledVisit[]
+
+  @@index([companyId])
+  @@index([assignedVendorId])
+  @@index([lastVisitAt])
+  @@map("customers")
+}
+
+// Registro de visita
+model Visit {
+  id          String       @id @default(cuid())
+  customerId  String
+  vendorId    String
+  result      VisitResult?
+  reason      String?
+  orderAmount Decimal?     @db.Decimal(12, 2)
+  notes       String?
+
+  lat Decimal? @db.Decimal(10, 8)
+  lng Decimal? @db.Decimal(11, 8)
+
+  checkInAt  DateTime?
+  checkOutAt DateTime?
+  visitedAt  DateTime  @default(now())
+  createdAt  DateTime  @default(now())
+
+  customer       Customer        @relation(fields: [customerId], references: [id])
+  vendor         User            @relation(fields: [vendorId], references: [id])
+  order          Order?
+  scheduledVisit ScheduledVisit?
+
+  @@index([customerId])
+  @@index([vendorId])
+  @@index([visitedAt])
+  @@map("visits")
+}
+
+// Visita programada
+model ScheduledVisit {
+  id           String    @id @default(cuid())
+  customerId   String
+  vendorId     String
+  scheduledFor DateTime
+  notes        String?
+  completed    Boolean   @default(false)
+  visitId      String?   @unique
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+
+  customer Customer @relation(fields: [customerId], references: [id])
+  vendor   User     @relation(fields: [vendorId], references: [id])
+  visit    Visit?   @relation(fields: [visitId], references: [id])
+
+  @@index([vendorId])
+  @@index([customerId])
+  @@index([scheduledFor])
+  @@map("scheduled_visits")
+}
+
+// Pedido generado
+model Order {
+  id           String      @id @default(cuid())
+  companyId    String
+  customerId   String
+  visitId      String?     @unique
+  amount       Decimal     @db.Decimal(12, 2)
+  status       OrderStatus @default(PENDING)
+  deliveryDate DateTime?
+  notes        String?
+  createdAt    DateTime    @default(now())
+  updatedAt    DateTime    @updatedAt
+
+  company  Company   @relation(fields: [companyId], references: [id])
+  customer Customer  @relation(fields: [customerId], references: [id])
+  visit    Visit?    @relation(fields: [visitId], references: [id])
+  delivery Delivery?
+
+  @@index([companyId])
+  @@index([customerId])
+  @@index([status])
+  @@index([deliveryDate])
+  @@map("orders")
+}
+
+// Entrega asignada al repartidor
+model Delivery {
+  id               String         @id @default(cuid())
+  orderId          String         @unique
+  deliveryPersonId String
+  status           DeliveryStatus @default(PENDING)
+  deliveredAt      DateTime?
+  notes            String?
+  createdAt        DateTime       @default(now())
+  updatedAt        DateTime       @updatedAt
+
+  order          Order @relation(fields: [orderId], references: [id])
+  deliveryPerson User  @relation(fields: [deliveryPersonId], references: [id])
+
+  @@index([deliveryPersonId])
+  @@index([status])
+  @@map("deliveries")
+}
