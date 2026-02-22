@@ -1,0 +1,54 @@
+16:36:35.502 Running build in Washington, D.C., USA (East) – iad1
+16:36:35.502 Build machine configuration: 2 cores, 8 GB
+16:36:35.624 Cloning github.com/imperio8234/distrimvp (Branch: main, Commit: 42bd7b2)
+16:36:35.625 Previous build caches not available.
+16:36:35.885 Cloning completed: 261.000ms
+16:36:37.957 Running "vercel build"
+16:36:38.547 Vercel CLI 50.22.0
+16:36:38.847 Installing dependencies...
+16:36:48.632 npm warn deprecated next@15.1.0: This version has a security vulnerability. Please upgrade to a patched version. See https://nextjs.org/blog/CVE-2025-66478 for more details.
+16:36:50.897 
+16:36:50.897 added 148 packages in 12s
+16:36:50.897 
+16:36:50.897 35 packages are looking for funding
+16:36:50.897   run `npm fund` for details
+16:36:50.956 Detected Next.js version: 15.1.0
+16:36:50.959 Running "npm run build"
+16:36:51.056 
+16:36:51.057 > distrib-mvp-web@0.1.0 build
+16:36:51.057 > next build
+16:36:51.057 
+16:36:51.612 Attention: Next.js now collects completely anonymous telemetry regarding usage.
+16:36:51.613 This information is used to shape Next.js' roadmap and prioritize features.
+16:36:51.613 You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+16:36:51.613 https://nextjs.org/telemetry
+16:36:51.613 
+16:36:51.675    ▲ Next.js 15.1.0
+16:36:51.675 
+16:36:51.691    Creating an optimized production build ...
+16:37:04.701  ✓ Compiled successfully
+16:37:04.761    Linting and checking validity of types ...
+16:37:11.040    Collecting page data ...
+16:37:11.833 Prisma has detected that this project was built on Vercel, which caches dependencies. This leads to an outdated Prisma Client because Prisma's auto-generation isn't triggered. To fix this, make sure to run the `prisma generate` command during the build process.
+16:37:11.834 
+16:37:11.834 Learn how: https://pris.ly/d/vercel-build
+16:37:11.836 Error [PrismaClientInitializationError]: Prisma has detected that this project was built on Vercel, which caches dependencies. This leads to an outdated Prisma Client because Prisma's auto-generation isn't triggered. To fix this, make sure to run the `prisma generate` command during the build process.
+16:37:11.837 
+16:37:11.837 Learn how: https://pris.ly/d/vercel-build
+16:37:11.837     at 5600 (.next/server/app/api/auth/login/route.js:1:2777)
+16:37:11.838     at t (.next/server/webpack-runtime.js:1:143)
+16:37:11.838     at 7733 (.next/server/app/api/auth/login/route.js:1:1045)
+16:37:11.838     at t (.next/server/webpack-runtime.js:1:143)
+16:37:11.838     at t (.next/server/app/api/auth/login/route.js:1:2879)
+16:37:11.838     at <unknown> (.next/server/app/api/auth/login/route.js:1:2926)
+16:37:11.839     at t.X (.next/server/webpack-runtime.js:1:1285)
+16:37:11.839     at <unknown> (.next/server/app/api/auth/login/route.js:1:2892) {
+16:37:11.839   clientVersion: '5.22.0',
+16:37:11.839   errorCode: undefined
+16:37:11.840 }
+16:37:11.840 
+16:37:11.840 > Build error occurred
+16:37:11.841 [Error: Failed to collect page data for /api/auth/login] {
+16:37:11.841   type: 'Error'
+16:37:11.842 }
+16:37:11.864 Error: Command "npm run build" exited with 1
