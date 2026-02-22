@@ -21,13 +21,14 @@ const updateSchema = z.object({
 /** PATCH /api/superadmin/plans/[id] */
 export async function PATCH(
   req: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   const session = await auth();
   if (!session || session.user.role !== "SUPER_ADMIN") {
     return NextResponse.json({ error: "No autorizado" }, { status: 401 });
   }
 
+  const { id } = await params;
   const body = await req.json();
   const parsed = updateSchema.safeParse(body);
   if (!parsed.success) {
@@ -35,7 +36,7 @@ export async function PATCH(
   }
 
   const plan = await prisma.plan.update({
-    where: { id: params.id },
+    where: { id },
     data: parsed.data,
   });
 

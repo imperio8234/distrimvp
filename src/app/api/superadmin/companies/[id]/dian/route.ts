@@ -21,15 +21,16 @@ const dianSchema = z.object({
 /** GET /api/superadmin/companies/[id]/dian */
 export async function GET(
   _req: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   const session = await auth();
   if (!session || session.user.role !== "SUPER_ADMIN") {
     return NextResponse.json({ error: "No autorizado" }, { status: 401 });
   }
 
+  const { id } = await params;
   const dian = await prisma.dianConfiguration.findUnique({
-    where: { companyId: params.id },
+    where: { companyId: id },
   });
 
   return NextResponse.json(dian ?? null);
@@ -38,13 +39,14 @@ export async function GET(
 /** PUT /api/superadmin/companies/[id]/dian — crea o actualiza config DIAN */
 export async function PUT(
   req: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   const session = await auth();
   if (!session || session.user.role !== "SUPER_ADMIN") {
     return NextResponse.json({ error: "No autorizado" }, { status: 401 });
   }
 
+  const { id } = await params;
   const body = await req.json();
   const parsed = dianSchema.safeParse(body);
   if (!parsed.success) {
@@ -58,8 +60,8 @@ export async function PUT(
   };
 
   const dian = await prisma.dianConfiguration.upsert({
-    where: { companyId: params.id },
-    create: { companyId: params.id, ...data },
+    where: { companyId: id },
+    create: { companyId: id, ...data },
     update: data,
   });
 

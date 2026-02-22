@@ -16,12 +16,14 @@ const subscriptionSchema = z.object({
 /** PATCH /api/superadmin/companies/[id]/subscription */
 export async function PATCH(
   req: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   const session = await auth();
   if (!session || session.user.role !== "SUPER_ADMIN") {
     return NextResponse.json({ error: "No autorizado" }, { status: 401 });
   }
+
+  const { id } = await params;
 
   const body = await req.json();
   const parsed = subscriptionSchema.safeParse(body);
@@ -69,9 +71,9 @@ export async function PATCH(
   };
 
   const subscription = await prisma.subscription.upsert({
-    where: { companyId: params.id },
+    where: { companyId: id },
     create: {
-      companyId: params.id,
+      companyId: id,
       planId: parsed.data.planId!,
       status: parsed.data.status ?? "TRIAL",
       currentPeriodStart: data.currentPeriodStart ?? now,

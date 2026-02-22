@@ -22,15 +22,16 @@ const updateSchema = z.object({
 /** GET /api/superadmin/companies/[id] */
 export async function GET(
   _req: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   const session = await auth();
   if (!session || session.user.role !== "SUPER_ADMIN") {
     return NextResponse.json({ error: "No autorizado" }, { status: 401 });
   }
 
+  const { id } = await params;
   const company = await prisma.company.findUnique({
-    where: { id: params.id },
+    where: { id },
     include: {
       subscription: { include: { plan: true } },
       dianConfig: true,
@@ -47,13 +48,14 @@ export async function GET(
 /** PATCH /api/superadmin/companies/[id] */
 export async function PATCH(
   req: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   const session = await auth();
   if (!session || session.user.role !== "SUPER_ADMIN") {
     return NextResponse.json({ error: "No autorizado" }, { status: 401 });
   }
 
+  const { id } = await params;
   const body = await req.json();
   const parsed = updateSchema.safeParse(body);
   if (!parsed.success) {
@@ -61,7 +63,7 @@ export async function PATCH(
   }
 
   const company = await prisma.company.update({
-    where: { id: params.id },
+    where: { id },
     data: parsed.data,
   });
 

@@ -10,14 +10,15 @@ export const metadata = { title: "Empresa · Super Admin" };
 export default async function CompanyDetailPage({
   params,
 }: {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }) {
   const session = await auth();
   if (!session || session.user.role !== "SUPER_ADMIN") redirect("/login");
 
+  const { id } = await params;
   const [company, plans] = await Promise.all([
     prisma.company.findUnique({
-      where: { id: params.id },
+      where: { id },
       include: {
         subscription: { include: { plan: true } },
         dianConfig: true,
@@ -118,14 +119,14 @@ export default async function CompanyDetailPage({
 
       {/* Panel suscripción */}
       <SubscriptionPanel
-        companyId={params.id}
+        companyId={id}
         subscription={serializedSubscription}
         plans={serializedPlans}
       />
 
       {/* Panel DIAN */}
       <DianPanel
-        companyId={params.id}
+        companyId={id}
         dianConfig={company.dianConfig}
       />
     </div>
