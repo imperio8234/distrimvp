@@ -6,6 +6,7 @@ import { ColdBadge } from "@/components/ui/ColdBadge";
 import { AssignVendorForm } from "@/components/ui/AssignVendorForm";
 
 const DAY_MS = 1000 * 60 * 60 * 24;
+const PAGE_SIZE = 10;
 
 function daysSince(date: Date | null) {
   if (!date) return null;
@@ -46,25 +47,32 @@ const VISIT_RESULT_COLOR: Record<string, string> = {
   REFUSED:     "text-red-700 bg-red-50",
 };
 
-async function getCustomer(id: string, companyId: string) {
-  return prisma.customer.findFirst({
-    where: { id, companyId, active: true },
-    include: {
-      assignedVendor: { select: { id: true, name: true } },
-      visits: {
-        orderBy: { visitedAt: "desc" },
-        take: 20,
-        include: { vendor: { select: { name: true } } },
-      },
-      orders: {
-        orderBy: { createdAt: "desc" },
-        take: 10,
-        include: {
-          delivery: { include: { deliveryPerson: { select: { name: true } } } },
+async function getCustomer(id: string, companyId: string, visitPage: number, orderPage: number) {
+  const [customer, visitCount, orderCount] = await Promise.all([
+    prisma.customer.findFirst({
+      where: { id, companyId, active: true },
+      include: {
+        assignedVendor: { select: { id: true, name: true } },
+        visits: {
+          orderBy: { visitedAt: "desc" },
+          skip: (visitPage - 1) * PAGE_SIZE,
+          take: PAGE_SIZE,
+          include: { vendor: { select: { name: true } } },
+        },
+        orders: {
+          orderBy: { createdAt: "desc" },
+          skip: (orderPage - 1) * PAGE_SIZE,
+          take: PAGE_SIZE,
+          include: {
+            delivery: { include: { deliveryPerson: { select: { name: true } } } },
+          },
         },
       },
-    },
-  });
+    }),
+    prisma.visit.count({ where: { customerId: id } }),
+    prisma.order.count({ where: { customerId: id } }),
+  ]);
+  return { customer, visitCount, orderCount };
 }
 
 async function getVendors(companyId: string) {
@@ -77,14 +85,22 @@ async function getVendors(companyId: string) {
 
 export default async function CustomerDetailPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ id: string }>;
+  searchParams: Promise<{ visitPage?: string; orderPage?: string }>;
 }) {
   const { id } = await params;
+  const { visitPage: vpStr, orderPage: opStr } = await searchParams;
+  const visitPage = Math.max(1, parseInt(vpStr ?? "1", 10) || 1);
+  const orderPage = Math.max(1, parseInt(opStr ?? "1", 10) || 1);
+
   const session = await auth();
-  const [customer, vendors] = await Promise.all([
-    getCustomer(id, session!.user.companyId!),
-    getVendors(session!.user.companyId!),
+  const companyId = session!.user.companyId!;
+
+  const [{ customer, visitCount, orderCount }, vendors] = await Promise.all([
+    getCustomer(id, companyId, visitPage, orderPage),
+    getVendors(companyId),
   ]);
 
   if (!customer) notFound();
@@ -96,6 +112,9 @@ export default async function CustomerDetailPage({
   const totalRevenue = customer.orders
     .filter((o) => o.status === "DELIVERED")
     .reduce((sum, o) => sum + Number(o.amount), 0);
+
+  const totalVisitPages = Math.ceil(visitCount / PAGE_SIZE);
+  const totalOrderPages = Math.ceil(orderCount / PAGE_SIZE);
 
   return (
     <div className="space-y-6">
@@ -145,14 +164,8 @@ export default async function CustomerDetailPage({
 
         {/* Resumen financiero */}
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-4 pt-4 border-t border-gray-100">
-          <InfoField
-            label="Total visitas"
-            value={customer.visits.length.toString()}
-          />
-          <InfoField
-            label="Total pedidos"
-            value={customer.orders.length.toString()}
-          />
+          <InfoField label="Total visitas" value={visitCount.toString()} />
+          <InfoField label="Total pedidos" value={orderCount.toString()} />
           <InfoField
             label="Ingresos entregados"
             value={new Intl.NumberFormat("es-CO", {
@@ -173,122 +186,183 @@ export default async function CustomerDetailPage({
         </div>
       </div>
 
-      {/* Historial de visitas */}
+      {/* ── Historial de visitas ── */}
       <div>
-        <h2 className="text-lg font-semibold text-gray-800 mb-3">
-          Historial de visitas
-        </h2>
+        <div className="flex items-center justify-between mb-3">
+          <h2 className="text-lg font-semibold text-gray-800">
+            Historial de visitas{" "}
+            <span className="text-gray-400 font-normal text-base">({visitCount})</span>
+          </h2>
+          {totalVisitPages > 1 && (
+            <span className="text-xs text-gray-400">
+              Página {visitPage} de {totalVisitPages}
+            </span>
+          )}
+        </div>
+
         <div className="card p-0 overflow-hidden">
-          {customer.visits.length === 0 ? (
+          {visitCount === 0 ? (
             <p className="p-6 text-gray-400 italic text-sm">
               Este cliente aún no ha sido visitado.
             </p>
           ) : (
-            <table className="w-full">
-              <thead className="bg-gray-50 border-b border-gray-200">
-                <tr>
-                  <th className="table-th">Fecha</th>
-                  <th className="table-th">Vendedor</th>
-                  <th className="table-th">Resultado</th>
-                  <th className="table-th hidden md:table-cell">Monto</th>
-                  <th className="table-th hidden lg:table-cell">Notas</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-100">
-                {customer.visits.map((v) => (
-                  <tr key={v.id} className="hover:bg-gray-50">
-                    <td className="table-td whitespace-nowrap">
-                      {new Date(v.visitedAt).toLocaleDateString("es-CO", {
-                        day: "numeric", month: "short", year: "numeric",
-                      })}
-                    </td>
-                    <td className="table-td">{v.vendor.name}</td>
-                    <td className="table-td">
-                      {v.result ? (
-                        <span className={`inline-flex px-2.5 py-0.5 rounded-full text-xs font-semibold ${VISIT_RESULT_COLOR[v.result]}`}>
-                          {VISIT_RESULT_LABEL[v.result]}
-                        </span>
-                      ) : (
-                        <span className="inline-flex px-2.5 py-0.5 rounded-full text-xs font-semibold bg-gray-100 text-gray-500">
-                          En progreso
-                        </span>
-                      )}
-                    </td>
-                    <td className="table-td hidden md:table-cell">
-                      {v.orderAmount
-                        ? new Intl.NumberFormat("es-CO", {
-                            style: "currency",
-                            currency: "COP",
-                            maximumFractionDigits: 0,
-                          }).format(Number(v.orderAmount))
-                        : "—"}
-                    </td>
-                    <td className="table-td hidden lg:table-cell text-gray-400">
-                      {v.notes ?? "—"}
-                    </td>
+            <>
+              <table className="w-full">
+                <thead className="bg-gray-50 border-b border-gray-200">
+                  <tr>
+                    <th className="table-th">Fecha</th>
+                    <th className="table-th">Vendedor</th>
+                    <th className="table-th">Resultado</th>
+                    <th className="table-th hidden md:table-cell text-right">Monto</th>
+                    <th className="table-th hidden lg:table-cell">Notas</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
+                </thead>
+                <tbody className="divide-y divide-gray-100">
+                  {customer.visits.map((v) => (
+                    <tr key={v.id} className="hover:bg-gray-50">
+                      <td className="table-td whitespace-nowrap text-sm">
+                        {new Date(v.visitedAt).toLocaleDateString("es-CO", {
+                          day: "numeric", month: "short", year: "numeric",
+                        })}
+                      </td>
+                      <td className="table-td text-sm">{v.vendor.name}</td>
+                      <td className="table-td">
+                        {v.result ? (
+                          <span className={`inline-flex px-2.5 py-0.5 rounded-full text-xs font-semibold ${VISIT_RESULT_COLOR[v.result]}`}>
+                            {VISIT_RESULT_LABEL[v.result]}
+                          </span>
+                        ) : (
+                          <span className="inline-flex px-2.5 py-0.5 rounded-full text-xs font-semibold bg-gray-100 text-gray-500">
+                            En progreso
+                          </span>
+                        )}
+                      </td>
+                      <td className="table-td hidden md:table-cell text-sm text-right">
+                        {v.orderAmount
+                          ? new Intl.NumberFormat("es-CO", {
+                              style: "currency",
+                              currency: "COP",
+                              maximumFractionDigits: 0,
+                            }).format(Number(v.orderAmount))
+                          : "—"}
+                      </td>
+                      <td className="table-td hidden lg:table-cell text-sm text-gray-400">
+                        {v.notes ?? "—"}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+
+              {/* Paginación visitas */}
+              {totalVisitPages > 1 && (
+                <div className="flex items-center justify-between px-4 py-3 border-t border-gray-100 bg-gray-50">
+                  <PaginationLink
+                    href={`/customers/${id}?visitPage=${visitPage - 1}&orderPage=${orderPage}`}
+                    disabled={visitPage <= 1}
+                    label="← Anteriores"
+                  />
+                  <span className="text-xs text-gray-500">
+                    {(visitPage - 1) * PAGE_SIZE + 1}–{Math.min(visitPage * PAGE_SIZE, visitCount)} de {visitCount} visitas
+                  </span>
+                  <PaginationLink
+                    href={`/customers/${id}?visitPage=${visitPage + 1}&orderPage=${orderPage}`}
+                    disabled={visitPage >= totalVisitPages}
+                    label="Siguientes →"
+                  />
+                </div>
+              )}
+            </>
           )}
         </div>
       </div>
-      {/* Historial de pedidos */}
+
+      {/* ── Historial de pedidos ── */}
       <div>
-        <h2 className="text-lg font-semibold text-gray-800 mb-3">
-          Pedidos ({customer.orders.length})
-        </h2>
+        <div className="flex items-center justify-between mb-3">
+          <h2 className="text-lg font-semibold text-gray-800">
+            Pedidos{" "}
+            <span className="text-gray-400 font-normal text-base">({orderCount})</span>
+          </h2>
+          {totalOrderPages > 1 && (
+            <span className="text-xs text-gray-400">
+              Página {orderPage} de {totalOrderPages}
+            </span>
+          )}
+        </div>
+
         <div className="card p-0 overflow-hidden">
-          {customer.orders.length === 0 ? (
+          {orderCount === 0 ? (
             <p className="p-6 text-gray-400 italic text-sm">
               Este cliente aún no tiene pedidos.
             </p>
           ) : (
-            <table className="w-full">
-              <thead className="bg-gray-50 border-b border-gray-200">
-                <tr>
-                  <th className="table-th">Fecha pedido</th>
-                  <th className="table-th">Entrega</th>
-                  <th className="table-th text-right">Monto</th>
-                  <th className="table-th">Estado</th>
-                  <th className="table-th hidden md:table-cell">Repartidor</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-100">
-                {customer.orders.map((o) => (
-                  <tr key={o.id} className="hover:bg-gray-50">
-                    <td className="table-td whitespace-nowrap text-sm text-gray-600">
-                      {new Date(o.createdAt).toLocaleDateString("es-CO", {
-                        day: "numeric", month: "short", year: "numeric",
-                      })}
-                    </td>
-                    <td className="table-td whitespace-nowrap text-sm text-gray-600">
-                      {o.deliveryDate
-                        ? new Date(o.deliveryDate).toLocaleDateString("es-CO", {
-                            day: "numeric", month: "short",
-                          })
-                        : <span className="text-gray-300">—</span>}
-                    </td>
-                    <td className="table-td text-sm font-semibold text-gray-800 text-right whitespace-nowrap">
-                      {new Intl.NumberFormat("es-CO", {
-                        style: "currency", currency: "COP", maximumFractionDigits: 0,
-                      }).format(Number(o.amount))}
-                    </td>
-                    <td className="table-td">
-                      <span className={`inline-flex px-2.5 py-0.5 rounded-full text-xs font-semibold ${ORDER_STATUS_COLOR[o.status]}`}>
-                        {ORDER_STATUS_LABEL[o.status]}
-                      </span>
-                    </td>
-                    <td className="table-td hidden md:table-cell text-sm text-gray-600">
-                      {o.delivery?.deliveryPerson.name ?? <span className="text-gray-300">—</span>}
-                      {o.delivery?.status === "FAILED" && o.delivery.notes && (
-                        <p className="text-xs text-red-500 mt-0.5">✗ {o.delivery.notes}</p>
-                      )}
-                    </td>
+            <>
+              <table className="w-full">
+                <thead className="bg-gray-50 border-b border-gray-200">
+                  <tr>
+                    <th className="table-th">Fecha pedido</th>
+                    <th className="table-th">Entrega</th>
+                    <th className="table-th text-right">Monto</th>
+                    <th className="table-th">Estado</th>
+                    <th className="table-th hidden md:table-cell">Repartidor</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
+                </thead>
+                <tbody className="divide-y divide-gray-100">
+                  {customer.orders.map((o) => (
+                    <tr key={o.id} className="hover:bg-gray-50">
+                      <td className="table-td whitespace-nowrap text-sm text-gray-600">
+                        {new Date(o.createdAt).toLocaleDateString("es-CO", {
+                          day: "numeric", month: "short", year: "numeric",
+                        })}
+                      </td>
+                      <td className="table-td whitespace-nowrap text-sm text-gray-600">
+                        {o.deliveryDate
+                          ? new Date(o.deliveryDate).toLocaleDateString("es-CO", {
+                              day: "numeric", month: "short",
+                            })
+                          : <span className="text-gray-300">—</span>}
+                      </td>
+                      <td className="table-td text-sm font-semibold text-gray-800 text-right whitespace-nowrap">
+                        {new Intl.NumberFormat("es-CO", {
+                          style: "currency", currency: "COP", maximumFractionDigits: 0,
+                        }).format(Number(o.amount))}
+                      </td>
+                      <td className="table-td">
+                        <span className={`inline-flex px-2.5 py-0.5 rounded-full text-xs font-semibold ${ORDER_STATUS_COLOR[o.status]}`}>
+                          {ORDER_STATUS_LABEL[o.status]}
+                        </span>
+                      </td>
+                      <td className="table-td hidden md:table-cell text-sm text-gray-600">
+                        {o.delivery?.deliveryPerson.name ?? <span className="text-gray-300">—</span>}
+                        {o.delivery?.status === "FAILED" && o.delivery.notes && (
+                          <p className="text-xs text-red-500 mt-0.5">✗ {o.delivery.notes}</p>
+                        )}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+
+              {/* Paginación pedidos */}
+              {totalOrderPages > 1 && (
+                <div className="flex items-center justify-between px-4 py-3 border-t border-gray-100 bg-gray-50">
+                  <PaginationLink
+                    href={`/customers/${id}?visitPage=${visitPage}&orderPage=${orderPage - 1}`}
+                    disabled={orderPage <= 1}
+                    label="← Anteriores"
+                  />
+                  <span className="text-xs text-gray-500">
+                    {(orderPage - 1) * PAGE_SIZE + 1}–{Math.min(orderPage * PAGE_SIZE, orderCount)} de {orderCount} pedidos
+                  </span>
+                  <PaginationLink
+                    href={`/customers/${id}?visitPage=${visitPage}&orderPage=${orderPage + 1}`}
+                    disabled={orderPage >= totalOrderPages}
+                    label="Siguientes →"
+                  />
+                </div>
+              )}
+            </>
           )}
         </div>
       </div>
@@ -302,5 +376,27 @@ function InfoField({ label, value }: { label: string; value: string }) {
       <p className="text-xs text-gray-400 font-medium uppercase tracking-wide">{label}</p>
       <p className="text-sm font-semibold text-gray-800 mt-0.5">{value}</p>
     </div>
+  );
+}
+
+function PaginationLink({
+  href,
+  disabled,
+  label,
+}: {
+  href: string;
+  disabled: boolean;
+  label: string;
+}) {
+  if (disabled) {
+    return <span className="text-xs text-gray-300 px-2 py-1">{label}</span>;
+  }
+  return (
+    <Link
+      href={href}
+      className="text-xs text-brand-600 hover:text-brand-800 font-medium px-2 py-1 rounded hover:bg-brand-50 transition-colors"
+    >
+      {label}
+    </Link>
   );
 }

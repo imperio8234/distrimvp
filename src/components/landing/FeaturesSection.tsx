@@ -1,47 +1,52 @@
 const FEATURES = [
   {
-    icon: "🗺️",
-    title: "Mapa de clientes en tiempo real",
+    icon: "🚨",
+    title: "Alertas de clientes sin visitar",
     description:
-      "Visualiza todos tus clientes en el mapa con indicadores de temperatura (caliente, tibio, frío, congelado) según la última visita. El vendedor ve su ruta directo en Google Maps.",
-    color: "bg-blue-50 text-blue-700 border-blue-100",
+      "Semáforo automático: CALIENTE (≤3 días), TIBIO (≤7), FRÍO (≤14), CONGELADO (+14). Sabe en 3 segundos qué clientes están en riesgo de irse con la competencia.",
+    color: "bg-red-50 text-red-700 border-red-100",
+    tag: "Retención de clientes",
   },
   {
-    icon: "📱",
-    title: "App móvil para el equipo",
+    icon: "🔄",
+    title: "Reasignación de cartera en 2 clics",
     description:
-      "Vendedores toman pedidos, hacen check-in en el cliente y registran visitas desde su celular. Los repartidores ven su ruta del día y confirman entregas con un toque.",
-    color: "bg-green-50 text-green-700 border-green-100",
-  },
-  {
-    icon: "📦",
-    title: "Gestión completa de pedidos",
-    description:
-      "Desde que el vendedor toma el pedido hasta que el repartidor lo entrega. Seguimiento en tiempo real del estado de cada orden.",
+      "Vendedor de vacaciones, renuncia o incapacidad. Reasigna su cartera completa a otro vendedor desde el panel web. Los clientes no se quedan sin atender ni un día más.",
     color: "bg-orange-50 text-orange-700 border-orange-100",
+    tag: "Continuidad de la operación",
   },
   {
-    icon: "🧭",
-    title: "Rutas optimizadas",
+    icon: "📋",
+    title: "Historial de visitas por cliente",
     description:
-      "El vendedor arma su ruta seleccionando clientes en orden y la abre directamente en Google Maps con todos los waypoints. Sin hojas de papel.",
+      "Cada visita queda registrada: quién fue, cuándo, resultado, monto del pedido y notas. Si el cliente dice que nadie lo visitó, tienes los datos para verificarlo.",
+    color: "bg-blue-50 text-blue-700 border-blue-100",
+    tag: "Trazabilidad total",
+  },
+  {
+    icon: "📍",
+    title: "GPS y check-in en el cliente",
+    description:
+      "El vendedor registra su llegada y salida con GPS. Sabes exactamente a qué hora estuvo en cada tienda y desde dónde envió el pedido. Sin hojas de papel.",
+    color: "bg-green-50 text-green-700 border-green-100",
+    tag: "Verificación en campo",
+  },
+  {
+    icon: "🗺️",
+    title: "Rutas y asignación por radio",
+    description:
+      "Arma rutas optimizadas, selecciona clientes en el mapa por radio de distancia y asígnalos masivamente. El vendedor ve su ruta en Google Maps con todos los puntos.",
     color: "bg-purple-50 text-purple-700 border-purple-100",
+    tag: "Eficiencia en rutas",
   },
   {
     icon: "📊",
-    title: "Panel de control para el dueño",
+    title: "Dashboard de rendimiento del equipo",
     description:
-      "Dashboard con semáforo de clientes, ingresos del mes, pedidos pendientes y visitas del día. Sabe qué pasa en tu negocio sin llamar a cada vendedor.",
+      "Ranking de vendedores por visitas, órdenes y monto. Gráficas de tendencia. Configura una meta semanal y ve en tiempo real si el equipo la está cumpliendo.",
     color: "bg-brand-50 text-brand-700 border-brand-100",
+    tag: "Control del dueño",
   },
-  // DIAN: pendiente de implementación — oculto hasta activar
-  // {
-  //   icon: "🧾",
-  //   title: "Facturación electrónica DIAN",
-  //   description:
-  //     "Integración con la DIAN para emisión de facturas electrónicas. Disponible en planes Profesional y Empresarial. Resolución, prefijos y rangos configurados por nosotros.",
-  //   color: "bg-gray-50 text-gray-700 border-gray-200",
-  // },
 ];
 
 export function FeaturesSection() {
@@ -54,10 +59,11 @@ export function FeaturesSection() {
             Características
           </span>
           <h2 className="text-3xl md:text-4xl font-black text-gray-900 mt-2 mb-4">
-            Todo lo que tu distribuidora necesita
+            Herramientas para no perder ni un cliente más
           </h2>
           <p className="text-gray-500 text-lg">
-            Sin complicaciones. Sin instalar nada en el servidor. Listo en minutos.
+            Cada función fue diseñada para resolver un problema real de las distribuidoras.
+            Sin funcionalidades de relleno.
           </p>
         </div>
 
@@ -68,10 +74,15 @@ export function FeaturesSection() {
               key={f.title}
               className="rounded-2xl border border-gray-100 p-6 hover:shadow-md transition-shadow"
             >
-              <div
-                className={`inline-flex items-center justify-center w-12 h-12 rounded-xl text-2xl border ${f.color} mb-4`}
-              >
-                {f.icon}
+              <div className="flex items-start justify-between mb-4">
+                <div
+                  className={`inline-flex items-center justify-center w-12 h-12 rounded-xl text-2xl border ${f.color}`}
+                >
+                  {f.icon}
+                </div>
+                <span className="text-xs font-medium text-gray-400 bg-gray-50 border border-gray-100 px-2 py-1 rounded-full">
+                  {f.tag}
+                </span>
               </div>
               <h3 className="text-base font-bold text-gray-900 mb-2">{f.title}</h3>
               <p className="text-gray-500 text-sm leading-relaxed">{f.description}</p>
