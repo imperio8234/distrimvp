@@ -1,6 +1,7 @@
 import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
 import Link from "next/link";
+import { PedidosRealtimeRefresh } from "@/components/PedidosRealtimeRefresh";
 
 export const metadata = { title: "Pedidos · DistriApp" };
 
@@ -68,6 +69,8 @@ export default async function PedidosPage({
 
   return (
     <div className="space-y-6">
+      {/* Realtime: actualiza los datos sin recargar cuando cambian órdenes/entregas */}
+      <PedidosRealtimeRefresh companyId={companyId} />
       <div>
         <h1 className="text-2xl font-bold text-gray-900">Pedidos</h1>
         <p className="text-gray-500 text-sm mt-1">

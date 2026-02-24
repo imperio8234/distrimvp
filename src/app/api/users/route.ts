@@ -16,13 +16,21 @@ async function resolveAuth(req: NextRequest) {
 }
 
 // GET /api/users — lista todos los usuarios de la empresa (ADMIN)
+// ?role=field → solo VENDOR y DELIVERY, incluye coordenadas de ubicación
 export async function GET(req: NextRequest) {
   const ctx = await resolveAuth(req);
   if (!ctx) return unauthorized();
   if (ctx.role !== "ADMIN") return forbidden();
 
+  const { searchParams } = new URL(req.url);
+  const roleFilter = searchParams.get("role");
+  const isField = roleFilter === "field";
+
   const users = await prisma.user.findMany({
-    where: { companyId: ctx.companyId },
+    where: {
+      companyId: ctx.companyId,
+      ...(isField ? { role: { in: ["VENDOR", "DELIVERY"] } } : {}),
+    },
     select: {
       id: true,
       name: true,
@@ -30,6 +38,9 @@ export async function GET(req: NextRequest) {
       role: true,
       active: true,
       createdAt: true,
+      ...(isField
+        ? { lastLat: true, lastLng: true, lastSeenAt: true }
+        : {}),
     },
     orderBy: [{ active: "desc" }, { role: "asc" }, { name: "asc" }],
   });

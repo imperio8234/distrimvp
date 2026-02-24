@@ -5,12 +5,16 @@ import { usePathname } from "next/navigation";
 import { signOut } from "next-auth/react";
 
 const NAV = [
-  { href: "/dashboard",   label: "Panel",         icon: "📊" },
-  { href: "/customers",   label: "Clientes",      icon: "👥" },
-  { href: "/vendors",     label: "Vendedores",    icon: "🧑‍💼" },
-  { href: "/pedidos",     label: "Pedidos",       icon: "📦" },
-  { href: "/users",       label: "Usuarios",      icon: "👤" },
-  { href: "/settings",    label: "Configuración", icon: "⚙️" },
+  { href: "/dashboard",        label: "Panel",            icon: "📊" },
+  { href: "/customers",        label: "Clientes",         icon: "👥" },
+  { href: "/vendors",          label: "Vendedores",       icon: "🧑‍💼" },
+  { href: "/pedidos",          label: "Pedidos",          icon: "📦" },
+  { href: "/entregas",         label: "Entregas",         icon: "🚚" },
+  { href: "/mapa-asignacion",  label: "Mapa asignación",  icon: "🗺️" },
+  { href: "/rendimiento",      label: "Rendimiento",      icon: "📈" },
+  { href: "/ubicacion-equipo", label: "Ubicación equipo", icon: "📡" },
+  { href: "/users",            label: "Usuarios",         icon: "👤" },
+  { href: "/settings",         label: "Configuración",    icon: "⚙️" },
 ];
 
 interface Props {
