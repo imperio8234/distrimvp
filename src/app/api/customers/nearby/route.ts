@@ -25,6 +25,9 @@ export async function GET(req: NextRequest) {
     ? Prisma.sql`AND c."assignedVendorId" IS NULL`
     : Prisma.empty;
 
+  // Usamos subconsulta para calcular la distancia por fila y filtrarla en el WHERE externo.
+  // HAVING sin GROUP BY en PostgreSQL evalúa la condición UNA SOLA VEZ para todo
+  // el resultado como si fuera un grupo, no fila por fila — por eso devolvía 0 resultados.
   const customers = await prisma.$queryRaw<
     Array<{
       id: string;
@@ -39,40 +42,35 @@ export async function GET(req: NextRequest) {
       distanceKm: number;
     }>
   >`
-    SELECT
-      c.id,
-      c.name,
-      c.address,
-      c.phone,
-      CAST(c.lat AS FLOAT) as lat,
-      CAST(c.lng AS FLOAT) as lng,
-      c."assignedVendorId",
-      u.name as "vendorName",
-      c."lastVisitAt",
-      (
-        6371 * acos(
-          LEAST(1.0,
-            cos(radians(${lat})) * cos(radians(CAST(c.lat AS FLOAT))) *
-            cos(radians(CAST(c.lng AS FLOAT)) - radians(${lng})) +
-            sin(radians(${lat})) * sin(radians(CAST(c.lat AS FLOAT)))
+    SELECT *
+    FROM (
+      SELECT
+        c.id,
+        c.name,
+        c.address,
+        c.phone,
+        CAST(c.lat AS FLOAT)  AS lat,
+        CAST(c.lng AS FLOAT)  AS lng,
+        c."assignedVendorId",
+        u.name                AS "vendorName",
+        c."lastVisitAt",
+        (
+          6371 * acos(
+            LEAST(1.0,
+              cos(radians(${lat})) * cos(radians(CAST(c.lat AS FLOAT))) *
+              cos(radians(CAST(c.lng AS FLOAT)) - radians(${lng})) +
+              sin(radians(${lat})) * sin(radians(CAST(c.lat AS FLOAT)))
+            )
           )
-        )
-      ) AS "distanceKm"
-    FROM customers c
-    LEFT JOIN users u ON u.id = c."assignedVendorId"
-    WHERE c."companyId" = ${companyId}
-      AND c.active = true
-      ${unassignedClause}
-    HAVING (
-      6371 * acos(
-        LEAST(1.0,
-          cos(radians(${lat})) * cos(radians(CAST(c.lat AS FLOAT))) *
-          cos(radians(CAST(c.lng AS FLOAT)) - radians(${lng})) +
-          sin(radians(${lat})) * sin(radians(CAST(c.lat AS FLOAT)))
-        )
-      )
-    ) <= ${radiusKm}
-    ORDER BY "distanceKm" ASC
+        ) AS "distanceKm"
+      FROM customers c
+      LEFT JOIN users u ON u.id = c."assignedVendorId"
+      WHERE c."companyId" = ${companyId}
+        AND c.active = true
+        ${unassignedClause}
+    ) AS sub
+    WHERE sub."distanceKm" <= ${radiusKm}
+    ORDER BY sub."distanceKm" ASC
   `;
 
   return NextResponse.json({ data: customers });

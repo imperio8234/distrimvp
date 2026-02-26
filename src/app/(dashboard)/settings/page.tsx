@@ -121,7 +121,21 @@ export default async function SettingsPage() {
       )}
 
       {/* Formulario de datos de empresa */}
-      <CompanyForm company={company} />
+      <CompanyForm company={{
+        id:               company.id,
+        name:             company.name,
+        phone:            company.phone,
+        nit:              company.nit,
+        legalName:        company.legalName,
+        tradeName:        company.tradeName,
+        address:          company.address,
+        city:             company.city,
+        department:       company.department,
+        postalCode:       company.postalCode,
+        email:            company.email,
+        taxRegime:        company.taxRegime,
+        economicActivity: company.economicActivity,
+      }} />
     </div>
   );
 }

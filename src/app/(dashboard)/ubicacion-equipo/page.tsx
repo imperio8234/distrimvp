@@ -2,7 +2,6 @@
 
 import dynamic from "next/dynamic";
 import { useEffect, useState, useCallback, useRef } from "react";
-import { supabaseClient } from "@/lib/supabase-client";
 
 const TeamLocationMap = dynamic(() => import("@/components/TeamLocationMap"), {
   ssr: false,
@@ -42,8 +41,9 @@ function isActive(lastSeenAt: string | null): boolean {
 export default function UbicacionEquipoPage() {
   const [members, setMembers] = useState<TeamMember[]>([]);
   const [loading, setLoading] = useState(true);
+  const [connected, setConnected] = useState(false);
   const [selectedMember, setSelectedMember] = useState<string | null>(null);
-  const channelRef = useRef<ReturnType<typeof supabaseClient.channel> | null>(null);
+  const esRef = useRef<EventSource | null>(null);
 
   const loadMembers = useCallback(async () => {
     try {
@@ -60,36 +60,42 @@ export default function UbicacionEquipoPage() {
   useEffect(() => {
     loadMembers();
 
-    // Suscripción Supabase Realtime para actualizar ubicaciones en vivo
-    // El canal escucha cambios en la tabla 'users' (UPDATE)
-    const channel = supabaseClient
-      .channel("team-locations")
-      .on(
-        "postgres_changes",
-        { event: "UPDATE", schema: "public", table: "users" },
-        (payload) => {
-          const updated = payload.new as any;
-          if (!updated.id) return;
+    // Conexión SSE — el browser reconecta automáticamente si se cae
+    const es = new EventSource("/api/vendors/stream");
+    esRef.current = es;
+
+    es.onopen = () => setConnected(true);
+
+    es.onmessage = (event) => {
+      try {
+        const payload = JSON.parse(event.data);
+        if (payload.type === "location_update") {
           setMembers((prev) =>
             prev.map((m) =>
-              m.id === updated.id
+              m.id === payload.userId
                 ? {
                     ...m,
-                    lastLat: updated.last_lat ? parseFloat(updated.last_lat) : null,
-                    lastLng: updated.last_lng ? parseFloat(updated.last_lng) : null,
-                    lastSeenAt: updated.last_seen_at,
+                    lastLat: payload.lat,
+                    lastLng: payload.lng,
+                    lastSeenAt: payload.lastSeenAt,
                   }
                 : m
             )
           );
         }
-      )
-      .subscribe();
+      } catch {
+        // evento de ping/keep-alive sin JSON, se ignora
+      }
+    };
 
-    channelRef.current = channel;
+    es.onerror = () => {
+      // El browser reintenta la conexión SSE automáticamente
+      setConnected(false);
+    };
 
     return () => {
-      channel.unsubscribe();
+      es.close();
+      setConnected(false);
     };
   }, [loadMembers]);
 
@@ -114,10 +120,17 @@ export default function UbicacionEquipoPage() {
           </p>
         </div>
         <div className="flex items-center gap-2">
-          <span className="w-2.5 h-2.5 bg-green-500 rounded-full animate-pulse" />
+          <span
+            className={`w-2.5 h-2.5 rounded-full ${
+              connected ? "bg-green-500 animate-pulse" : "bg-gray-300"
+            }`}
+          />
           <span className="text-sm text-gray-600">
             <strong>{activeCount}</strong> activos ahora ·{" "}
             <span className="text-gray-400">{members.length} total</span>
+            {!connected && (
+              <span className="ml-2 text-xs text-amber-500">Reconectando…</span>
+            )}
           </span>
         </div>
       </div>

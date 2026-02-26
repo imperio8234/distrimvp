@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 import { prisma } from "@/lib/prisma";
+import { auth as nextAuth } from "@/lib/auth";
 import { getAuth, unauthorized, forbidden } from "@/lib/with-auth";
 import { requireWrite, getSubStatus } from "@/lib/subscription";
 
@@ -20,12 +21,22 @@ function coldStatus(days: number) {
 
 // GET /api/customers — lista todos los clientes de la empresa
 export async function GET(req: NextRequest) {
-  const auth = await getAuth(req);
-  if (!auth) return unauthorized();
-  if (!auth.companyId) return forbidden();
+  // Intentar Bearer token (app móvil) → luego sesión NextAuth (dashboard web)
+  let companyId: string | null = null;
+
+  const bearerAuth = await getAuth(req);
+  if (bearerAuth) {
+    companyId = bearerAuth.companyId;
+  } else {
+    const session = await nextAuth();
+    if (!session?.user) return unauthorized();
+    companyId = session.user.companyId ?? null;
+  }
+
+  if (!companyId) return forbidden();
 
   const customers = await prisma.customer.findMany({
-    where: { companyId: auth.companyId, active: true },
+    where: { companyId, active: true },
     include: { assignedVendor: { select: { id: true, name: true } } },
     orderBy: { lastVisitAt: "asc" }, // los más fríos primero
   });
