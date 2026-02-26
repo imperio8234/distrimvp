@@ -6,7 +6,7 @@ import { sendPushNotification } from "@/lib/push";
 
 const schema = z.object({
   deliveryDate:     z.string().nullable().optional(), // ISO string o null
-  deliveryPersonId: z.string().optional(),
+  deliveryPersonId: z.string().nullable().optional(), // string = asignar, null = desasignar, undefined = sin cambio
 });
 
 /**
@@ -32,9 +32,9 @@ export async function PATCH(
   }
   const { deliveryDate, deliveryPersonId } = parsed.data;
 
-  if (deliveryDate === undefined && !deliveryPersonId) {
+  if (deliveryDate === undefined && deliveryPersonId === undefined) {
     return NextResponse.json(
-      { error: "Debe indicar al menos una fecha o un repartidor" },
+      { error: "Debe indicar al menos un cambio" },
       { status: 400 }
     );
   }
@@ -54,7 +54,7 @@ export async function PATCH(
     );
   }
 
-  // Validar repartidor si se indica
+  // Validar repartidor si se indica (solo cuando es string, no null)
   let deliveryPerson = null;
   if (deliveryPersonId) {
     deliveryPerson = await prisma.user.findFirst({
@@ -66,7 +66,6 @@ export async function PATCH(
   }
 
   await prisma.$transaction(async (tx) => {
-    // Actualizar pedido
     const orderData: Record<string, unknown> = {};
 
     if (deliveryDate !== undefined) {
@@ -74,10 +73,13 @@ export async function PATCH(
     }
 
     if (deliveryPersonId) {
-      // Asignar/reasignar → poner en reparto
+      // Asignar/reasignar → en reparto
       orderData.status = "IN_DELIVERY";
+    } else if (deliveryPersonId === null) {
+      // Desasignar explícitamente → volver a pendiente
+      orderData.status = "PENDING";
     } else if (order.status === "CANCELLED") {
-      // Solo reagendar sin repartidor en orden cancelada → volver a pendiente
+      // Solo reagendar un pedido cancelado → volver a pendiente
       orderData.status = "PENDING";
     }
 
@@ -85,21 +87,21 @@ export async function PATCH(
       await tx.order.update({ where: { id: orderId }, data: orderData });
     }
 
-    // Upsert delivery si se indica repartidor
     if (deliveryPersonId) {
+      // Asignar/reasignar: upsert del registro de entrega
       await tx.delivery.upsert({
         where: { orderId },
         update: {
           deliveryPersonId,
-          status: "PENDING",
+          status:      "PENDING",
           deliveredAt: null,
           notes:       null,
         },
-        create: {
-          orderId,
-          deliveryPersonId,
-        },
+        create: { orderId, deliveryPersonId },
       });
+    } else if (deliveryPersonId === null && order.delivery) {
+      // Desasignar: eliminar el registro de entrega para que vuelva al área de asignación
+      await tx.delivery.delete({ where: { orderId } });
     }
   });
 

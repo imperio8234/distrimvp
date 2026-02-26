@@ -208,29 +208,38 @@ function RescheduleModal({
   onClose:         () => void;
   onSaved:         () => void;
 }) {
+  const originalDeliveryPersonId = order.delivery?.deliveryPersonId ?? "";
+
   const [deliveryDate, setDeliveryDate] = useState(
     order.deliveryDate ? order.deliveryDate.split("T")[0] : ""
   );
-  const [deliveryPersonId, setDeliveryPersonId] = useState(
-    order.delivery?.deliveryPersonId ?? ""
-  );
+  const [deliveryPersonId, setDeliveryPersonId] = useState(originalDeliveryPersonId);
   const [saving, setSaving] = useState(false);
   const [error, setError]   = useState("");
 
-  const isCancelled = order.status === "CANCELLED";
+  const isCancelled     = order.status === "CANCELLED";
+  // true cuando el usuario tenía repartidor y ahora eligió quitar
+  const isUnassigning   = originalDeliveryPersonId !== "" && deliveryPersonId === "";
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     setSaving(true);
     setError("");
 
+    // deliveryPersonId: string = asignar/reasignar, null = desasignar, undefined = sin cambio
+    const dpPayload = deliveryPersonId
+      ? deliveryPersonId                  // asignar a este repartidor
+      : isUnassigning
+        ? null                            // quitar repartidor explícitamente
+        : undefined;                      // no había repartidor → sin cambio
+
     try {
       const res = await fetch(`/api/orders/${order.id}`, {
         method:  "PATCH",
         headers: { "Content-Type": "application/json" },
         body:    JSON.stringify({
-          deliveryDate:     deliveryDate || null,
-          ...(deliveryPersonId ? { deliveryPersonId } : {}),
+          deliveryDate: deliveryDate || null,
+          ...(dpPayload !== undefined ? { deliveryPersonId: dpPayload } : {}),
         }),
       });
 
@@ -320,21 +329,30 @@ function RescheduleModal({
                 No hay repartidores activos
               </p>
             ) : (
-              <select
-                value={deliveryPersonId}
-                onChange={(e) => setDeliveryPersonId(e.target.value)}
-                className="input w-full"
-              >
-                <option value="">— Sin cambios / Sin asignar —</option>
-                {deliveryPersons.map((dp) => (
-                  <option key={dp.id} value={dp.id}>
-                    {dp.name}
-                    {dp.id === order.delivery?.deliveryPersonId
-                      ? " (actual)"
-                      : ""}
+              <>
+                <select
+                  value={deliveryPersonId}
+                  onChange={(e) => setDeliveryPersonId(e.target.value)}
+                  className="input w-full"
+                >
+                  <option value="">
+                    {originalDeliveryPersonId
+                      ? "— Quitar asignación (volver a pendiente) —"
+                      : "— Sin asignar —"}
                   </option>
-                ))}
-              </select>
+                  {deliveryPersons.map((dp) => (
+                    <option key={dp.id} value={dp.id}>
+                      {dp.name}
+                      {dp.id === originalDeliveryPersonId ? " (actual)" : ""}
+                    </option>
+                  ))}
+                </select>
+                {isUnassigning && (
+                  <p className="text-xs text-amber-600 mt-1">
+                    ⚠️ El pedido volverá a estado Pendiente y aparecerá en el área de asignación.
+                  </p>
+                )}
+              </>
             )}
           </div>
 
@@ -354,10 +372,14 @@ function RescheduleModal({
             </button>
             <button
               type="submit"
-              disabled={saving || (!deliveryDate && !deliveryPersonId)}
+              disabled={saving || (!deliveryDate && !deliveryPersonId && !isUnassigning)}
               className="flex-1 btn-primary py-2 text-sm disabled:opacity-50"
             >
-              {saving ? "Guardando…" : "Guardar cambios"}
+              {saving
+                ? "Guardando…"
+                : isUnassigning
+                  ? "Quitar y poner pendiente"
+                  : "Guardar cambios"}
             </button>
           </div>
         </form>
