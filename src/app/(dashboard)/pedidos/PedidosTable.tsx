@@ -108,14 +108,17 @@ export function PedidosTable({
                     </td>
 
                     {/* Monto */}
-                    <td className="table-td text-sm font-semibold text-gray-800 text-right whitespace-nowrap">
+                    <td
+                      suppressHydrationWarning
+                      className="table-td text-sm font-semibold text-gray-800 text-right whitespace-nowrap"
+                    >
                       {cop(order.amount)}
                     </td>
 
                     {/* Fecha entrega */}
                     <td className="table-td text-sm whitespace-nowrap">
                       {order.deliveryDate ? (
-                        <span className="text-gray-700">
+                        <span suppressHydrationWarning className="text-gray-700">
                           {new Date(order.deliveryDate).toLocaleDateString("es-CO", {
                             day:   "numeric",
                             month: "short",

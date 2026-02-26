@@ -135,11 +135,11 @@ export default async function PedidosPage({
             <strong className="text-gray-800">{orders.length}</strong> pedidos
           </span>
           <span>
-            <strong className="text-gray-800">{cop(totalAmount)}</strong> total
+            <strong suppressHydrationWarning className="text-gray-800">{cop(totalAmount)}</strong> total
           </span>
           {(statusFilter === "DELIVERED" || !statusFilter) && deliveredAmount > 0 && (
             <span>
-              <strong className="text-green-700">{cop(deliveredAmount)}</strong>{" "}
+              <strong suppressHydrationWarning className="text-green-700">{cop(deliveredAmount)}</strong>{" "}
               entregados
             </span>
           )}
