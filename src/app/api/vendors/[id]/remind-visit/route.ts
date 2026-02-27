@@ -7,13 +7,13 @@ import { sendPushNotification } from "@/lib/push";
 // Envía un recordatorio de visita al vendedor vía push notification
 export async function POST(
   req: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   const auth = await getAuth(req);
   if (!auth) return unauthorized();
   if (auth.role !== "ADMIN" || !auth.companyId) return forbidden();
 
-  const vendorId = params.id;
+  const { id: vendorId } = await params;
 
   const vendor = await prisma.user.findFirst({
     where: {
