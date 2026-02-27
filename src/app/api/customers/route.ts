@@ -63,16 +63,26 @@ export async function GET(req: NextRequest) {
   return NextResponse.json({ data });
 }
 
-const createSchema = z.object({
-  name: z.string().min(2),
-  ownerName: z.string().optional(),
-  phone: z.string().optional(),
-  address: z.string().optional(),
-  lat: z.number(),
-  lng: z.number(),
-  photoUrl: z.string().url().optional(),
-  notes: z.string().optional(),
+const billingSchema = z.object({
+  requiresInvoice:       z.boolean().optional(),
+  billingId:             z.string().optional(),
+  billingIdType:         z.string().optional(),
+  billingLegalOrg:       z.string().optional(),
+  billingTribute:        z.string().optional(),
+  billingMunicipalityId: z.string().optional(),
+  billingEmail:          z.string().email().optional().or(z.literal("")),
 });
+
+const createSchema = z.object({
+  name:      z.string().min(2),
+  ownerName: z.string().optional(),
+  phone:     z.string().optional(),
+  address:   z.string().optional(),
+  lat:       z.number(),
+  lng:       z.number(),
+  photoUrl:  z.string().url().optional(),
+  notes:     z.string().optional(),
+}).merge(billingSchema);
 
 // POST /api/customers — registrar nuevo cliente
 export async function POST(req: NextRequest) {

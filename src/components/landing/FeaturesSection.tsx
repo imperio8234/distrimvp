@@ -35,7 +35,7 @@ const FEATURES = [
     icon: "🗺️",
     title: "Rutas y asignación por radio",
     description:
-      "Arma rutas optimizadas, selecciona clientes en el mapa por radio de distancia y asígnalos masivamente. El vendedor ve su ruta en Google Maps con todos los puntos.",
+      "Selecciona clientes en el mapa por radio de distancia y asígnalos masivamente a un vendedor. El vendedor arma su ruta en la app y navega a cada cliente con Google Maps.",
     color: "bg-purple-50 text-purple-700 border-purple-100",
     tag: "Eficiencia en rutas",
   },

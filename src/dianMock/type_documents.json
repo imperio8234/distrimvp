@@ -1,0 +1,84 @@
+[
+	{
+		"id": 1,
+		"name": "Factura de Venta Nacional",
+		"code": "01",
+		"cufe_algorithm": "CUFE-SHA384",
+		"prefix": "fv",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 2,
+		"name": "Factura de Exportación",
+		"code": "02",
+		"cufe_algorithm": "CUFE-SHA384",
+		"prefix": "fv",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 3,
+		"name": "Factura de Contingencia",
+		"code": "03",
+		"cufe_algorithm": "CUDE-SHA384",
+		"prefix": "fv",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 4,
+		"name": "Nota Crédito",
+		"code": "91",
+		"cufe_algorithm": "CUDE-SHA384",
+		"prefix": "nc",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 5,
+		"name": "Nota Débito",
+		"code": "92",
+		"cufe_algorithm": "CUDE-SHA384",
+		"prefix": "nd",
+		"created_at": null,
+		"updated_at": null
+	},
+	{ "id": 6, "name": "ZIP", "code": "", "cufe_algorithm": "", "prefix": "z", "created_at": null, "updated_at": null },
+	{
+		"id": 7,
+		"name": "AttachedDocument",
+		"code": "89",
+		"cufe_algorithm": "",
+		"prefix": "at",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 8,
+		"name": "ApplicationResponse",
+		"code": "88",
+		"cufe_algorithm": "CUDE-SHA384",
+		"prefix": "ar",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 9,
+		"name": "Nomina Individual",
+		"code": "1",
+		"cufe_algorithm": "CUNE-SHA384",
+		"prefix": "ni",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 10,
+		"name": "Nomina Individual de Ajuste",
+		"code": "2",
+		"cufe_algorithm": "CUNE-SHA384",
+		"prefix": "na",
+		"created_at": null,
+		"updated_at": null
+	}
+]

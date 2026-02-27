@@ -59,11 +59,19 @@ export async function GET(
 }
 
 const updateSchema = z.object({
-  name: z.string().min(2).optional(),
+  name:      z.string().min(2).optional(),
   ownerName: z.string().optional(),
-  phone: z.string().optional(),
-  address: z.string().optional(),
-  notes: z.string().optional(),
+  phone:     z.string().optional(),
+  address:   z.string().optional(),
+  notes:     z.string().optional(),
+  // Facturación electrónica
+  requiresInvoice:       z.boolean().optional(),
+  billingId:             z.string().optional(),
+  billingIdType:         z.string().optional(),
+  billingLegalOrg:       z.string().optional(),
+  billingTribute:        z.string().optional(),
+  billingMunicipalityId: z.string().optional(),
+  billingEmail:          z.string().email().optional().or(z.literal("")),
 });
 
 // PATCH /api/customers/[id] — editar datos del cliente (VENDOR o ADMIN)

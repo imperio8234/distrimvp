@@ -1,0 +1,10091 @@
+[
+	{
+		"id": 1,
+		"department_id": 2,
+		"name": "Medellín",
+		"code": "05001",
+		"codefacturador": "12601",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 2,
+		"department_id": 2,
+		"name": "Abejorral",
+		"code": "05002",
+		"codefacturador": "12533",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 3,
+		"department_id": 2,
+		"name": "Abriaquí",
+		"code": "05004",
+		"codefacturador": "12534",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 4,
+		"department_id": 2,
+		"name": "Alejandría",
+		"code": "05021",
+		"codefacturador": "12535",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 5,
+		"department_id": 2,
+		"name": "Amagá",
+		"code": "05030",
+		"codefacturador": "12536",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 6,
+		"department_id": 2,
+		"name": "Amalfi",
+		"code": "05031",
+		"codefacturador": "12537",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 7,
+		"department_id": 2,
+		"name": "Andes",
+		"code": "05034",
+		"codefacturador": "12538",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 8,
+		"department_id": 2,
+		"name": "Angelópolis",
+		"code": "05036",
+		"codefacturador": "12539",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 9,
+		"department_id": 2,
+		"name": "Angostura",
+		"code": "05038",
+		"codefacturador": "12540",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 10,
+		"department_id": 2,
+		"name": "Anorí",
+		"code": "05040",
+		"codefacturador": "12541",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 11,
+		"department_id": 2,
+		"name": "Santa Fé De Antioquia",
+		"code": "05042",
+		"codefacturador": "12542",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 12,
+		"department_id": 2,
+		"name": "Anzá",
+		"code": "05044",
+		"codefacturador": "12543",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 13,
+		"department_id": 2,
+		"name": "Apartadó",
+		"code": "05045",
+		"codefacturador": "12544",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 14,
+		"department_id": 2,
+		"name": "Arboletes",
+		"code": "05051",
+		"codefacturador": "12545",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 15,
+		"department_id": 2,
+		"name": "Argelia",
+		"code": "05055",
+		"codefacturador": "12920",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 16,
+		"department_id": 2,
+		"name": "Armenia",
+		"code": "05059",
+		"codefacturador": "13337",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 17,
+		"department_id": 2,
+		"name": "Barbosa",
+		"code": "05079",
+		"codefacturador": "13366",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 18,
+		"department_id": 2,
+		"name": "Belmira",
+		"code": "05086",
+		"codefacturador": "12550",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 19,
+		"department_id": 2,
+		"name": "Bello",
+		"code": "05088",
+		"codefacturador": "12549",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 20,
+		"department_id": 2,
+		"name": "Betania",
+		"code": "05091",
+		"codefacturador": "12551",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 21,
+		"department_id": 2,
+		"name": "Betulia",
+		"code": "05093",
+		"codefacturador": "13369",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 22,
+		"department_id": 2,
+		"name": "Ciudad Bolívar ",
+		"code": "05101",
+		"codefacturador": "12568",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 23,
+		"department_id": 2,
+		"name": "Briceño",
+		"code": "05107",
+		"codefacturador": "12742",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 24,
+		"department_id": 2,
+		"name": "Buriticá",
+		"code": "05113",
+		"codefacturador": "12555",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 25,
+		"department_id": 2,
+		"name": "Cáceres",
+		"code": "05120",
+		"codefacturador": "12556",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 26,
+		"department_id": 2,
+		"name": "Caicedo",
+		"code": "05125",
+		"codefacturador": "12557",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 27,
+		"department_id": 2,
+		"name": "Caldas",
+		"code": "05129",
+		"codefacturador": "12745",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 28,
+		"department_id": 2,
+		"name": "Campamento",
+		"code": "05134",
+		"codefacturador": "12559",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 29,
+		"department_id": 2,
+		"name": "Cañasgordas",
+		"code": "05138",
+		"codefacturador": "12992",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 30,
+		"department_id": 2,
+		"name": "Caracolí",
+		"code": "05142",
+		"codefacturador": "12561",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 31,
+		"department_id": 2,
+		"name": "Caramanta",
+		"code": "05145",
+		"codefacturador": "12562",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 32,
+		"department_id": 2,
+		"name": "Carepa",
+		"code": "05147",
+		"codefacturador": "12563",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 33,
+		"department_id": 2,
+		"name": "El Carmen De Viboral",
+		"code": "05148",
+		"codefacturador": "12564",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 34,
+		"department_id": 2,
+		"name": "Carolina",
+		"code": "05150",
+		"codefacturador": "12565",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 35,
+		"department_id": 2,
+		"name": "Caucasia",
+		"code": "05154",
+		"codefacturador": "12566",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 36,
+		"department_id": 2,
+		"name": "Chigorodó",
+		"code": "05172",
+		"codefacturador": "12567",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 37,
+		"department_id": 2,
+		"name": "Cisneros",
+		"code": "05190",
+		"codefacturador": "12568",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 38,
+		"department_id": 2,
+		"name": "Cocorná",
+		"code": "05197",
+		"codefacturador": "12569",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 39,
+		"department_id": 2,
+		"name": "Concepción",
+		"code": "05206",
+		"codefacturador": "13383",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 40,
+		"department_id": 2,
+		"name": "Concordia",
+		"code": "05209",
+		"codefacturador": "13207",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 41,
+		"department_id": 2,
+		"name": "Copacabana",
+		"code": "05212",
+		"codefacturador": "12572",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 42,
+		"department_id": 2,
+		"name": "Dabeiba",
+		"code": "05234",
+		"codefacturador": "12573",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 43,
+		"department_id": 2,
+		"name": "Donmatías",
+		"code": "05237",
+		"codefacturador": "12574",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 44,
+		"department_id": 2,
+		"name": "Ebéjico",
+		"code": "05240",
+		"codefacturador": "12575",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 45,
+		"department_id": 2,
+		"name": "El Bagre ",
+		"code": "05250",
+		"codefacturador": "12576",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 46,
+		"department_id": 2,
+		"name": "Entrerríos",
+		"code": "05264",
+		"codefacturador": "12577",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 47,
+		"department_id": 2,
+		"name": "Envigado",
+		"code": "05266",
+		"codefacturador": "12578",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 48,
+		"department_id": 2,
+		"name": "Fredonia",
+		"code": "05282",
+		"codefacturador": "12579",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 49,
+		"department_id": 2,
+		"name": "Frontino",
+		"code": "05284",
+		"codefacturador": "12580",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 50,
+		"department_id": 2,
+		"name": "Giraldo",
+		"code": "05306",
+		"codefacturador": "12581",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 51,
+		"department_id": 2,
+		"name": "Girardota",
+		"code": "05308",
+		"codefacturador": "12582",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 52,
+		"department_id": 2,
+		"name": "Gómez Plata ",
+		"code": "05310",
+		"codefacturador": "12583",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 53,
+		"department_id": 2,
+		"name": "Granada",
+		"code": "05313",
+		"codefacturador": "13241",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 54,
+		"department_id": 2,
+		"name": "Guadalupe",
+		"code": "05315",
+		"codefacturador": "13400",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 55,
+		"department_id": 2,
+		"name": "Guarne",
+		"code": "05318",
+		"codefacturador": "12586",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 56,
+		"department_id": 2,
+		"name": "Guatapé",
+		"code": "05321",
+		"codefacturador": "12587",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 57,
+		"department_id": 2,
+		"name": "Heliconia",
+		"code": "05347",
+		"codefacturador": "12588",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 58,
+		"department_id": 2,
+		"name": "Hispania",
+		"code": "05353",
+		"codefacturador": "12589",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 59,
+		"department_id": 2,
+		"name": "Itagüí",
+		"code": "05360",
+		"codefacturador": "12590",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 60,
+		"department_id": 2,
+		"name": "Ituango",
+		"code": "05361",
+		"codefacturador": "12591",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 61,
+		"department_id": 2,
+		"name": "Jardín",
+		"code": "05364",
+		"codefacturador": "12592",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 62,
+		"department_id": 2,
+		"name": "Jericó",
+		"code": "05368",
+		"codefacturador": "12778",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 63,
+		"department_id": 2,
+		"name": "La Ceja ",
+		"code": "05376",
+		"codefacturador": "12594",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 64,
+		"department_id": 2,
+		"name": "La Estrella ",
+		"code": "05380",
+		"codefacturador": "12595",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 65,
+		"department_id": 2,
+		"name": "La Pintada ",
+		"code": "05390",
+		"codefacturador": "12596",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 66,
+		"department_id": 2,
+		"name": "La Unión ",
+		"code": "05400",
+		"codefacturador": "12597",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 67,
+		"department_id": 2,
+		"name": "Liborina",
+		"code": "05411",
+		"codefacturador": "12598",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 68,
+		"department_id": 2,
+		"name": "Maceo",
+		"code": "05425",
+		"codefacturador": "12599",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 69,
+		"department_id": 2,
+		"name": "Marinilla",
+		"code": "05440",
+		"codefacturador": "12600",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 70,
+		"department_id": 2,
+		"name": "Montebello",
+		"code": "05467",
+		"codefacturador": "12602",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 71,
+		"department_id": 2,
+		"name": "Murindó",
+		"code": "05475",
+		"codefacturador": "12603",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 72,
+		"department_id": 2,
+		"name": "Mutatá",
+		"code": "05480",
+		"codefacturador": "12604",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 73,
+		"department_id": 2,
+		"name": "Nariño",
+		"code": "05483",
+		"codefacturador": "13298",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 74,
+		"department_id": 2,
+		"name": "Necoclí",
+		"code": "05490",
+		"codefacturador": "12607",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 75,
+		"department_id": 2,
+		"name": "Nechí",
+		"code": "05495",
+		"codefacturador": "12606",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 76,
+		"department_id": 2,
+		"name": "Olaya",
+		"code": "05501",
+		"codefacturador": "12608",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 77,
+		"department_id": 2,
+		"name": "Peñol",
+		"code": "05541",
+		"codefacturador": "12609",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 78,
+		"department_id": 2,
+		"name": "Peque",
+		"code": "05543",
+		"codefacturador": "12610",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 79,
+		"department_id": 2,
+		"name": "Pueblorrico",
+		"code": "05576",
+		"codefacturador": "12611",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 80,
+		"department_id": 2,
+		"name": "Puerto Berrío ",
+		"code": "05579",
+		"codefacturador": "12612",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 81,
+		"department_id": 2,
+		"name": "Puerto Nare ",
+		"code": "05585",
+		"codefacturador": "12613",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 82,
+		"department_id": 2,
+		"name": "Puerto Triunfo ",
+		"code": "05591",
+		"codefacturador": "12614",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 83,
+		"department_id": 2,
+		"name": "Remedios",
+		"code": "05604",
+		"codefacturador": "12615",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 84,
+		"department_id": 2,
+		"name": "Retiro",
+		"code": "05607",
+		"codefacturador": "12616",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 85,
+		"department_id": 2,
+		"name": "Rionegro",
+		"code": "05615",
+		"codefacturador": "12617",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 86,
+		"department_id": 2,
+		"name": "Sabanalarga",
+		"code": "05628",
+		"codefacturador": "12911",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 87,
+		"department_id": 2,
+		"name": "Sabaneta",
+		"code": "05631",
+		"codefacturador": "12619",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 88,
+		"department_id": 2,
+		"name": "Salgar",
+		"code": "05642",
+		"codefacturador": "12620",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 89,
+		"department_id": 2,
+		"name": "San Andrés De Cuerquía",
+		"code": "05647",
+		"codefacturador": "13430",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 90,
+		"department_id": 2,
+		"name": "San Carlos ",
+		"code": "05649",
+		"codefacturador": "13039",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 91,
+		"department_id": 2,
+		"name": "San Francisco ",
+		"code": "05652",
+		"codefacturador": "13331",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 92,
+		"department_id": 2,
+		"name": "San Jerónimo ",
+		"code": "05656",
+		"codefacturador": "12624",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 93,
+		"department_id": 2,
+		"name": "San José De La Montaña ",
+		"code": "05658",
+		"codefacturador": "12625",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 94,
+		"department_id": 2,
+		"name": "San Juan De Urabá",
+		"code": "05659",
+		"codefacturador": "12626",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 95,
+		"department_id": 2,
+		"name": "San Luis ",
+		"code": "05660",
+		"codefacturador": "13515",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 96,
+		"department_id": 2,
+		"name": "San Pedro De Los Milagros ",
+		"code": "05664",
+		"codefacturador": "12628",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 97,
+		"department_id": 2,
+		"name": "San Pedro De Urabá",
+		"code": "05665",
+		"codefacturador": "12629",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 98,
+		"department_id": 2,
+		"name": "San Rafael ",
+		"code": "05667",
+		"codefacturador": "12630",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 99,
+		"department_id": 2,
+		"name": "San Roque ",
+		"code": "05670",
+		"codefacturador": "12631",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 100,
+		"department_id": 2,
+		"name": "San Vicente Ferrer",
+		"code": "05674",
+		"codefacturador": "12896",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 101,
+		"department_id": 2,
+		"name": "Santa Bárbara ",
+		"code": "05679",
+		"codefacturador": "13437",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 102,
+		"department_id": 2,
+		"name": "Santa Rosa De Osos",
+		"code": "05686",
+		"codefacturador": "12634",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 103,
+		"department_id": 2,
+		"name": "Santo Domingo ",
+		"code": "05690",
+		"codefacturador": "12635",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 104,
+		"department_id": 2,
+		"name": "El Santuario ",
+		"code": "05697",
+		"codefacturador": "12636",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 105,
+		"department_id": 2,
+		"name": "Segovia",
+		"code": "05736",
+		"codefacturador": "12637",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 106,
+		"department_id": 2,
+		"name": "Sonsón",
+		"code": "05756",
+		"codefacturador": "12638",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 107,
+		"department_id": 2,
+		"name": "Sopetrán",
+		"code": "05761",
+		"codefacturador": "12639",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 108,
+		"department_id": 2,
+		"name": "Támesis",
+		"code": "05789",
+		"codefacturador": "12640",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 109,
+		"department_id": 2,
+		"name": "Tarazá",
+		"code": "05790",
+		"codefacturador": "12641",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 110,
+		"department_id": 2,
+		"name": "Tarso",
+		"code": "05792",
+		"codefacturador": "12642",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 111,
+		"department_id": 2,
+		"name": "Titiribí",
+		"code": "05809",
+		"codefacturador": "12643",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 112,
+		"department_id": 2,
+		"name": "Toledo",
+		"code": "05819",
+		"codefacturador": "12644",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 113,
+		"department_id": 2,
+		"name": "Turbo",
+		"code": "05837",
+		"codefacturador": "12645",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 114,
+		"department_id": 2,
+		"name": "Uramita",
+		"code": "05842",
+		"codefacturador": "12646",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 115,
+		"department_id": 2,
+		"name": "Urrao",
+		"code": "05847",
+		"codefacturador": "12647",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 116,
+		"department_id": 2,
+		"name": "Valdivia",
+		"code": "05854",
+		"codefacturador": "12648",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 117,
+		"department_id": 2,
+		"name": "Valparaíso",
+		"code": "05856",
+		"codefacturador": "12899",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 118,
+		"department_id": 2,
+		"name": "Vegachí",
+		"code": "05858",
+		"codefacturador": "12650",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 119,
+		"department_id": 2,
+		"name": "Venecia",
+		"code": "05861",
+		"codefacturador": "12651",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 120,
+		"department_id": 2,
+		"name": "Vigía Del Fuerte",
+		"code": "05873",
+		"codefacturador": "12652",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 121,
+		"department_id": 2,
+		"name": "Yalí",
+		"code": "05885",
+		"codefacturador": "12653",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 122,
+		"department_id": 2,
+		"name": "Yarumal",
+		"code": "05887",
+		"codefacturador": "12654",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 123,
+		"department_id": 2,
+		"name": "Yolombó",
+		"code": "05890",
+		"codefacturador": "12655",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 124,
+		"department_id": 2,
+		"name": "Yondó",
+		"code": "05893",
+		"codefacturador": "12656",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 125,
+		"department_id": 2,
+		"name": "Zaragoza",
+		"code": "05895",
+		"codefacturador": "12657",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 126,
+		"department_id": 4,
+		"name": "Barranquilla",
+		"code": "08001",
+		"codefacturador": "12666",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 127,
+		"department_id": 4,
+		"name": "Baranoa",
+		"code": "08078",
+		"codefacturador": "12665",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 128,
+		"department_id": 4,
+		"name": "Campo De La Cruz",
+		"code": "08137",
+		"codefacturador": "12667",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 129,
+		"department_id": 4,
+		"name": "Candelaria",
+		"code": "08141",
+		"codefacturador": "12668",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 130,
+		"department_id": 4,
+		"name": "Galapa",
+		"code": "08296",
+		"codefacturador": "12669",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 131,
+		"department_id": 4,
+		"name": "Juan De Acosta",
+		"code": "08372",
+		"codefacturador": "12670",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 132,
+		"department_id": 4,
+		"name": "Luruaco",
+		"code": "08421",
+		"codefacturador": "12671",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 133,
+		"department_id": 4,
+		"name": "Malambo",
+		"code": "08433",
+		"codefacturador": "12672",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 134,
+		"department_id": 4,
+		"name": "Manatí",
+		"code": "08436",
+		"codefacturador": "12673",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 135,
+		"department_id": 4,
+		"name": "Palmar De Varela",
+		"code": "08520",
+		"codefacturador": "12674",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 136,
+		"department_id": 4,
+		"name": "Piojó",
+		"code": "08549",
+		"codefacturador": "12675",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 137,
+		"department_id": 4,
+		"name": "Polonuevo",
+		"code": "08558",
+		"codefacturador": "12676",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 138,
+		"department_id": 4,
+		"name": "Ponedera",
+		"code": "08560",
+		"codefacturador": "12677",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 139,
+		"department_id": 4,
+		"name": "Puerto Colombia ",
+		"code": "08573",
+		"codefacturador": "12678",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 140,
+		"department_id": 4,
+		"name": "Repelón",
+		"code": "08606",
+		"codefacturador": "12679",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 141,
+		"department_id": 4,
+		"name": "Sabanagrande",
+		"code": "08634",
+		"codefacturador": "12680",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 142,
+		"department_id": 4,
+		"name": "Sabanalarga",
+		"code": "08638",
+		"codefacturador": "12911",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 143,
+		"department_id": 4,
+		"name": "Santa Lucía ",
+		"code": "08675",
+		"codefacturador": "12682",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 144,
+		"department_id": 4,
+		"name": "Santo Tomás ",
+		"code": "08685",
+		"codefacturador": "12683",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 145,
+		"department_id": 4,
+		"name": "Soledad",
+		"code": "08758",
+		"codefacturador": "12684",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 146,
+		"department_id": 4,
+		"name": "Suan",
+		"code": "08770",
+		"codefacturador": "12685",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 147,
+		"department_id": 4,
+		"name": "Tubará",
+		"code": "08832",
+		"codefacturador": "12686",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 148,
+		"department_id": 4,
+		"name": "Usiacurí",
+		"code": "08849",
+		"codefacturador": "12687",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 149,
+		"department_id": 5,
+		"name": "Bogotá, D.c. ",
+		"code": "11001",
+		"codefacturador": "12688",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 150,
+		"department_id": 6,
+		"name": "Cartagena De Indias",
+		"code": "13001",
+		"codefacturador": "12697",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 151,
+		"department_id": 6,
+		"name": "Achí",
+		"code": "13006",
+		"codefacturador": "12689",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 152,
+		"department_id": 6,
+		"name": "Altos Del Rosario",
+		"code": "13030",
+		"codefacturador": "12690",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 153,
+		"department_id": 6,
+		"name": "Arenal",
+		"code": "13042",
+		"codefacturador": "12691",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 154,
+		"department_id": 6,
+		"name": "Arjona",
+		"code": "13052",
+		"codefacturador": "12692",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 155,
+		"department_id": 6,
+		"name": "Arroyohondo",
+		"code": "13062",
+		"codefacturador": "12693",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 156,
+		"department_id": 6,
+		"name": "Barranco De Loba",
+		"code": "13074",
+		"codefacturador": "12694",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 157,
+		"department_id": 6,
+		"name": "Calamar",
+		"code": "13140",
+		"codefacturador": "13160",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 158,
+		"department_id": 6,
+		"name": "Cantagallo",
+		"code": "13160",
+		"codefacturador": "12696",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 159,
+		"department_id": 6,
+		"name": "Cicuco",
+		"code": "13188",
+		"codefacturador": "12698",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 160,
+		"department_id": 6,
+		"name": "Córdoba",
+		"code": "13212",
+		"codefacturador": "13341",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 161,
+		"department_id": 6,
+		"name": "Clemencia",
+		"code": "13222",
+		"codefacturador": "12699",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 162,
+		"department_id": 6,
+		"name": "El Carmen De Bolívar",
+		"code": "13244",
+		"codefacturador": "12701",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 163,
+		"department_id": 6,
+		"name": "El Guamo ",
+		"code": "13248",
+		"codefacturador": "12702",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 164,
+		"department_id": 6,
+		"name": "El Peñón ",
+		"code": "13268",
+		"codefacturador": "13390",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 165,
+		"department_id": 6,
+		"name": "Hatillo De Loba",
+		"code": "13300",
+		"codefacturador": "12704",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 166,
+		"department_id": 6,
+		"name": "Magangué",
+		"code": "13430",
+		"codefacturador": "12705",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 167,
+		"department_id": 6,
+		"name": "Mahates",
+		"code": "13433",
+		"codefacturador": "12706",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 168,
+		"department_id": 6,
+		"name": "Margarita",
+		"code": "13440",
+		"codefacturador": "12707",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 169,
+		"department_id": 6,
+		"name": "María La Baja",
+		"code": "13442",
+		"codefacturador": "12708",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 170,
+		"department_id": 6,
+		"name": "Montecristo",
+		"code": "13458",
+		"codefacturador": "12710",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 171,
+		"department_id": 6,
+		"name": "Mompós",
+		"code": "13468",
+		"codefacturador": "12709",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 172,
+		"department_id": 6,
+		"name": "Morales",
+		"code": "13473",
+		"codefacturador": "12711",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 173,
+		"department_id": 6,
+		"name": "Norosí",
+		"code": "13490",
+		"codefacturador": "12871",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 174,
+		"department_id": 6,
+		"name": "Pinillos",
+		"code": "13549",
+		"codefacturador": "12712",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 175,
+		"department_id": 6,
+		"name": "Regidor",
+		"code": "13580",
+		"codefacturador": "12713",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 176,
+		"department_id": 6,
+		"name": "Río Viejo ",
+		"code": "13600",
+		"codefacturador": "12714",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 177,
+		"department_id": 6,
+		"name": "San Cristóbal ",
+		"code": "13620",
+		"codefacturador": "12715",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 178,
+		"department_id": 6,
+		"name": "San Estanislao ",
+		"code": "13647",
+		"codefacturador": "12716",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 179,
+		"department_id": 6,
+		"name": "San Fernando ",
+		"code": "13650",
+		"codefacturador": "12717",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 180,
+		"department_id": 6,
+		"name": "San Jacinto ",
+		"code": "13654",
+		"codefacturador": "12718",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 181,
+		"department_id": 6,
+		"name": "San Jacinto Del Cauca",
+		"code": "13655",
+		"codefacturador": "12719",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 182,
+		"department_id": 6,
+		"name": "San Juan Nepomuceno",
+		"code": "13657",
+		"codefacturador": "12720",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 183,
+		"department_id": 6,
+		"name": "San Martín De Loba",
+		"code": "13667",
+		"codefacturador": "12721",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 184,
+		"department_id": 6,
+		"name": "San Pablo ",
+		"code": "13670",
+		"codefacturador": "12722",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 185,
+		"department_id": 6,
+		"name": "Santa Catalina ",
+		"code": "13673",
+		"codefacturador": "12723",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 186,
+		"department_id": 6,
+		"name": "Santa Rosa ",
+		"code": "13683",
+		"codefacturador": "12949",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 187,
+		"department_id": 6,
+		"name": "Santa Rosa Del Sur",
+		"code": "13688",
+		"codefacturador": "12725",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 188,
+		"department_id": 6,
+		"name": "Simití",
+		"code": "13744",
+		"codefacturador": "12726",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 189,
+		"department_id": 6,
+		"name": "Soplaviento",
+		"code": "13760",
+		"codefacturador": "12727",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 190,
+		"department_id": 6,
+		"name": "Talaigua Nuevo ",
+		"code": "13780",
+		"codefacturador": "12728",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 191,
+		"department_id": 6,
+		"name": "Tiquisio",
+		"code": "13810",
+		"codefacturador": "12729",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 192,
+		"department_id": 6,
+		"name": "Turbaco",
+		"code": "13836",
+		"codefacturador": "12730",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 193,
+		"department_id": 6,
+		"name": "Turbaná",
+		"code": "13838",
+		"codefacturador": "12731",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 194,
+		"department_id": 6,
+		"name": "Villanueva",
+		"code": "13873",
+		"codefacturador": "13448",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 195,
+		"department_id": 6,
+		"name": "Zambrano",
+		"code": "13894",
+		"codefacturador": "12733",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 196,
+		"department_id": 7,
+		"name": "Tunja",
+		"code": "15001",
+		"codefacturador": "12848",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 197,
+		"department_id": 7,
+		"name": "Almeida",
+		"code": "15022",
+		"codefacturador": "12734",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 198,
+		"department_id": 7,
+		"name": "Aquitania",
+		"code": "15047",
+		"codefacturador": "12735",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 199,
+		"department_id": 7,
+		"name": "Arcabuco",
+		"code": "15051",
+		"codefacturador": "12736",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 200,
+		"department_id": 7,
+		"name": "Belén",
+		"code": "15087",
+		"codefacturador": "13265",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 201,
+		"department_id": 7,
+		"name": "Berbeo",
+		"code": "15090",
+		"codefacturador": "12738",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 202,
+		"department_id": 7,
+		"name": "Betéitiva",
+		"code": "15092",
+		"codefacturador": "12739",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 203,
+		"department_id": 7,
+		"name": "Boavita",
+		"code": "15097",
+		"codefacturador": "12740",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 204,
+		"department_id": 7,
+		"name": "Boyacá",
+		"code": "15104",
+		"codefacturador": "12741",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 205,
+		"department_id": 7,
+		"name": "Briceño",
+		"code": "15106",
+		"codefacturador": "12742",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 206,
+		"department_id": 7,
+		"name": "Buenavista",
+		"code": "15109",
+		"codefacturador": "13450",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 207,
+		"department_id": 7,
+		"name": "Busbanzá",
+		"code": "15114",
+		"codefacturador": "12744",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 208,
+		"department_id": 7,
+		"name": "Caldas",
+		"code": "15131",
+		"codefacturador": "12745",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 209,
+		"department_id": 7,
+		"name": "Campohermoso",
+		"code": "15135",
+		"codefacturador": "12746",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 210,
+		"department_id": 7,
+		"name": "Cerinza",
+		"code": "15162",
+		"codefacturador": "12747",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 211,
+		"department_id": 7,
+		"name": "Chinavita",
+		"code": "15172",
+		"codefacturador": "12748",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 212,
+		"department_id": 7,
+		"name": "Chiquinquirá",
+		"code": "15176",
+		"codefacturador": "12749",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 213,
+		"department_id": 7,
+		"name": "Chiscas",
+		"code": "15180",
+		"codefacturador": "12751",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 214,
+		"department_id": 7,
+		"name": "Chita",
+		"code": "15183",
+		"codefacturador": "12752",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 215,
+		"department_id": 7,
+		"name": "Chitaraque",
+		"code": "15185",
+		"codefacturador": "12753",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 216,
+		"department_id": 7,
+		"name": "Chivatá",
+		"code": "15187",
+		"codefacturador": "12754",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 217,
+		"department_id": 7,
+		"name": "Ciénega",
+		"code": "15189",
+		"codefacturador": "12756",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 218,
+		"department_id": 7,
+		"name": "Cómbita",
+		"code": "15204",
+		"codefacturador": "12757",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 219,
+		"department_id": 7,
+		"name": "Coper",
+		"code": "15212",
+		"codefacturador": "12758",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 220,
+		"department_id": 7,
+		"name": "Corrales",
+		"code": "15215",
+		"codefacturador": "12759",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 221,
+		"department_id": 7,
+		"name": "Covarachía",
+		"code": "15218",
+		"codefacturador": "12760",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 222,
+		"department_id": 7,
+		"name": "Cubará",
+		"code": "15223",
+		"codefacturador": "12761",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 223,
+		"department_id": 7,
+		"name": "Cucaita",
+		"code": "15224",
+		"codefacturador": "12762",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 224,
+		"department_id": 7,
+		"name": "Cuítiva",
+		"code": "15226",
+		"codefacturador": "12763",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 225,
+		"department_id": 7,
+		"name": "Chíquiza",
+		"code": "15232",
+		"codefacturador": "12750",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 226,
+		"department_id": 7,
+		"name": "Chivor",
+		"code": "15236",
+		"codefacturador": "12755",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 227,
+		"department_id": 7,
+		"name": "Duitama",
+		"code": "15238",
+		"codefacturador": "12764",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 228,
+		"department_id": 7,
+		"name": "El Cocuy ",
+		"code": "15244",
+		"codefacturador": "12765",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 229,
+		"department_id": 7,
+		"name": "El Espino ",
+		"code": "15248",
+		"codefacturador": "12766",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 230,
+		"department_id": 7,
+		"name": "Firavitoba",
+		"code": "15272",
+		"codefacturador": "12767",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 231,
+		"department_id": 7,
+		"name": "Floresta",
+		"code": "15276",
+		"codefacturador": "12768",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 232,
+		"department_id": 7,
+		"name": "Gachantivá",
+		"code": "15293",
+		"codefacturador": "12769",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 233,
+		"department_id": 7,
+		"name": "Gámeza",
+		"code": "15296",
+		"codefacturador": "12770",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 234,
+		"department_id": 7,
+		"name": "Garagoa",
+		"code": "15299",
+		"codefacturador": "12771",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 235,
+		"department_id": 7,
+		"name": "Guacamayas",
+		"code": "15317",
+		"codefacturador": "12772",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 236,
+		"department_id": 7,
+		"name": "Guateque",
+		"code": "15322",
+		"codefacturador": "12773",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 237,
+		"department_id": 7,
+		"name": "Guayatá",
+		"code": "15325",
+		"codefacturador": "12774",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 238,
+		"department_id": 7,
+		"name": "Güicán De La Sierra",
+		"code": "15332",
+		"codefacturador": "12775",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 239,
+		"department_id": 7,
+		"name": "Iza",
+		"code": "15362",
+		"codefacturador": "12776",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 240,
+		"department_id": 7,
+		"name": "Jenesano",
+		"code": "15367",
+		"codefacturador": "12777",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 241,
+		"department_id": 7,
+		"name": "Jericó",
+		"code": "15368",
+		"codefacturador": "12778",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 242,
+		"department_id": 7,
+		"name": "Labranzagrande",
+		"code": "15377",
+		"codefacturador": "12782",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 243,
+		"department_id": 7,
+		"name": "La Capilla ",
+		"code": "15380",
+		"codefacturador": "12779",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 244,
+		"department_id": 7,
+		"name": "La Victoria ",
+		"code": "15401",
+		"codefacturador": "12781",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 245,
+		"department_id": 7,
+		"name": "La Uvita ",
+		"code": "15403",
+		"codefacturador": "12780",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 246,
+		"department_id": 7,
+		"name": "Villa De Leyva",
+		"code": "15407",
+		"codefacturador": "12652",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 247,
+		"department_id": 7,
+		"name": "Macanal",
+		"code": "15425",
+		"codefacturador": "12784",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 248,
+		"department_id": 7,
+		"name": "Maripí",
+		"code": "15442",
+		"codefacturador": "12785",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 249,
+		"department_id": 7,
+		"name": "Miraflores",
+		"code": "15455",
+		"codefacturador": "13162",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 250,
+		"department_id": 7,
+		"name": "Mongua",
+		"code": "15464",
+		"codefacturador": "12787",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 251,
+		"department_id": 7,
+		"name": "Monguí",
+		"code": "15466",
+		"codefacturador": "12788",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 252,
+		"department_id": 7,
+		"name": "Moniquirá",
+		"code": "15469",
+		"codefacturador": "12789",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 253,
+		"department_id": 7,
+		"name": "Motavita",
+		"code": "15476",
+		"codefacturador": "12790",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 254,
+		"department_id": 7,
+		"name": "Muzo",
+		"code": "15480",
+		"codefacturador": "12791",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 255,
+		"department_id": 7,
+		"name": "Nobsa",
+		"code": "15491",
+		"codefacturador": "12792",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 256,
+		"department_id": 7,
+		"name": "Nuevo Colón ",
+		"code": "15494",
+		"codefacturador": "12793",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 257,
+		"department_id": 7,
+		"name": "Oicatá",
+		"code": "15500",
+		"codefacturador": "12794",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 258,
+		"department_id": 7,
+		"name": "Otanche",
+		"code": "15507",
+		"codefacturador": "12795",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 259,
+		"department_id": 7,
+		"name": "Pachavita",
+		"code": "15511",
+		"codefacturador": "12796",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 260,
+		"department_id": 7,
+		"name": "Páez",
+		"code": "15514",
+		"codefacturador": "12941",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 261,
+		"department_id": 7,
+		"name": "Paipa",
+		"code": "15516",
+		"codefacturador": "12798",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 262,
+		"department_id": 7,
+		"name": "Pajarito",
+		"code": "15518",
+		"codefacturador": "12799",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 263,
+		"department_id": 7,
+		"name": "Panqueba",
+		"code": "15522",
+		"codefacturador": "12800",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 264,
+		"department_id": 7,
+		"name": "Pauna",
+		"code": "15531",
+		"codefacturador": "12801",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 265,
+		"department_id": 7,
+		"name": "Paya",
+		"code": "15533",
+		"codefacturador": "12802",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 266,
+		"department_id": 7,
+		"name": "Paz De Río",
+		"code": "15537",
+		"codefacturador": "12908",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 267,
+		"department_id": 7,
+		"name": "Pesca",
+		"code": "15542",
+		"codefacturador": "12804",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 268,
+		"department_id": 7,
+		"name": "Pisba",
+		"code": "15550",
+		"codefacturador": "12805",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 269,
+		"department_id": 7,
+		"name": "Puerto Boyacá ",
+		"code": "15572",
+		"codefacturador": "12806",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 270,
+		"department_id": 7,
+		"name": "Quípama",
+		"code": "15580",
+		"codefacturador": "12807",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 271,
+		"department_id": 7,
+		"name": "Ramiriquí",
+		"code": "15599",
+		"codefacturador": "12808",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 272,
+		"department_id": 7,
+		"name": "Ráquira",
+		"code": "15600",
+		"codefacturador": "12809",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 273,
+		"department_id": 7,
+		"name": "Rondón",
+		"code": "15621",
+		"codefacturador": "12810",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 274,
+		"department_id": 7,
+		"name": "Saboyá",
+		"code": "15632",
+		"codefacturador": "12811",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 275,
+		"department_id": 7,
+		"name": "Sáchica",
+		"code": "15638",
+		"codefacturador": "12812",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 276,
+		"department_id": 7,
+		"name": "Samacá",
+		"code": "15646",
+		"codefacturador": "12813",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 277,
+		"department_id": 7,
+		"name": "San Eduardo ",
+		"code": "15660",
+		"codefacturador": "12814",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 278,
+		"department_id": 7,
+		"name": "San José De Pare",
+		"code": "15664",
+		"codefacturador": "12815",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 279,
+		"department_id": 7,
+		"name": "San Luis De Gaceno",
+		"code": "15667",
+		"codefacturador": "12816",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 280,
+		"department_id": 7,
+		"name": "San Mateo ",
+		"code": "15673",
+		"codefacturador": "12817",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 281,
+		"department_id": 7,
+		"name": "San Miguel De Sema",
+		"code": "15676",
+		"codefacturador": "12818",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 282,
+		"department_id": 7,
+		"name": "San Pablo De Borbur",
+		"code": "15681",
+		"codefacturador": "12819",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 283,
+		"department_id": 7,
+		"name": "Santana",
+		"code": "15686",
+		"codefacturador": "12823",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 284,
+		"department_id": 7,
+		"name": "Santa María ",
+		"code": "15690",
+		"codefacturador": "13192",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 285,
+		"department_id": 7,
+		"name": "Santa Rosa De Viterbo",
+		"code": "15693",
+		"codefacturador": "12821",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 286,
+		"department_id": 7,
+		"name": "Santa Sofía ",
+		"code": "15696",
+		"codefacturador": "12822",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 287,
+		"department_id": 7,
+		"name": "Sativanorte",
+		"code": "15720",
+		"codefacturador": "12824",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 288,
+		"department_id": 7,
+		"name": "Sativasur",
+		"code": "15723",
+		"codefacturador": "12825",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 289,
+		"department_id": 7,
+		"name": "Siachoque",
+		"code": "15740",
+		"codefacturador": "12826",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 290,
+		"department_id": 7,
+		"name": "Soatá",
+		"code": "15753",
+		"codefacturador": "12827",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 291,
+		"department_id": 7,
+		"name": "Socotá",
+		"code": "15755",
+		"codefacturador": "12829",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 292,
+		"department_id": 7,
+		"name": "Socha",
+		"code": "15757",
+		"codefacturador": "12828",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 293,
+		"department_id": 7,
+		"name": "Sogamoso",
+		"code": "15759",
+		"codefacturador": "12830",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 294,
+		"department_id": 7,
+		"name": "Somondoco",
+		"code": "15761",
+		"codefacturador": "12831",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 295,
+		"department_id": 7,
+		"name": "Sora",
+		"code": "15762",
+		"codefacturador": "12832",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 296,
+		"department_id": 7,
+		"name": "Sotaquirá",
+		"code": "15763",
+		"codefacturador": "12834",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 297,
+		"department_id": 7,
+		"name": "Soracá",
+		"code": "15764",
+		"codefacturador": "12833",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 298,
+		"department_id": 7,
+		"name": "Susacón",
+		"code": "15774",
+		"codefacturador": "12835",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 299,
+		"department_id": 7,
+		"name": "Sutamarchán",
+		"code": "15776",
+		"codefacturador": "12836",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 300,
+		"department_id": 7,
+		"name": "Sutatenza",
+		"code": "15778",
+		"codefacturador": "12837",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 301,
+		"department_id": 7,
+		"name": "Tasco",
+		"code": "15790",
+		"codefacturador": "12838",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 302,
+		"department_id": 7,
+		"name": "Tenza",
+		"code": "15798",
+		"codefacturador": "12839",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 303,
+		"department_id": 7,
+		"name": "Tibaná",
+		"code": "15804",
+		"codefacturador": "12840",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 304,
+		"department_id": 7,
+		"name": "Tibasosa",
+		"code": "15806",
+		"codefacturador": "12841",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 305,
+		"department_id": 7,
+		"name": "Tinjacá",
+		"code": "15808",
+		"codefacturador": "12842",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 306,
+		"department_id": 7,
+		"name": "Tipacoque",
+		"code": "15810",
+		"codefacturador": "12843",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 307,
+		"department_id": 7,
+		"name": "Toca",
+		"code": "15814",
+		"codefacturador": "12844",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 308,
+		"department_id": 7,
+		"name": "Togüí",
+		"code": "15816",
+		"codefacturador": "12845",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 309,
+		"department_id": 7,
+		"name": "Tópaga",
+		"code": "15820",
+		"codefacturador": "12846",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 310,
+		"department_id": 7,
+		"name": "Tota",
+		"code": "15822",
+		"codefacturador": "12847",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 311,
+		"department_id": 7,
+		"name": "Tununguá",
+		"code": "15832",
+		"codefacturador": "12849",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 312,
+		"department_id": 7,
+		"name": "Turmequé",
+		"code": "15835",
+		"codefacturador": "12850",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 313,
+		"department_id": 7,
+		"name": "Tuta",
+		"code": "15837",
+		"codefacturador": "12851",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 314,
+		"department_id": 7,
+		"name": "Tutazá",
+		"code": "15839",
+		"codefacturador": "12852",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 315,
+		"department_id": 7,
+		"name": "Úmbita",
+		"code": "15842",
+		"codefacturador": "12853",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 316,
+		"department_id": 7,
+		"name": "Ventaquemada",
+		"code": "15861",
+		"codefacturador": "12854",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 317,
+		"department_id": 7,
+		"name": "Viracachá",
+		"code": "15879",
+		"codefacturador": "12855",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 318,
+		"department_id": 7,
+		"name": "Zetaquira",
+		"code": "15897",
+		"codefacturador": "12856",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 319,
+		"department_id": 8,
+		"name": "Manizales",
+		"code": "17001",
+		"codefacturador": "12865",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 320,
+		"department_id": 8,
+		"name": "Aguadas",
+		"code": "17013",
+		"codefacturador": "12857",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 321,
+		"department_id": 8,
+		"name": "Anserma",
+		"code": "17042",
+		"codefacturador": "12858",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 322,
+		"department_id": 8,
+		"name": "Aranzazu",
+		"code": "17050",
+		"codefacturador": "12859",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 323,
+		"department_id": 8,
+		"name": "Belalcázar",
+		"code": "17088",
+		"codefacturador": "12860",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 324,
+		"department_id": 8,
+		"name": "Chinchiná",
+		"code": "17174",
+		"codefacturador": "12861",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 325,
+		"department_id": 8,
+		"name": "Filadelfia",
+		"code": "17272",
+		"codefacturador": "12862",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 326,
+		"department_id": 8,
+		"name": "La Dorada ",
+		"code": "17380",
+		"codefacturador": "12863",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 327,
+		"department_id": 8,
+		"name": "La Merced ",
+		"code": "17388",
+		"codefacturador": "12864",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 328,
+		"department_id": 8,
+		"name": "Manzanares",
+		"code": "17433",
+		"codefacturador": "12866",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 329,
+		"department_id": 8,
+		"name": "Marmato",
+		"code": "17442",
+		"codefacturador": "12867",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 330,
+		"department_id": 8,
+		"name": "Marquetalia",
+		"code": "17444",
+		"codefacturador": "12868",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 331,
+		"department_id": 8,
+		"name": "Marulanda",
+		"code": "17446",
+		"codefacturador": "12869",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 332,
+		"department_id": 8,
+		"name": "Neira",
+		"code": "17486",
+		"codefacturador": "12870",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 333,
+		"department_id": 8,
+		"name": "Norcasia",
+		"code": "17495",
+		"codefacturador": "12871",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 334,
+		"department_id": 8,
+		"name": "Pácora",
+		"code": "17513",
+		"codefacturador": "12872",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 335,
+		"department_id": 8,
+		"name": "Palestina",
+		"code": "17524",
+		"codefacturador": "12873",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 336,
+		"department_id": 8,
+		"name": "Pensilvania",
+		"code": "17541",
+		"codefacturador": "12874",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 337,
+		"department_id": 8,
+		"name": "Riosucio",
+		"code": "17614",
+		"codefacturador": "13009",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 338,
+		"department_id": 8,
+		"name": "Risaralda",
+		"code": "17616",
+		"codefacturador": "12876",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 339,
+		"department_id": 8,
+		"name": "Salamina",
+		"code": "17653",
+		"codefacturador": "12877",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 340,
+		"department_id": 8,
+		"name": "Samaná",
+		"code": "17662",
+		"codefacturador": "12878",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 341,
+		"department_id": 8,
+		"name": "San José ",
+		"code": "17665",
+		"codefacturador": "12879",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 342,
+		"department_id": 8,
+		"name": "Supía",
+		"code": "17777",
+		"codefacturador": "12880",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 343,
+		"department_id": 8,
+		"name": "Victoria",
+		"code": "17867",
+		"codefacturador": "12881",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 344,
+		"department_id": 8,
+		"name": "Villamaría",
+		"code": "17873",
+		"codefacturador": "12882",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 345,
+		"department_id": 8,
+		"name": "Viterbo",
+		"code": "17877",
+		"codefacturador": "12883",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 346,
+		"department_id": 9,
+		"name": "Florencia",
+		"code": "18001",
+		"codefacturador": "12890",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 347,
+		"department_id": 9,
+		"name": "Albania",
+		"code": "18029",
+		"codefacturador": "13364",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 348,
+		"department_id": 9,
+		"name": "Belén De Los Andaquíes",
+		"code": "18094",
+		"codefacturador": "12885",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 349,
+		"department_id": 9,
+		"name": "Cartagena Del Chairá",
+		"code": "18150",
+		"codefacturador": "12886",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 350,
+		"department_id": 9,
+		"name": "Curillo",
+		"code": "18205",
+		"codefacturador": "12887",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 351,
+		"department_id": 9,
+		"name": "El Doncello ",
+		"code": "18247",
+		"codefacturador": "12888",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 352,
+		"department_id": 9,
+		"name": "El Paujíl ",
+		"code": "18256",
+		"codefacturador": "12889",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 353,
+		"department_id": 9,
+		"name": "La Montañita ",
+		"code": "18410",
+		"codefacturador": "12891",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 354,
+		"department_id": 9,
+		"name": "Milán",
+		"code": "18460",
+		"codefacturador": "12892",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 355,
+		"department_id": 9,
+		"name": "Morelia",
+		"code": "18479",
+		"codefacturador": "12893",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 356,
+		"department_id": 9,
+		"name": "Puerto Rico ",
+		"code": "18592",
+		"codefacturador": "13252",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 357,
+		"department_id": 9,
+		"name": "San José Del Fragua",
+		"code": "18610",
+		"codefacturador": "12815",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 358,
+		"department_id": 9,
+		"name": "San Vicente Del Caguán",
+		"code": "18753",
+		"codefacturador": "12896",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 359,
+		"department_id": 9,
+		"name": "Solano",
+		"code": "18756",
+		"codefacturador": "12897",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 360,
+		"department_id": 9,
+		"name": "Solita",
+		"code": "18785",
+		"codefacturador": "12898",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 361,
+		"department_id": 9,
+		"name": "Valparaíso",
+		"code": "18860",
+		"codefacturador": "12899",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 362,
+		"department_id": 11,
+		"name": "Popayán",
+		"code": "19001",
+		"codefacturador": "12944",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 363,
+		"department_id": 11,
+		"name": "Almaguer",
+		"code": "19022",
+		"codefacturador": "12919",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 364,
+		"department_id": 11,
+		"name": "Argelia",
+		"code": "19050",
+		"codefacturador": "12920",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 365,
+		"department_id": 11,
+		"name": "Balboa",
+		"code": "19075",
+		"codefacturador": "13350",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 366,
+		"department_id": 11,
+		"name": "Bolívar",
+		"code": "19100",
+		"codefacturador": "13370",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 367,
+		"department_id": 11,
+		"name": "Buenos Aires ",
+		"code": "19110",
+		"codefacturador": "12923",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 368,
+		"department_id": 11,
+		"name": "Cajibío",
+		"code": "19130",
+		"codefacturador": "12924",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 369,
+		"department_id": 11,
+		"name": "Caldono",
+		"code": "19137",
+		"codefacturador": "12925",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 370,
+		"department_id": 11,
+		"name": "Caloto",
+		"code": "19142",
+		"codefacturador": "12926",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 371,
+		"department_id": 11,
+		"name": "Corinto",
+		"code": "19212",
+		"codefacturador": "12927",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 372,
+		"department_id": 11,
+		"name": "El Tambo ",
+		"code": "19256",
+		"codefacturador": "13279",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 373,
+		"department_id": 11,
+		"name": "Florencia",
+		"code": "19290",
+		"codefacturador": "12930",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 374,
+		"department_id": 11,
+		"name": "Guachené",
+		"code": "19300",
+		"codefacturador": "12772",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 375,
+		"department_id": 11,
+		"name": "Guapí",
+		"code": "19318",
+		"codefacturador": "12931",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 376,
+		"department_id": 11,
+		"name": "Inzá",
+		"code": "19355",
+		"codefacturador": "12932",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 377,
+		"department_id": 11,
+		"name": "Jambaló",
+		"code": "19364",
+		"codefacturador": "12933",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 378,
+		"department_id": 11,
+		"name": "La Sierra ",
+		"code": "19392",
+		"codefacturador": "12934",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 379,
+		"department_id": 11,
+		"name": "La Vega ",
+		"code": "19397",
+		"codefacturador": "13094",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 380,
+		"department_id": 11,
+		"name": "López De Micay",
+		"code": "19418",
+		"codefacturador": "12936",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 381,
+		"department_id": 11,
+		"name": "Mercaderes",
+		"code": "19450",
+		"codefacturador": "12937",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 382,
+		"department_id": 11,
+		"name": "Miranda",
+		"code": "19455",
+		"codefacturador": "12938",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 383,
+		"department_id": 11,
+		"name": "Morales",
+		"code": "19473",
+		"codefacturador": "12939",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 384,
+		"department_id": 11,
+		"name": "Padilla",
+		"code": "19513",
+		"codefacturador": "12940",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 385,
+		"department_id": 11,
+		"name": "Páez",
+		"code": "19517",
+		"codefacturador": "12941",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 386,
+		"department_id": 11,
+		"name": "Patía",
+		"code": "19532",
+		"codefacturador": "48440",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 387,
+		"department_id": 11,
+		"name": "Piamonte",
+		"code": "19533",
+		"codefacturador": "12942",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 388,
+		"department_id": 11,
+		"name": "Piendamó - Tunía",
+		"code": "19548",
+		"codefacturador": "12943",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 389,
+		"department_id": 11,
+		"name": "Puerto Tejada ",
+		"code": "19573",
+		"codefacturador": "12945",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 390,
+		"department_id": 11,
+		"name": "Puracé",
+		"code": "19585",
+		"codefacturador": "12946",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 391,
+		"department_id": 11,
+		"name": "Rosas",
+		"code": "19622",
+		"codefacturador": "12947",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 392,
+		"department_id": 11,
+		"name": "San Sebastián ",
+		"code": "19693",
+		"codefacturador": "13222",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 393,
+		"department_id": 11,
+		"name": "Santander De Quilichao",
+		"code": "19698",
+		"codefacturador": "12950",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 394,
+		"department_id": 11,
+		"name": "Santa Rosa ",
+		"code": "19701",
+		"codefacturador": "12949",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 395,
+		"department_id": 11,
+		"name": "Silvia",
+		"code": "19743",
+		"codefacturador": "12951",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 396,
+		"department_id": 11,
+		"name": "Sotara",
+		"code": "19760",
+		"codefacturador": "12952",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 397,
+		"department_id": 11,
+		"name": "Suárez",
+		"code": "19780",
+		"codefacturador": "13517",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 398,
+		"department_id": 11,
+		"name": "Sucre",
+		"code": "19785",
+		"codefacturador": "13472",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 399,
+		"department_id": 11,
+		"name": "Timbío",
+		"code": "19807",
+		"codefacturador": "12955",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 400,
+		"department_id": 11,
+		"name": "Timbiquí",
+		"code": "19809",
+		"codefacturador": "12956",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 401,
+		"department_id": 11,
+		"name": "Toribío",
+		"code": "19821",
+		"codefacturador": "12957",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 402,
+		"department_id": 11,
+		"name": "Totoró",
+		"code": "19824",
+		"codefacturador": "12958",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 403,
+		"department_id": 11,
+		"name": "Villa Rica ",
+		"code": "19845",
+		"codefacturador": "12959",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 404,
+		"department_id": 12,
+		"name": "Valledupar",
+		"code": "20001",
+		"codefacturador": "12984",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 405,
+		"department_id": 12,
+		"name": "Aguachica",
+		"code": "20011",
+		"codefacturador": "12960",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 406,
+		"department_id": 12,
+		"name": "Agustín Codazzi ",
+		"code": "20013",
+		"codefacturador": "12961",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 407,
+		"department_id": 12,
+		"name": "Astrea",
+		"code": "20032",
+		"codefacturador": "12962",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 408,
+		"department_id": 12,
+		"name": "Becerril",
+		"code": "20045",
+		"codefacturador": "12963",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 409,
+		"department_id": 12,
+		"name": "Bosconia",
+		"code": "20060",
+		"codefacturador": "12964",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 410,
+		"department_id": 12,
+		"name": "Chimichagua",
+		"code": "20175",
+		"codefacturador": "12965",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 411,
+		"department_id": 12,
+		"name": "Chiriguaná",
+		"code": "20178",
+		"codefacturador": "12966",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 412,
+		"department_id": 12,
+		"name": "Curumaní",
+		"code": "20228",
+		"codefacturador": "12967",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 413,
+		"department_id": 12,
+		"name": "El Copey ",
+		"code": "20238",
+		"codefacturador": "12968",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 414,
+		"department_id": 12,
+		"name": "El Paso ",
+		"code": "20250",
+		"codefacturador": "12969",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 415,
+		"department_id": 12,
+		"name": "Gamarra",
+		"code": "20295",
+		"codefacturador": "12970",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 416,
+		"department_id": 12,
+		"name": "González",
+		"code": "20310",
+		"codefacturador": "12971",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 417,
+		"department_id": 12,
+		"name": "La Gloria ",
+		"code": "20383",
+		"codefacturador": "12972",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 418,
+		"department_id": 12,
+		"name": "La Jagua De Ibirico",
+		"code": "20400",
+		"codefacturador": "12972",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 419,
+		"department_id": 12,
+		"name": "Manaure Balcón Del Cesar",
+		"code": "20443",
+		"codefacturador": "12974",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 420,
+		"department_id": 12,
+		"name": "Pailitas",
+		"code": "20517",
+		"codefacturador": "12975",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 421,
+		"department_id": 12,
+		"name": "Pelaya",
+		"code": "20550",
+		"codefacturador": "12976",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 422,
+		"department_id": 12,
+		"name": "Pueblo Bello ",
+		"code": "20570",
+		"codefacturador": "12977",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 423,
+		"department_id": 12,
+		"name": "Río De Oro",
+		"code": "20614",
+		"codefacturador": "12978",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 424,
+		"department_id": 12,
+		"name": "La Paz ",
+		"code": "20621",
+		"codefacturador": "13408",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 425,
+		"department_id": 12,
+		"name": "San Alberto ",
+		"code": "20710",
+		"codefacturador": "12980",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 426,
+		"department_id": 12,
+		"name": "San Diego ",
+		"code": "20750",
+		"codefacturador": "12981",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 427,
+		"department_id": 12,
+		"name": "San Martín ",
+		"code": "20770",
+		"codefacturador": "12982",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 428,
+		"department_id": 12,
+		"name": "Tamalameque",
+		"code": "20787",
+		"codefacturador": "12983",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 429,
+		"department_id": 14,
+		"name": "Montería",
+		"code": "23001",
+		"codefacturador": "13029",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 430,
+		"department_id": 14,
+		"name": "Ayapel",
+		"code": "23068",
+		"codefacturador": "13015",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 431,
+		"department_id": 14,
+		"name": "Buenavista",
+		"code": "23079",
+		"codefacturador": "13016",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 432,
+		"department_id": 14,
+		"name": "Canalete",
+		"code": "23090",
+		"codefacturador": "13017",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 433,
+		"department_id": 14,
+		"name": "Cereté",
+		"code": "23162",
+		"codefacturador": "13018",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 434,
+		"department_id": 14,
+		"name": "Chimá",
+		"code": "23168",
+		"codefacturador": "13380",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 435,
+		"department_id": 14,
+		"name": "Chinú",
+		"code": "23182",
+		"codefacturador": "13020",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 436,
+		"department_id": 14,
+		"name": "Ciénaga De Oro",
+		"code": "23189",
+		"codefacturador": "13021",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 437,
+		"department_id": 14,
+		"name": "Cotorra",
+		"code": "23300",
+		"codefacturador": "13022",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 438,
+		"department_id": 14,
+		"name": "La Apartada ",
+		"code": "23350",
+		"codefacturador": "13023",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 439,
+		"department_id": 14,
+		"name": "Lorica",
+		"code": "23417",
+		"codefacturador": "13024",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 440,
+		"department_id": 14,
+		"name": "Los Córdobas ",
+		"code": "23419",
+		"codefacturador": "13025",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 441,
+		"department_id": 14,
+		"name": "Momil",
+		"code": "23464",
+		"codefacturador": "13026",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 442,
+		"department_id": 14,
+		"name": "Montelíbano",
+		"code": "23466",
+		"codefacturador": "13028",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 443,
+		"department_id": 14,
+		"name": "Moñitos",
+		"code": "23500",
+		"codefacturador": "13027",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 444,
+		"department_id": 14,
+		"name": "Planeta Rica ",
+		"code": "23555",
+		"codefacturador": "13030",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 445,
+		"department_id": 14,
+		"name": "Pueblo Nuevo ",
+		"code": "23570",
+		"codefacturador": "13031",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 446,
+		"department_id": 14,
+		"name": "Puerto Escondido ",
+		"code": "23574",
+		"codefacturador": "13032",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 447,
+		"department_id": 14,
+		"name": "Puerto Libertador ",
+		"code": "23580",
+		"codefacturador": "13033",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 448,
+		"department_id": 14,
+		"name": "Purísima De La Concepción",
+		"code": "23586",
+		"codefacturador": "13034",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 449,
+		"department_id": 14,
+		"name": "Sahagún",
+		"code": "23660",
+		"codefacturador": "13035",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 450,
+		"department_id": 14,
+		"name": "San Andrés De Sotavento",
+		"code": "23670",
+		"codefacturador": "13430",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 451,
+		"department_id": 14,
+		"name": "San Antero ",
+		"code": "23672",
+		"codefacturador": "13037",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 452,
+		"department_id": 14,
+		"name": "San Bernardo Del Viento",
+		"code": "23675",
+		"codefacturador": "13311",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 453,
+		"department_id": 14,
+		"name": "San Carlos ",
+		"code": "23678",
+		"codefacturador": "13039",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 454,
+		"department_id": 14,
+		"name": "San José De Uré",
+		"code": "23682",
+		"codefacturador": "12815",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 455,
+		"department_id": 14,
+		"name": "San Pelayo ",
+		"code": "23686",
+		"codefacturador": "13040",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 456,
+		"department_id": 14,
+		"name": "Tierralta",
+		"code": "23807",
+		"codefacturador": "13041",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 457,
+		"department_id": 14,
+		"name": "Tuchín",
+		"code": "23815",
+		"codefacturador": "12686",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 458,
+		"department_id": 14,
+		"name": "Valencia",
+		"code": "23855",
+		"codefacturador": "13042",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 459,
+		"department_id": 15,
+		"name": "Agua De Dios",
+		"code": "25001",
+		"codefacturador": "13043",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 460,
+		"department_id": 15,
+		"name": "Albán",
+		"code": "25019",
+		"codefacturador": "13260",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 461,
+		"department_id": 15,
+		"name": "Anapoima",
+		"code": "25035",
+		"codefacturador": "13045",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 462,
+		"department_id": 15,
+		"name": "Anolaima",
+		"code": "25040",
+		"codefacturador": "13046",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 463,
+		"department_id": 15,
+		"name": "Arbeláez",
+		"code": "25053",
+		"codefacturador": "13047",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 464,
+		"department_id": 15,
+		"name": "Beltrán",
+		"code": "25086",
+		"codefacturador": "13048",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 465,
+		"department_id": 15,
+		"name": "Bituima",
+		"code": "25095",
+		"codefacturador": "13049",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 466,
+		"department_id": 15,
+		"name": "Bojacá",
+		"code": "25099",
+		"codefacturador": "13050",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 467,
+		"department_id": 15,
+		"name": "Cabrera",
+		"code": "25120",
+		"codefacturador": "13372",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 468,
+		"department_id": 15,
+		"name": "Cachipay",
+		"code": "25123",
+		"codefacturador": "13052",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 469,
+		"department_id": 15,
+		"name": "Cajicá",
+		"code": "25126",
+		"codefacturador": "13053",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 470,
+		"department_id": 15,
+		"name": "Caparrapí",
+		"code": "25148",
+		"codefacturador": "13054",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 471,
+		"department_id": 15,
+		"name": "Cáqueza",
+		"code": "25151",
+		"codefacturador": "13055",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 472,
+		"department_id": 15,
+		"name": "Carmen De Carupa",
+		"code": "25154",
+		"codefacturador": "13056",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 473,
+		"department_id": 15,
+		"name": "Chaguaní",
+		"code": "25168",
+		"codefacturador": "13057",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 474,
+		"department_id": 15,
+		"name": "Chía",
+		"code": "25175",
+		"codefacturador": "13058",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 475,
+		"department_id": 15,
+		"name": "Chipaque",
+		"code": "25178",
+		"codefacturador": "13059",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 476,
+		"department_id": 15,
+		"name": "Choachí",
+		"code": "25181",
+		"codefacturador": "13060",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 477,
+		"department_id": 15,
+		"name": "Chocontá",
+		"code": "25183",
+		"codefacturador": "13061",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 478,
+		"department_id": 15,
+		"name": "Cogua",
+		"code": "25200",
+		"codefacturador": "13062",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 479,
+		"department_id": 15,
+		"name": "Cota",
+		"code": "25214",
+		"codefacturador": "13063",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 480,
+		"department_id": 15,
+		"name": "Cucunubá",
+		"code": "25224",
+		"codefacturador": "13064",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 481,
+		"department_id": 15,
+		"name": "El Colegio ",
+		"code": "25245",
+		"codefacturador": "13065",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 482,
+		"department_id": 15,
+		"name": "El Peñón ",
+		"code": "25258",
+		"codefacturador": "13390",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 483,
+		"department_id": 15,
+		"name": "El Rosal ",
+		"code": "25260",
+		"codefacturador": "13067",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 484,
+		"department_id": 15,
+		"name": "Facatativá",
+		"code": "25269",
+		"codefacturador": "13068",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 485,
+		"department_id": 15,
+		"name": "Fómeque",
+		"code": "25279",
+		"codefacturador": "13069",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 486,
+		"department_id": 15,
+		"name": "Fosca",
+		"code": "25281",
+		"codefacturador": "13070",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 487,
+		"department_id": 15,
+		"name": "Funza",
+		"code": "25286",
+		"codefacturador": "13071",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 488,
+		"department_id": 15,
+		"name": "Fúquene",
+		"code": "25288",
+		"codefacturador": "13072",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 489,
+		"department_id": 15,
+		"name": "Fusagasugá",
+		"code": "25290",
+		"codefacturador": "13073",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 490,
+		"department_id": 15,
+		"name": "Gachalá",
+		"code": "25293",
+		"codefacturador": "13074",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 491,
+		"department_id": 15,
+		"name": "Gachancipá",
+		"code": "25295",
+		"codefacturador": "13075",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 492,
+		"department_id": 15,
+		"name": "Gachetá",
+		"code": "25297",
+		"codefacturador": "13076",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 493,
+		"department_id": 15,
+		"name": "Gama",
+		"code": "25299",
+		"codefacturador": "13077",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 494,
+		"department_id": 15,
+		"name": "Girardot",
+		"code": "25307",
+		"codefacturador": "13078",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 495,
+		"department_id": 15,
+		"name": "Granada",
+		"code": "25312",
+		"codefacturador": "13241",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 496,
+		"department_id": 15,
+		"name": "Guachetá",
+		"code": "25317",
+		"codefacturador": "13080",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 497,
+		"department_id": 15,
+		"name": "Guaduas",
+		"code": "25320",
+		"codefacturador": "13081",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 498,
+		"department_id": 15,
+		"name": "Guasca",
+		"code": "25322",
+		"codefacturador": "13082",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 499,
+		"department_id": 15,
+		"name": "Guataquí",
+		"code": "25324",
+		"codefacturador": "13083",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 500,
+		"department_id": 15,
+		"name": "Guatavita",
+		"code": "25326",
+		"codefacturador": "13084",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 501,
+		"department_id": 15,
+		"name": "Guayabal De Síquima",
+		"code": "25328",
+		"codefacturador": "13085",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 502,
+		"department_id": 15,
+		"name": "Guayabetal",
+		"code": "25335",
+		"codefacturador": "13086",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 503,
+		"department_id": 15,
+		"name": "Gutiérrez",
+		"code": "25339",
+		"codefacturador": "13087",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 504,
+		"department_id": 15,
+		"name": "Jerusalén",
+		"code": "25368",
+		"codefacturador": "13088",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 505,
+		"department_id": 15,
+		"name": "Junín",
+		"code": "25372",
+		"codefacturador": "13089",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 506,
+		"department_id": 15,
+		"name": "La Calera ",
+		"code": "25377",
+		"codefacturador": "13090",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 507,
+		"department_id": 15,
+		"name": "La Mesa ",
+		"code": "25386",
+		"codefacturador": "13091",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 508,
+		"department_id": 15,
+		"name": "La Palma ",
+		"code": "25394",
+		"codefacturador": "13092",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 509,
+		"department_id": 15,
+		"name": "La Peña ",
+		"code": "25398",
+		"codefacturador": "13093",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 510,
+		"department_id": 15,
+		"name": "La Vega ",
+		"code": "25402",
+		"codefacturador": "13094",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 511,
+		"department_id": 15,
+		"name": "Lenguazaque",
+		"code": "25407",
+		"codefacturador": "13095",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 512,
+		"department_id": 15,
+		"name": "Machetá",
+		"code": "25426",
+		"codefacturador": "13096",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 513,
+		"department_id": 15,
+		"name": "Madrid",
+		"code": "25430",
+		"codefacturador": "13097",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 514,
+		"department_id": 15,
+		"name": "Manta",
+		"code": "25436",
+		"codefacturador": "13098",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 515,
+		"department_id": 15,
+		"name": "Medina",
+		"code": "25438",
+		"codefacturador": "13099",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 516,
+		"department_id": 15,
+		"name": "Mosquera",
+		"code": "25473",
+		"codefacturador": "13100",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 517,
+		"department_id": 15,
+		"name": "Nariño",
+		"code": "25483",
+		"codefacturador": "13298",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 518,
+		"department_id": 15,
+		"name": "Nemocón",
+		"code": "25486",
+		"codefacturador": "13102",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 519,
+		"department_id": 15,
+		"name": "Nilo",
+		"code": "25488",
+		"codefacturador": "13103",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 520,
+		"department_id": 15,
+		"name": "Nimaima",
+		"code": "25489",
+		"codefacturador": "13104",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 521,
+		"department_id": 15,
+		"name": "Nocaima",
+		"code": "25491",
+		"codefacturador": "13105",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 522,
+		"department_id": 15,
+		"name": "Venecia",
+		"code": "25506",
+		"codefacturador": "12651",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 523,
+		"department_id": 15,
+		"name": "Pacho",
+		"code": "25513",
+		"codefacturador": "13107",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 524,
+		"department_id": 15,
+		"name": "Paime",
+		"code": "25518",
+		"codefacturador": "13108",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 525,
+		"department_id": 15,
+		"name": "Pandi",
+		"code": "25524",
+		"codefacturador": "13109",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 526,
+		"department_id": 15,
+		"name": "Paratebueno",
+		"code": "25530",
+		"codefacturador": "13110",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 527,
+		"department_id": 15,
+		"name": "Pasca",
+		"code": "25535",
+		"codefacturador": "13111",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 528,
+		"department_id": 15,
+		"name": "Puerto Salgar ",
+		"code": "25572",
+		"codefacturador": "13112",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 529,
+		"department_id": 15,
+		"name": "Pulí",
+		"code": "25580",
+		"codefacturador": "13113",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 530,
+		"department_id": 15,
+		"name": "Quebradanegra",
+		"code": "25592",
+		"codefacturador": "13114",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 531,
+		"department_id": 15,
+		"name": "Quetame",
+		"code": "25594",
+		"codefacturador": "13115",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 532,
+		"department_id": 15,
+		"name": "Quipile",
+		"code": "25596",
+		"codefacturador": "13116",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 533,
+		"department_id": 15,
+		"name": "Apulo",
+		"code": "25599",
+		"codefacturador": "13349",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 534,
+		"department_id": 15,
+		"name": "Ricaurte",
+		"code": "25612",
+		"codefacturador": "13118",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 535,
+		"department_id": 15,
+		"name": "San Antonio Del Tequendama",
+		"code": "25645",
+		"codefacturador": "13119",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 536,
+		"department_id": 15,
+		"name": "San Bernardo ",
+		"code": "25649",
+		"codefacturador": "13311",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 537,
+		"department_id": 15,
+		"name": "San Cayetano ",
+		"code": "25653",
+		"codefacturador": "13121",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 538,
+		"department_id": 15,
+		"name": "San Francisco ",
+		"code": "25658",
+		"codefacturador": "13331",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 539,
+		"department_id": 15,
+		"name": "San Juan De Rioseco",
+		"code": "25662",
+		"codefacturador": "13123",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 540,
+		"department_id": 15,
+		"name": "Sasaima",
+		"code": "25718",
+		"codefacturador": "13124",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 541,
+		"department_id": 15,
+		"name": "Sesquilé",
+		"code": "25736",
+		"codefacturador": "13125",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 542,
+		"department_id": 15,
+		"name": "Sibaté",
+		"code": "25740",
+		"codefacturador": "13126",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 543,
+		"department_id": 15,
+		"name": "Silvania",
+		"code": "25743",
+		"codefacturador": "13127",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 544,
+		"department_id": 15,
+		"name": "Simijaca",
+		"code": "25745",
+		"codefacturador": "13128",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 545,
+		"department_id": 15,
+		"name": "Soacha",
+		"code": "25754",
+		"codefacturador": "13129",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 546,
+		"department_id": 15,
+		"name": "Sopó",
+		"code": "25758",
+		"codefacturador": "13130",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 547,
+		"department_id": 15,
+		"name": "Subachoque",
+		"code": "25769",
+		"codefacturador": "13131",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 548,
+		"department_id": 15,
+		"name": "Suesca",
+		"code": "25772",
+		"codefacturador": "13132",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 549,
+		"department_id": 15,
+		"name": "Supatá",
+		"code": "25777",
+		"codefacturador": "13133",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 550,
+		"department_id": 15,
+		"name": "Susa",
+		"code": "25779",
+		"codefacturador": "13134",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 551,
+		"department_id": 15,
+		"name": "Sutatausa",
+		"code": "25781",
+		"codefacturador": "13135",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 552,
+		"department_id": 15,
+		"name": "Tabio",
+		"code": "25785",
+		"codefacturador": "13136",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 553,
+		"department_id": 15,
+		"name": "Tausa",
+		"code": "25793",
+		"codefacturador": "13137",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 554,
+		"department_id": 15,
+		"name": "Tena",
+		"code": "25797",
+		"codefacturador": "13138",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 555,
+		"department_id": 15,
+		"name": "Tenjo",
+		"code": "25799",
+		"codefacturador": "13139",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 556,
+		"department_id": 15,
+		"name": "Tibacuy",
+		"code": "25805",
+		"codefacturador": "13140",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 557,
+		"department_id": 15,
+		"name": "Tibirita",
+		"code": "25807",
+		"codefacturador": "13141",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 558,
+		"department_id": 15,
+		"name": "Tocaima",
+		"code": "25815",
+		"codefacturador": "13142",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 559,
+		"department_id": 15,
+		"name": "Tocancipá",
+		"code": "25817",
+		"codefacturador": "13143",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 560,
+		"department_id": 15,
+		"name": "Topaipí",
+		"code": "25823",
+		"codefacturador": "13144",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 561,
+		"department_id": 15,
+		"name": "Ubalá",
+		"code": "25839",
+		"codefacturador": "13145",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 562,
+		"department_id": 15,
+		"name": "Ubaque",
+		"code": "25841",
+		"codefacturador": "13146",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 563,
+		"department_id": 15,
+		"name": "Villa De San Diego De Ubaté",
+		"code": "25843",
+		"codefacturador": "12652",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 564,
+		"department_id": 15,
+		"name": "Une",
+		"code": "25845",
+		"codefacturador": "13148",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 565,
+		"department_id": 15,
+		"name": "Útica",
+		"code": "25851",
+		"codefacturador": "13149",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 566,
+		"department_id": 15,
+		"name": "Vergara",
+		"code": "25862",
+		"codefacturador": "13150",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 567,
+		"department_id": 15,
+		"name": "Vianí",
+		"code": "25867",
+		"codefacturador": "13151",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 568,
+		"department_id": 15,
+		"name": "Villagómez",
+		"code": "25871",
+		"codefacturador": "13152",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 569,
+		"department_id": 15,
+		"name": "Villapinzón",
+		"code": "25873",
+		"codefacturador": "13153",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 570,
+		"department_id": 15,
+		"name": "Villeta",
+		"code": "25875",
+		"codefacturador": "13154",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 571,
+		"department_id": 15,
+		"name": "Viotá",
+		"code": "25878",
+		"codefacturador": "13155",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 572,
+		"department_id": 15,
+		"name": "Yacopí",
+		"code": "25885",
+		"codefacturador": "13156",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 573,
+		"department_id": 15,
+		"name": "Zipacón",
+		"code": "25898",
+		"codefacturador": "13157",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 574,
+		"department_id": 15,
+		"name": "Zipaquirá",
+		"code": "25899",
+		"codefacturador": "13158",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 575,
+		"department_id": 13,
+		"name": "Quibdó",
+		"code": "27001",
+		"codefacturador": "13006",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 576,
+		"department_id": 13,
+		"name": "Acandí",
+		"code": "27006",
+		"codefacturador": "12985",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 577,
+		"department_id": 13,
+		"name": "Alto Baudó ",
+		"code": "27025",
+		"codefacturador": "12986",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 578,
+		"department_id": 13,
+		"name": "Atrato",
+		"code": "27050",
+		"codefacturador": "12987",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 579,
+		"department_id": 13,
+		"name": "Bagadó",
+		"code": "27073",
+		"codefacturador": "12988",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 580,
+		"department_id": 13,
+		"name": "Bahía Solano ",
+		"code": "27075",
+		"codefacturador": "12989",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 581,
+		"department_id": 13,
+		"name": "Bajo Baudó ",
+		"code": "27077",
+		"codefacturador": "12990",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 582,
+		"department_id": 13,
+		"name": "Bojayá",
+		"code": "27099",
+		"codefacturador": "12991",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 583,
+		"department_id": 13,
+		"name": "El Cantón Del San Pablo ",
+		"code": "27135",
+		"codefacturador": "13237",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 584,
+		"department_id": 13,
+		"name": "Carmen Del Darién",
+		"code": "27150",
+		"codefacturador": "12993",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 585,
+		"department_id": 13,
+		"name": "Cértegui",
+		"code": "27160",
+		"codefacturador": "12994",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 586,
+		"department_id": 13,
+		"name": "Condoto",
+		"code": "27205",
+		"codefacturador": "12995",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 587,
+		"department_id": 13,
+		"name": "El Carmen De Atrato",
+		"code": "27245",
+		"codefacturador": "13388",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 588,
+		"department_id": 13,
+		"name": "El Litoral Del San Juan ",
+		"code": "27250",
+		"codefacturador": "12702",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 589,
+		"department_id": 13,
+		"name": "Istmina",
+		"code": "27361",
+		"codefacturador": "12997",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 590,
+		"department_id": 13,
+		"name": "Juradó",
+		"code": "27372",
+		"codefacturador": "12998",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 591,
+		"department_id": 13,
+		"name": "Lloró",
+		"code": "27413",
+		"codefacturador": "13000",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 592,
+		"department_id": 13,
+		"name": "Medio Atrato ",
+		"code": "27425",
+		"codefacturador": "13001",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 593,
+		"department_id": 13,
+		"name": "Medio Baudó ",
+		"code": "27430",
+		"codefacturador": "13002",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 594,
+		"department_id": 13,
+		"name": "Medio San Juan",
+		"code": "27450",
+		"codefacturador": "13003",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 595,
+		"department_id": 13,
+		"name": "Nóvita",
+		"code": "27491",
+		"codefacturador": "13004",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 596,
+		"department_id": 13,
+		"name": "Nuquí",
+		"code": "27495",
+		"codefacturador": "13005",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 597,
+		"department_id": 13,
+		"name": "Río Iró ",
+		"code": "27580",
+		"codefacturador": "13007",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 598,
+		"department_id": 13,
+		"name": "Río Quito ",
+		"code": "27600",
+		"codefacturador": "13008",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 599,
+		"department_id": 13,
+		"name": "Riosucio",
+		"code": "27615",
+		"codefacturador": "13009",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 600,
+		"department_id": 13,
+		"name": "San José Del Palmar",
+		"code": "27660",
+		"codefacturador": "13010",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 601,
+		"department_id": 13,
+		"name": "Sipí",
+		"code": "27745",
+		"codefacturador": "13011",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 602,
+		"department_id": 13,
+		"name": "Tadó",
+		"code": "27787",
+		"codefacturador": "13012",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 603,
+		"department_id": 13,
+		"name": "Unguía",
+		"code": "27800",
+		"codefacturador": "13013",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 604,
+		"department_id": 13,
+		"name": "Unión Panamericana ",
+		"code": "27810",
+		"codefacturador": "13014",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 605,
+		"department_id": 18,
+		"name": "Neiva",
+		"code": "41001",
+		"codefacturador": "13182",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 606,
+		"department_id": 18,
+		"name": "Acevedo",
+		"code": "41006",
+		"codefacturador": "13164",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 607,
+		"department_id": 18,
+		"name": "Agrado",
+		"code": "41013",
+		"codefacturador": "13165",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 608,
+		"department_id": 18,
+		"name": "Aipe",
+		"code": "41016",
+		"codefacturador": "13166",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 609,
+		"department_id": 18,
+		"name": "Algeciras",
+		"code": "41020",
+		"codefacturador": "13167",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 610,
+		"department_id": 18,
+		"name": "Altamira",
+		"code": "41026",
+		"codefacturador": "13168",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 611,
+		"department_id": 18,
+		"name": "Baraya",
+		"code": "41078",
+		"codefacturador": "13169",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 612,
+		"department_id": 18,
+		"name": "Campoalegre",
+		"code": "41132",
+		"codefacturador": "13170",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 613,
+		"department_id": 18,
+		"name": "Colombia",
+		"code": "41206",
+		"codefacturador": "13171",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 614,
+		"department_id": 18,
+		"name": "Elías",
+		"code": "41244",
+		"codefacturador": "13172",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 615,
+		"department_id": 18,
+		"name": "Garzón",
+		"code": "41298",
+		"codefacturador": "13173",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 616,
+		"department_id": 18,
+		"name": "Gigante",
+		"code": "41306",
+		"codefacturador": "13174",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 617,
+		"department_id": 18,
+		"name": "Guadalupe",
+		"code": "41319",
+		"codefacturador": "13400",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 618,
+		"department_id": 18,
+		"name": "Hobo",
+		"code": "41349",
+		"codefacturador": "13176",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 619,
+		"department_id": 18,
+		"name": "Íquira",
+		"code": "41357",
+		"codefacturador": "13177",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 620,
+		"department_id": 18,
+		"name": "Isnos",
+		"code": "41359",
+		"codefacturador": "13178",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 621,
+		"department_id": 18,
+		"name": "La Argentina ",
+		"code": "41378",
+		"codefacturador": "13179",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 622,
+		"department_id": 18,
+		"name": "La Plata ",
+		"code": "41396",
+		"codefacturador": "13180",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 623,
+		"department_id": 18,
+		"name": "Nátaga",
+		"code": "41483",
+		"codefacturador": "13181",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 624,
+		"department_id": 18,
+		"name": "Oporapa",
+		"code": "41503",
+		"codefacturador": "13183",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 625,
+		"department_id": 18,
+		"name": "Paicol",
+		"code": "41518",
+		"codefacturador": "13184",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 626,
+		"department_id": 18,
+		"name": "Palermo",
+		"code": "41524",
+		"codefacturador": "13185",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 627,
+		"department_id": 18,
+		"name": "Palestina",
+		"code": "41530",
+		"codefacturador": "13186",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 628,
+		"department_id": 18,
+		"name": "Pital",
+		"code": "41548",
+		"codefacturador": "13187",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 629,
+		"department_id": 18,
+		"name": "Pitalito",
+		"code": "41551",
+		"codefacturador": "13188",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 630,
+		"department_id": 18,
+		"name": "Rivera",
+		"code": "41615",
+		"codefacturador": "13189",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 631,
+		"department_id": 18,
+		"name": "Saladoblanco",
+		"code": "41660",
+		"codefacturador": "13190",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 632,
+		"department_id": 18,
+		"name": "San Agustín ",
+		"code": "41668",
+		"codefacturador": "13191",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 633,
+		"department_id": 18,
+		"name": "Santa María ",
+		"code": "41676",
+		"codefacturador": "13192",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 634,
+		"department_id": 18,
+		"name": "Suaza",
+		"code": "41770",
+		"codefacturador": "13193",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 635,
+		"department_id": 18,
+		"name": "Tarqui",
+		"code": "41791",
+		"codefacturador": "13194",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 636,
+		"department_id": 18,
+		"name": "Tesalia",
+		"code": "41797",
+		"codefacturador": "13197",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 637,
+		"department_id": 18,
+		"name": "Tello",
+		"code": "41799",
+		"codefacturador": "13195",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 638,
+		"department_id": 18,
+		"name": "Teruel",
+		"code": "41801",
+		"codefacturador": "13196",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 639,
+		"department_id": 18,
+		"name": "Timaná",
+		"code": "41807",
+		"codefacturador": "13198",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 640,
+		"department_id": 18,
+		"name": "Villavieja",
+		"code": "41872",
+		"codefacturador": "13199",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 641,
+		"department_id": 18,
+		"name": "Yaguará",
+		"code": "41885",
+		"codefacturador": "13200",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 642,
+		"department_id": 19,
+		"name": "Riohacha",
+		"code": "44001",
+		"codefacturador": "48428",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 643,
+		"department_id": 19,
+		"name": "Albania",
+		"code": "44035",
+		"codefacturador": "13364",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 644,
+		"department_id": 19,
+		"name": "Barrancas",
+		"code": "44078",
+		"codefacturador": "48419",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 645,
+		"department_id": 19,
+		"name": "Dibulla",
+		"code": "44090",
+		"codefacturador": "12573",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 646,
+		"department_id": 19,
+		"name": "Distracción",
+		"code": "44098",
+		"codefacturador": "12573",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 647,
+		"department_id": 19,
+		"name": "El Molino ",
+		"code": "44110",
+		"codefacturador": "12702",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 648,
+		"department_id": 19,
+		"name": "Fonseca",
+		"code": "44279",
+		"codefacturador": "13069",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 649,
+		"department_id": 19,
+		"name": "Hatonuevo",
+		"code": "44378",
+		"codefacturador": "12902",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 650,
+		"department_id": 19,
+		"name": "La Jagua Del Pilar",
+		"code": "44420",
+		"codefacturador": "12972",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 651,
+		"department_id": 19,
+		"name": "Maicao",
+		"code": "44430",
+		"codefacturador": "48426",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 652,
+		"department_id": 19,
+		"name": "Manaure",
+		"code": "44560",
+		"codefacturador": "12974",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 653,
+		"department_id": 19,
+		"name": "San Juan Del Cesar",
+		"code": "44650",
+		"codefacturador": "12626",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 654,
+		"department_id": 19,
+		"name": "Uribia",
+		"code": "44847",
+		"codefacturador": "48430",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 655,
+		"department_id": 19,
+		"name": "Urumita",
+		"code": "44855",
+		"codefacturador": "12647",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 656,
+		"department_id": 19,
+		"name": "Villanueva",
+		"code": "44874",
+		"codefacturador": "13448",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 657,
+		"department_id": 20,
+		"name": "Santa Marta ",
+		"code": "47001",
+		"codefacturador": "13226",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 658,
+		"department_id": 20,
+		"name": "Algarrobo",
+		"code": "47030",
+		"codefacturador": "13201",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 659,
+		"department_id": 20,
+		"name": "Aracataca",
+		"code": "47053",
+		"codefacturador": "13202",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 660,
+		"department_id": 20,
+		"name": "Ariguaní",
+		"code": "47058",
+		"codefacturador": "13203",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 661,
+		"department_id": 20,
+		"name": "Cerro De San Antonio",
+		"code": "47161",
+		"codefacturador": "13377",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 662,
+		"department_id": 20,
+		"name": "Chivolo",
+		"code": "47170",
+		"codefacturador": "13205",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 663,
+		"department_id": 20,
+		"name": "Ciénaga",
+		"code": "47189",
+		"codefacturador": "13206",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 664,
+		"department_id": 20,
+		"name": "Concordia",
+		"code": "47205",
+		"codefacturador": "13207",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 665,
+		"department_id": 20,
+		"name": "El Banco ",
+		"code": "47245",
+		"codefacturador": "13208",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 666,
+		"department_id": 20,
+		"name": "El Piñón ",
+		"code": "47258",
+		"codefacturador": "13209",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 667,
+		"department_id": 20,
+		"name": "El Retén ",
+		"code": "47268",
+		"codefacturador": "13210",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 668,
+		"department_id": 20,
+		"name": "Fundación",
+		"code": "47288",
+		"codefacturador": "13211",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 669,
+		"department_id": 20,
+		"name": "Guamal",
+		"code": "47318",
+		"codefacturador": "13212",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 670,
+		"department_id": 20,
+		"name": "Nueva Granada ",
+		"code": "47460",
+		"codefacturador": "13213",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 671,
+		"department_id": 20,
+		"name": "Pedraza",
+		"code": "47541",
+		"codefacturador": "13214",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 672,
+		"department_id": 20,
+		"name": "Pijiño Del Carmen",
+		"code": "47545",
+		"codefacturador": "13215",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 673,
+		"department_id": 20,
+		"name": "Pivijay",
+		"code": "47551",
+		"codefacturador": "13216",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 674,
+		"department_id": 20,
+		"name": "Plato",
+		"code": "47555",
+		"codefacturador": "13217",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 675,
+		"department_id": 20,
+		"name": "Puebloviejo",
+		"code": "47570",
+		"codefacturador": "13218",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 676,
+		"department_id": 20,
+		"name": "Remolino",
+		"code": "47605",
+		"codefacturador": "13219",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 677,
+		"department_id": 20,
+		"name": "Sabanas De San Ángel",
+		"code": "47660",
+		"codefacturador": "13220",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 678,
+		"department_id": 20,
+		"name": "Salamina",
+		"code": "47675",
+		"codefacturador": "13221",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 679,
+		"department_id": 20,
+		"name": "San Sebastián De Buenavista",
+		"code": "47692",
+		"codefacturador": "13222",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 680,
+		"department_id": 20,
+		"name": "San Zenón ",
+		"code": "47703",
+		"codefacturador": "13223",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 681,
+		"department_id": 20,
+		"name": "Santa Ana ",
+		"code": "47707",
+		"codefacturador": "13224",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 682,
+		"department_id": 20,
+		"name": "Santa Bárbara De Pinto",
+		"code": "47720",
+		"codefacturador": "13225",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 683,
+		"department_id": 20,
+		"name": "Sitionuevo",
+		"code": "47745",
+		"codefacturador": "13227",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 684,
+		"department_id": 20,
+		"name": "Tenerife",
+		"code": "47798",
+		"codefacturador": "13228",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 685,
+		"department_id": 20,
+		"name": "Zapayán",
+		"code": "47960",
+		"codefacturador": "13229",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 686,
+		"department_id": 20,
+		"name": "Zona Bananera ",
+		"code": "47980",
+		"codefacturador": "13230",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 687,
+		"department_id": 21,
+		"name": "Villavicencio",
+		"code": "50001",
+		"codefacturador": "13258",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 688,
+		"department_id": 21,
+		"name": "Acacías",
+		"code": "50006",
+		"codefacturador": "13231",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 689,
+		"department_id": 21,
+		"name": "Barranca De Upía",
+		"code": "50110",
+		"codefacturador": "13232",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 690,
+		"department_id": 21,
+		"name": "Cabuyaro",
+		"code": "50124",
+		"codefacturador": "13233",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 691,
+		"department_id": 21,
+		"name": "Castilla La Nueva",
+		"code": "50150",
+		"codefacturador": "13234",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 692,
+		"department_id": 21,
+		"name": "Cubarral",
+		"code": "50223",
+		"codefacturador": "13235",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 693,
+		"department_id": 21,
+		"name": "Cumaral",
+		"code": "50226",
+		"codefacturador": "13236",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 694,
+		"department_id": 21,
+		"name": "El Calvario ",
+		"code": "50245",
+		"codefacturador": "13237",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 695,
+		"department_id": 21,
+		"name": "El Castillo ",
+		"code": "50251",
+		"codefacturador": "13238",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 696,
+		"department_id": 21,
+		"name": "El Dorado ",
+		"code": "50270",
+		"codefacturador": "13239",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 697,
+		"department_id": 21,
+		"name": "Fuente De Oro",
+		"code": "50287",
+		"codefacturador": "13240",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 698,
+		"department_id": 21,
+		"name": "Granada",
+		"code": "50313",
+		"codefacturador": "13241",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 699,
+		"department_id": 21,
+		"name": "Guamal",
+		"code": "50318",
+		"codefacturador": "13242",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 700,
+		"department_id": 21,
+		"name": "Mapiripán",
+		"code": "50325",
+		"codefacturador": "13246",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 701,
+		"department_id": 21,
+		"name": "Mesetas",
+		"code": "50330",
+		"codefacturador": "13247",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 702,
+		"department_id": 21,
+		"name": "La Macarena ",
+		"code": "50350",
+		"codefacturador": "13243",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 703,
+		"department_id": 21,
+		"name": "Uribe",
+		"code": "50370",
+		"codefacturador": "12646",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 704,
+		"department_id": 21,
+		"name": "Lejanías",
+		"code": "50400",
+		"codefacturador": "13245",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 705,
+		"department_id": 21,
+		"name": "Puerto Concordia ",
+		"code": "50450",
+		"codefacturador": "13248",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 706,
+		"department_id": 21,
+		"name": "Puerto Gaitán ",
+		"code": "50568",
+		"codefacturador": "13249",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 707,
+		"department_id": 21,
+		"name": "Puerto López ",
+		"code": "50573",
+		"codefacturador": "13251",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 708,
+		"department_id": 21,
+		"name": "Puerto Lleras ",
+		"code": "50577",
+		"codefacturador": "13250",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 709,
+		"department_id": 21,
+		"name": "Puerto Rico ",
+		"code": "50590",
+		"codefacturador": "13252",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 710,
+		"department_id": 21,
+		"name": "Restrepo",
+		"code": "50606",
+		"codefacturador": "13253",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 711,
+		"department_id": 21,
+		"name": "San Carlos De Guaroa",
+		"code": "50680",
+		"codefacturador": "13254",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 712,
+		"department_id": 21,
+		"name": "San Juan De Arama",
+		"code": "50683",
+		"codefacturador": "13255",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 713,
+		"department_id": 21,
+		"name": "San Juanito ",
+		"code": "50686",
+		"codefacturador": "13256",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 714,
+		"department_id": 21,
+		"name": "San Martín ",
+		"code": "50689",
+		"codefacturador": "13257",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 715,
+		"department_id": 21,
+		"name": "Vistahermosa",
+		"code": "50711",
+		"codefacturador": "13259",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 716,
+		"department_id": 22,
+		"name": "Pasto",
+		"code": "52001",
+		"codefacturador": "13301",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 717,
+		"department_id": 22,
+		"name": "Albán",
+		"code": "52019",
+		"codefacturador": "13260",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 718,
+		"department_id": 22,
+		"name": "Aldana",
+		"code": "52022",
+		"codefacturador": "13261",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 719,
+		"department_id": 22,
+		"name": "Ancuyá",
+		"code": "52036",
+		"codefacturador": "13262",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 720,
+		"department_id": 22,
+		"name": "Arboleda",
+		"code": "52051",
+		"codefacturador": "13263",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 721,
+		"department_id": 22,
+		"name": "Barbacoas",
+		"code": "52079",
+		"codefacturador": "13264",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 722,
+		"department_id": 22,
+		"name": "Belén",
+		"code": "52083",
+		"codefacturador": "13265",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 723,
+		"department_id": 22,
+		"name": "Buesaco",
+		"code": "52110",
+		"codefacturador": "13266",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 724,
+		"department_id": 22,
+		"name": "Colón",
+		"code": "52203",
+		"codefacturador": "13324",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 725,
+		"department_id": 22,
+		"name": "Consacá",
+		"code": "52207",
+		"codefacturador": "13269",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 726,
+		"department_id": 22,
+		"name": "Contadero",
+		"code": "52210",
+		"codefacturador": "13270",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 727,
+		"department_id": 22,
+		"name": "Córdoba",
+		"code": "52215",
+		"codefacturador": "13341",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 728,
+		"department_id": 22,
+		"name": "Cuaspúd",
+		"code": "52224",
+		"codefacturador": "13272",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 729,
+		"department_id": 22,
+		"name": "Cumbal",
+		"code": "52227",
+		"codefacturador": "13273",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 730,
+		"department_id": 22,
+		"name": "Cumbitara",
+		"code": "52233",
+		"codefacturador": "13274",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 731,
+		"department_id": 22,
+		"name": "Chachagüí",
+		"code": "52240",
+		"codefacturador": "13267",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 732,
+		"department_id": 22,
+		"name": "El Charco ",
+		"code": "52250",
+		"codefacturador": "13275",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 733,
+		"department_id": 22,
+		"name": "El Peñol ",
+		"code": "52254",
+		"codefacturador": "13390",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 734,
+		"department_id": 22,
+		"name": "El Rosario ",
+		"code": "52256",
+		"codefacturador": "13277",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 735,
+		"department_id": 22,
+		"name": "El Tablón De Gómez",
+		"code": "52258",
+		"codefacturador": "13278",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 736,
+		"department_id": 22,
+		"name": "El Tambo ",
+		"code": "52260",
+		"codefacturador": "13279",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 737,
+		"department_id": 22,
+		"name": "Funes",
+		"code": "52287",
+		"codefacturador": "13280",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 738,
+		"department_id": 22,
+		"name": "Guachucal",
+		"code": "52317",
+		"codefacturador": "13281",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 739,
+		"department_id": 22,
+		"name": "Guaitarilla",
+		"code": "52320",
+		"codefacturador": "13282",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 740,
+		"department_id": 22,
+		"name": "Gualmatán",
+		"code": "52323",
+		"codefacturador": "13283",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 741,
+		"department_id": 22,
+		"name": "Iles",
+		"code": "52352",
+		"codefacturador": "13284",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 742,
+		"department_id": 22,
+		"name": "Imués",
+		"code": "52354",
+		"codefacturador": "13285",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 743,
+		"department_id": 22,
+		"name": "Ipiales",
+		"code": "52356",
+		"codefacturador": "13286",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 744,
+		"department_id": 22,
+		"name": "La Cruz ",
+		"code": "52378",
+		"codefacturador": "13287",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 745,
+		"department_id": 22,
+		"name": "La Florida ",
+		"code": "52381",
+		"codefacturador": "13288",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 746,
+		"department_id": 22,
+		"name": "La Llanada ",
+		"code": "52385",
+		"codefacturador": "13289",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 747,
+		"department_id": 22,
+		"name": "La Tola ",
+		"code": "52390",
+		"codefacturador": "13290",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 748,
+		"department_id": 22,
+		"name": "La Unión ",
+		"code": "52399",
+		"codefacturador": "13458",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 749,
+		"department_id": 22,
+		"name": "Leiva",
+		"code": "52405",
+		"codefacturador": "13292",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 750,
+		"department_id": 22,
+		"name": "Linares",
+		"code": "52411",
+		"codefacturador": "13293",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 751,
+		"department_id": 22,
+		"name": "Los Andes ",
+		"code": "52418",
+		"codefacturador": "13294",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 752,
+		"department_id": 22,
+		"name": "Magüí",
+		"code": "52427",
+		"codefacturador": "13295",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 753,
+		"department_id": 22,
+		"name": "Mallama",
+		"code": "52435",
+		"codefacturador": "13296",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 754,
+		"department_id": 22,
+		"name": "Mosquera",
+		"code": "52473",
+		"codefacturador": "13297",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 755,
+		"department_id": 22,
+		"name": "Nariño",
+		"code": "52480",
+		"codefacturador": "13298",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 756,
+		"department_id": 22,
+		"name": "Olaya Herrera ",
+		"code": "52490",
+		"codefacturador": "13299",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 757,
+		"department_id": 22,
+		"name": "Ospina",
+		"code": "52506",
+		"codefacturador": "13300",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 758,
+		"department_id": 22,
+		"name": "Francisco Pizarro ",
+		"code": "52520",
+		"codefacturador": "13070",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 759,
+		"department_id": 22,
+		"name": "Policarpa",
+		"code": "52540",
+		"codefacturador": "13303",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 760,
+		"department_id": 22,
+		"name": "Potosí",
+		"code": "52560",
+		"codefacturador": "13304",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 761,
+		"department_id": 22,
+		"name": "Providencia",
+		"code": "52565",
+		"codefacturador": "13305",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 762,
+		"department_id": 22,
+		"name": "Puerres",
+		"code": "52573",
+		"codefacturador": "13306",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 763,
+		"department_id": 22,
+		"name": "Pupiales",
+		"code": "52585",
+		"codefacturador": "13307",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 764,
+		"department_id": 22,
+		"name": "Ricaurte",
+		"code": "52612",
+		"codefacturador": "13308",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 765,
+		"department_id": 22,
+		"name": "Roberto Payán ",
+		"code": "52621",
+		"codefacturador": "13309",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 766,
+		"department_id": 22,
+		"name": "Samaniego",
+		"code": "52678",
+		"codefacturador": "13310",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 767,
+		"department_id": 22,
+		"name": "Sandoná",
+		"code": "52683",
+		"codefacturador": "13315",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 768,
+		"department_id": 22,
+		"name": "San Bernardo ",
+		"code": "52685",
+		"codefacturador": "13311",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 769,
+		"department_id": 22,
+		"name": "San Lorenzo ",
+		"code": "52687",
+		"codefacturador": "13312",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 770,
+		"department_id": 22,
+		"name": "San Pablo ",
+		"code": "52693",
+		"codefacturador": "13313",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 771,
+		"department_id": 22,
+		"name": "San Pedro De Cartago",
+		"code": "52694",
+		"codefacturador": "13314",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 772,
+		"department_id": 22,
+		"name": "Santa Bárbara ",
+		"code": "52696",
+		"codefacturador": "13437",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 773,
+		"department_id": 22,
+		"name": "Santacruz",
+		"code": "52699",
+		"codefacturador": "13317",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 774,
+		"department_id": 22,
+		"name": "Sapuyes",
+		"code": "52720",
+		"codefacturador": "13318",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 775,
+		"department_id": 22,
+		"name": "Taminango",
+		"code": "52786",
+		"codefacturador": "13319",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 776,
+		"department_id": 22,
+		"name": "Tangua",
+		"code": "52788",
+		"codefacturador": "13320",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 777,
+		"department_id": 22,
+		"name": "San Andrés De Tumaco",
+		"code": "52835",
+		"codefacturador": "13430",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 778,
+		"department_id": 22,
+		"name": "Túquerres",
+		"code": "52838",
+		"codefacturador": "13322",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 779,
+		"department_id": 22,
+		"name": "Yacuanquer",
+		"code": "52885",
+		"codefacturador": "13323",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 780,
+		"department_id": 23,
+		"name": "San José De Cúcuta",
+		"code": "54001",
+		"codefacturador": "48390",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 781,
+		"department_id": 23,
+		"name": "Ábrego",
+		"code": "54003",
+		"codefacturador": "48359",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 782,
+		"department_id": 23,
+		"name": "Arboledas",
+		"code": "54051",
+		"codefacturador": "13263",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 783,
+		"department_id": 23,
+		"name": "Bochalema",
+		"code": "54099",
+		"codefacturador": "12740",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 784,
+		"department_id": 23,
+		"name": "Bucarasica",
+		"code": "54109",
+		"codefacturador": "13371",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 785,
+		"department_id": 23,
+		"name": "Cácota",
+		"code": "54125",
+		"codefacturador": "13052",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 786,
+		"department_id": 23,
+		"name": "Cáchira",
+		"code": "54128",
+		"codefacturador": "13052",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 787,
+		"department_id": 23,
+		"name": "Chinácota",
+		"code": "54172",
+		"codefacturador": "12965",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 788,
+		"department_id": 23,
+		"name": "Chitagá",
+		"code": "54174",
+		"codefacturador": "12752",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 789,
+		"department_id": 23,
+		"name": "Convención",
+		"code": "54206",
+		"codefacturador": "13385",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 790,
+		"department_id": 23,
+		"name": "Cucutilla",
+		"code": "54223",
+		"codefacturador": "48368",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 791,
+		"department_id": 23,
+		"name": "Durania",
+		"code": "54239",
+		"codefacturador": "12764",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 792,
+		"department_id": 23,
+		"name": "El Carmen ",
+		"code": "54245",
+		"codefacturador": "13388",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 793,
+		"department_id": 23,
+		"name": "El Tarra ",
+		"code": "54250",
+		"codefacturador": "13279",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 794,
+		"department_id": 23,
+		"name": "El Zulia ",
+		"code": "54261",
+		"codefacturador": "13279",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 795,
+		"department_id": 23,
+		"name": "Gramalote",
+		"code": "54313",
+		"codefacturador": "12971",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 796,
+		"department_id": 23,
+		"name": "Hacarí",
+		"code": "54344",
+		"codefacturador": "13087",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 797,
+		"department_id": 23,
+		"name": "Herrán",
+		"code": "54347",
+		"codefacturador": "12588",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 798,
+		"department_id": 23,
+		"name": "Labateca",
+		"code": "54377",
+		"codefacturador": "13355",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 799,
+		"department_id": 23,
+		"name": "La Esperanza ",
+		"code": "54385",
+		"codefacturador": "12863",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 800,
+		"department_id": 23,
+		"name": "La Playa ",
+		"code": "54398",
+		"codefacturador": "13180",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 801,
+		"department_id": 23,
+		"name": "Los Patios ",
+		"code": "54405",
+		"codefacturador": "13459",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 802,
+		"department_id": 23,
+		"name": "Lourdes",
+		"code": "54418",
+		"codefacturador": "13411",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 803,
+		"department_id": 23,
+		"name": "Mutiscua",
+		"code": "54480",
+		"codefacturador": "12604",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 804,
+		"department_id": 23,
+		"name": "Ocaña",
+		"code": "54498",
+		"codefacturador": "48382",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 805,
+		"department_id": 23,
+		"name": "Pamplona",
+		"code": "54518",
+		"codefacturador": "13505",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 806,
+		"department_id": 23,
+		"name": "Pamplonita",
+		"code": "54520",
+		"codefacturador": "13505",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 807,
+		"department_id": 23,
+		"name": "Puerto Santander ",
+		"code": "54553",
+		"codefacturador": "13112",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 808,
+		"department_id": 23,
+		"name": "Ragonvalia",
+		"code": "54599",
+		"codefacturador": "13117",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 809,
+		"department_id": 23,
+		"name": "Salazar",
+		"code": "54660",
+		"codefacturador": "13221",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 810,
+		"department_id": 23,
+		"name": "San Calixto ",
+		"code": "54670",
+		"codefacturador": "13038",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 811,
+		"department_id": 23,
+		"name": "San Cayetano ",
+		"code": "54673",
+		"codefacturador": "13121",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 812,
+		"department_id": 23,
+		"name": "Santiago",
+		"code": "54680",
+		"codefacturador": "13333",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 813,
+		"department_id": 23,
+		"name": "Sardinata",
+		"code": "54720",
+		"codefacturador": "12663",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 814,
+		"department_id": 23,
+		"name": "Silos",
+		"code": "54743",
+		"codefacturador": "13334",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 815,
+		"department_id": 23,
+		"name": "Teorama",
+		"code": "54800",
+		"codefacturador": "12839",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 816,
+		"department_id": 23,
+		"name": "Tibú",
+		"code": "54810",
+		"codefacturador": "13141",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 817,
+		"department_id": 23,
+		"name": "Toledo",
+		"code": "54820",
+		"codefacturador": "12644",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 818,
+		"department_id": 23,
+		"name": "Villa Caro ",
+		"code": "54871",
+		"codefacturador": "12652",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 819,
+		"department_id": 23,
+		"name": "Villa Del Rosario",
+		"code": "54874",
+		"codefacturador": "12652",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 820,
+		"department_id": 25,
+		"name": "Armenia",
+		"code": "63001",
+		"codefacturador": "13337",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 821,
+		"department_id": 25,
+		"name": "Buenavista",
+		"code": "63111",
+		"codefacturador": "13450",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 822,
+		"department_id": 25,
+		"name": "Calarcá",
+		"code": "63130",
+		"codefacturador": "13339",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 823,
+		"department_id": 25,
+		"name": "Circasia",
+		"code": "63190",
+		"codefacturador": "13340",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 824,
+		"department_id": 25,
+		"name": "Córdoba",
+		"code": "63212",
+		"codefacturador": "13341",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 825,
+		"department_id": 25,
+		"name": "Filandia",
+		"code": "63272",
+		"codefacturador": "13342",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 826,
+		"department_id": 25,
+		"name": "Génova",
+		"code": "63302",
+		"codefacturador": "13343",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 827,
+		"department_id": 25,
+		"name": "La Tebaida ",
+		"code": "63401",
+		"codefacturador": "13344",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 828,
+		"department_id": 25,
+		"name": "Montenegro",
+		"code": "63470",
+		"codefacturador": "13345",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 829,
+		"department_id": 25,
+		"name": "Pijao",
+		"code": "63548",
+		"codefacturador": "13346",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 830,
+		"department_id": 25,
+		"name": "Quimbaya",
+		"code": "63594",
+		"codefacturador": "13347",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 831,
+		"department_id": 25,
+		"name": "Salento",
+		"code": "63690",
+		"codefacturador": "13348",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 832,
+		"department_id": 26,
+		"name": "Pereira",
+		"code": "66001",
+		"codefacturador": "13358",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 833,
+		"department_id": 26,
+		"name": "Apía",
+		"code": "66045",
+		"codefacturador": "13349",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 834,
+		"department_id": 26,
+		"name": "Balboa",
+		"code": "66075",
+		"codefacturador": "13350",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 835,
+		"department_id": 26,
+		"name": "Belén De Umbría",
+		"code": "66088",
+		"codefacturador": "13351",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 836,
+		"department_id": 26,
+		"name": "Dosquebradas",
+		"code": "66170",
+		"codefacturador": "13352",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 837,
+		"department_id": 26,
+		"name": "Guática",
+		"code": "66318",
+		"codefacturador": "13353",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 838,
+		"department_id": 26,
+		"name": "La Celia ",
+		"code": "66383",
+		"codefacturador": "13354",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 839,
+		"department_id": 26,
+		"name": "La Virginia ",
+		"code": "66400",
+		"codefacturador": "13355",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 840,
+		"department_id": 26,
+		"name": "Marsella",
+		"code": "66440",
+		"codefacturador": "13356",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 841,
+		"department_id": 26,
+		"name": "Mistrató",
+		"code": "66456",
+		"codefacturador": "13357",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 842,
+		"department_id": 26,
+		"name": "Pueblo Rico ",
+		"code": "66572",
+		"codefacturador": "13359",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 843,
+		"department_id": 26,
+		"name": "Quinchía",
+		"code": "66594",
+		"codefacturador": "13360",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 844,
+		"department_id": 26,
+		"name": "Santa Rosa De Cabal",
+		"code": "66682",
+		"codefacturador": "13361",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 845,
+		"department_id": 26,
+		"name": "Santuario",
+		"code": "66687",
+		"codefacturador": "13362",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 846,
+		"department_id": 28,
+		"name": "Bucaramanga",
+		"code": "68001",
+		"codefacturador": "13371",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 847,
+		"department_id": 28,
+		"name": "Aguada",
+		"code": "68013",
+		"codefacturador": "13363",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 848,
+		"department_id": 28,
+		"name": "Albania",
+		"code": "68020",
+		"codefacturador": "13364",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 849,
+		"department_id": 28,
+		"name": "Aratoca",
+		"code": "68051",
+		"codefacturador": "13365",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 850,
+		"department_id": 28,
+		"name": "Barbosa",
+		"code": "68077",
+		"codefacturador": "13366",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 851,
+		"department_id": 28,
+		"name": "Barichara",
+		"code": "68079",
+		"codefacturador": "13367",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 852,
+		"department_id": 28,
+		"name": "Barrancabermeja",
+		"code": "68081",
+		"codefacturador": "13368",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 853,
+		"department_id": 28,
+		"name": "Betulia",
+		"code": "68092",
+		"codefacturador": "13369",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 854,
+		"department_id": 28,
+		"name": "Bolívar",
+		"code": "68101",
+		"codefacturador": "13370",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 855,
+		"department_id": 28,
+		"name": "Cabrera",
+		"code": "68121",
+		"codefacturador": "13372",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 856,
+		"department_id": 28,
+		"name": "California",
+		"code": "68132",
+		"codefacturador": "13373",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 857,
+		"department_id": 28,
+		"name": "Capitanejo",
+		"code": "68147",
+		"codefacturador": "13374",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 858,
+		"department_id": 28,
+		"name": "Carcasí",
+		"code": "68152",
+		"codefacturador": "13375",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 859,
+		"department_id": 28,
+		"name": "Cepitá",
+		"code": "68160",
+		"codefacturador": "13376",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 860,
+		"department_id": 28,
+		"name": "Cerrito",
+		"code": "68162",
+		"codefacturador": "13377",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 861,
+		"department_id": 28,
+		"name": "Charalá",
+		"code": "68167",
+		"codefacturador": "13378",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 862,
+		"department_id": 28,
+		"name": "Charta",
+		"code": "68169",
+		"codefacturador": "13379",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 863,
+		"department_id": 28,
+		"name": "Chima",
+		"code": "68176",
+		"codefacturador": "13380",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 864,
+		"department_id": 28,
+		"name": "Chipatá",
+		"code": "68179",
+		"codefacturador": "13381",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 865,
+		"department_id": 28,
+		"name": "Cimitarra",
+		"code": "68190",
+		"codefacturador": "13382",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 866,
+		"department_id": 28,
+		"name": "Concepción",
+		"code": "68207",
+		"codefacturador": "13383",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 867,
+		"department_id": 28,
+		"name": "Confines",
+		"code": "68209",
+		"codefacturador": "13384",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 868,
+		"department_id": 28,
+		"name": "Contratación",
+		"code": "68211",
+		"codefacturador": "13385",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 869,
+		"department_id": 28,
+		"name": "Coromoro",
+		"code": "68217",
+		"codefacturador": "13386",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 870,
+		"department_id": 28,
+		"name": "Curití",
+		"code": "68229",
+		"codefacturador": "13387",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 871,
+		"department_id": 28,
+		"name": "El Carmen De Chucurí",
+		"code": "68235",
+		"codefacturador": "12701",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 872,
+		"department_id": 28,
+		"name": "El Guacamayo ",
+		"code": "68245",
+		"codefacturador": "13389",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 873,
+		"department_id": 28,
+		"name": "El Peñón ",
+		"code": "68250",
+		"codefacturador": "13390",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 874,
+		"department_id": 28,
+		"name": "El Playón ",
+		"code": "68255",
+		"codefacturador": "13391",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 875,
+		"department_id": 28,
+		"name": "Encino",
+		"code": "68264",
+		"codefacturador": "13392",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 876,
+		"department_id": 28,
+		"name": "Enciso",
+		"code": "68266",
+		"codefacturador": "13393",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 877,
+		"department_id": 28,
+		"name": "Florián",
+		"code": "68271",
+		"codefacturador": "13394",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 878,
+		"department_id": 28,
+		"name": "Floridablanca",
+		"code": "68276",
+		"codefacturador": "13395",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 879,
+		"department_id": 28,
+		"name": "Galán",
+		"code": "68296",
+		"codefacturador": "13396",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 880,
+		"department_id": 28,
+		"name": "Gámbita",
+		"code": "68298",
+		"codefacturador": "13397",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 881,
+		"department_id": 28,
+		"name": "Girón",
+		"code": "68307",
+		"codefacturador": "13398",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 882,
+		"department_id": 28,
+		"name": "Guaca",
+		"code": "68318",
+		"codefacturador": "13399",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 883,
+		"department_id": 28,
+		"name": "Guadalupe",
+		"code": "68320",
+		"codefacturador": "13400",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 884,
+		"department_id": 28,
+		"name": "Guapotá",
+		"code": "68322",
+		"codefacturador": "13401",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 885,
+		"department_id": 28,
+		"name": "Guavatá",
+		"code": "68324",
+		"codefacturador": "13402",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 886,
+		"department_id": 28,
+		"name": "Güepsa",
+		"code": "68327",
+		"codefacturador": "13403",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 887,
+		"department_id": 28,
+		"name": "Hato",
+		"code": "68344",
+		"codefacturador": "13404",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 888,
+		"department_id": 28,
+		"name": "Jesús María ",
+		"code": "68368",
+		"codefacturador": "13405",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 889,
+		"department_id": 28,
+		"name": "Jordán",
+		"code": "68370",
+		"codefacturador": "13406",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 890,
+		"department_id": 28,
+		"name": "La Belleza ",
+		"code": "68377",
+		"codefacturador": "13407",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 891,
+		"department_id": 28,
+		"name": "Landázuri",
+		"code": "68385",
+		"codefacturador": "13409",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 892,
+		"department_id": 28,
+		"name": "La Paz ",
+		"code": "68397",
+		"codefacturador": "13408",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 893,
+		"department_id": 28,
+		"name": "Lebrija",
+		"code": "68406",
+		"codefacturador": "13410",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 894,
+		"department_id": 28,
+		"name": "Los Santos ",
+		"code": "68418",
+		"codefacturador": "13411",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 895,
+		"department_id": 28,
+		"name": "Macaravita",
+		"code": "68425",
+		"codefacturador": "13412",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 896,
+		"department_id": 28,
+		"name": "Málaga",
+		"code": "68432",
+		"codefacturador": "13413",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 897,
+		"department_id": 28,
+		"name": "Matanza",
+		"code": "68444",
+		"codefacturador": "13414",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 898,
+		"department_id": 28,
+		"name": "Mogotes",
+		"code": "68464",
+		"codefacturador": "13415",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 899,
+		"department_id": 28,
+		"name": "Molagavita",
+		"code": "68468",
+		"codefacturador": "13416",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 900,
+		"department_id": 28,
+		"name": "Ocamonte",
+		"code": "68498",
+		"codefacturador": "13417",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 901,
+		"department_id": 28,
+		"name": "Oiba",
+		"code": "68500",
+		"codefacturador": "13418",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 902,
+		"department_id": 28,
+		"name": "Onzaga",
+		"code": "68502",
+		"codefacturador": "13419",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 903,
+		"department_id": 28,
+		"name": "Palmar",
+		"code": "68522",
+		"codefacturador": "13420",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 904,
+		"department_id": 28,
+		"name": "Palmas Del Socorro",
+		"code": "68524",
+		"codefacturador": "13421",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 905,
+		"department_id": 28,
+		"name": "Páramo",
+		"code": "68533",
+		"codefacturador": "13422",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 906,
+		"department_id": 28,
+		"name": "Piedecuesta",
+		"code": "68547",
+		"codefacturador": "13423",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 907,
+		"department_id": 28,
+		"name": "Pinchote",
+		"code": "68549",
+		"codefacturador": "13424",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 908,
+		"department_id": 28,
+		"name": "Puente Nacional ",
+		"code": "68572",
+		"codefacturador": "13425",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 909,
+		"department_id": 28,
+		"name": "Puerto Parra ",
+		"code": "68573",
+		"codefacturador": "13426",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 910,
+		"department_id": 28,
+		"name": "Puerto Wilches ",
+		"code": "68575",
+		"codefacturador": "13427",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 911,
+		"department_id": 28,
+		"name": "Rionegro",
+		"code": "68615",
+		"codefacturador": "13428",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 912,
+		"department_id": 28,
+		"name": "Sabana De Torres",
+		"code": "68655",
+		"codefacturador": "13429",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 913,
+		"department_id": 28,
+		"name": "San Andrés ",
+		"code": "68669",
+		"codefacturador": "13430",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 914,
+		"department_id": 28,
+		"name": "San Benito ",
+		"code": "68673",
+		"codefacturador": "13431",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 915,
+		"department_id": 28,
+		"name": "San Gil ",
+		"code": "68679",
+		"codefacturador": "13432",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 916,
+		"department_id": 28,
+		"name": "San Joaquín ",
+		"code": "68682",
+		"codefacturador": "13433",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 917,
+		"department_id": 28,
+		"name": "San José De Miranda",
+		"code": "68684",
+		"codefacturador": "13434",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 918,
+		"department_id": 28,
+		"name": "San Miguel ",
+		"code": "68686",
+		"codefacturador": "13435",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 919,
+		"department_id": 28,
+		"name": "San Vicente De Chucurí",
+		"code": "68689",
+		"codefacturador": "13436",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 920,
+		"department_id": 28,
+		"name": "Santa Bárbara ",
+		"code": "68705",
+		"codefacturador": "13437",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 921,
+		"department_id": 28,
+		"name": "Santa Helena Del Opón",
+		"code": "68720",
+		"codefacturador": "13438",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 922,
+		"department_id": 28,
+		"name": "Simacota",
+		"code": "68745",
+		"codefacturador": "13439",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 923,
+		"department_id": 28,
+		"name": "Socorro",
+		"code": "68755",
+		"codefacturador": "13440",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 924,
+		"department_id": 28,
+		"name": "Suaita",
+		"code": "68770",
+		"codefacturador": "13441",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 925,
+		"department_id": 28,
+		"name": "Sucre",
+		"code": "68773",
+		"codefacturador": "13472",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 926,
+		"department_id": 28,
+		"name": "Suratá",
+		"code": "68780",
+		"codefacturador": "13443",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 927,
+		"department_id": 28,
+		"name": "Tona",
+		"code": "68820",
+		"codefacturador": "13444",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 928,
+		"department_id": 28,
+		"name": "Valle De San José",
+		"code": "68855",
+		"codefacturador": "13042",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 929,
+		"department_id": 28,
+		"name": "Vélez",
+		"code": "68861",
+		"codefacturador": "13446",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 930,
+		"department_id": 28,
+		"name": "Vetas",
+		"code": "68867",
+		"codefacturador": "13447",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 931,
+		"department_id": 28,
+		"name": "Villanueva",
+		"code": "68872",
+		"codefacturador": "13448",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 932,
+		"department_id": 28,
+		"name": "Zapatoca",
+		"code": "68895",
+		"codefacturador": "13449",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 933,
+		"department_id": 29,
+		"name": "Sincelejo",
+		"code": "70001",
+		"codefacturador": "13471",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 934,
+		"department_id": 29,
+		"name": "Buenavista",
+		"code": "70110",
+		"codefacturador": "13450",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 935,
+		"department_id": 29,
+		"name": "Caimito",
+		"code": "70124",
+		"codefacturador": "13451",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 936,
+		"department_id": 29,
+		"name": "Colosó",
+		"code": "70204",
+		"codefacturador": "13453",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 937,
+		"department_id": 29,
+		"name": "Corozal",
+		"code": "70215",
+		"codefacturador": "13454",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 938,
+		"department_id": 29,
+		"name": "Coveñas",
+		"code": "70221",
+		"codefacturador": "48435",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 939,
+		"department_id": 29,
+		"name": "Chalán",
+		"code": "70230",
+		"codefacturador": "13452",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 940,
+		"department_id": 29,
+		"name": "El Roble ",
+		"code": "70233",
+		"codefacturador": "13455",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 941,
+		"department_id": 29,
+		"name": "Galeras",
+		"code": "70235",
+		"codefacturador": "13456",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 942,
+		"department_id": 29,
+		"name": "Guaranda",
+		"code": "70265",
+		"codefacturador": "13457",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 943,
+		"department_id": 29,
+		"name": "La Unión ",
+		"code": "70400",
+		"codefacturador": "13458",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 944,
+		"department_id": 29,
+		"name": "Los Palmitos ",
+		"code": "70418",
+		"codefacturador": "13459",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 945,
+		"department_id": 29,
+		"name": "Majagual",
+		"code": "70429",
+		"codefacturador": "13460",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 946,
+		"department_id": 29,
+		"name": "Morroa",
+		"code": "70473",
+		"codefacturador": "13461",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 947,
+		"department_id": 29,
+		"name": "Ovejas",
+		"code": "70508",
+		"codefacturador": "13462",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 948,
+		"department_id": 29,
+		"name": "Palmito",
+		"code": "70523",
+		"codefacturador": "13463",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 949,
+		"department_id": 29,
+		"name": "Sampués",
+		"code": "70670",
+		"codefacturador": "13464",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 950,
+		"department_id": 29,
+		"name": "San Benito Abad",
+		"code": "70678",
+		"codefacturador": "13465",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 951,
+		"department_id": 29,
+		"name": "San Juan De Betulia",
+		"code": "70702",
+		"codefacturador": "13466",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 952,
+		"department_id": 29,
+		"name": "San Marcos ",
+		"code": "70708",
+		"codefacturador": "13467",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 953,
+		"department_id": 29,
+		"name": "San Onofre ",
+		"code": "70713",
+		"codefacturador": "13468",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 954,
+		"department_id": 29,
+		"name": "San Pedro ",
+		"code": "70717",
+		"codefacturador": "13469",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 955,
+		"department_id": 29,
+		"name": "San Luis De Sincé",
+		"code": "70742",
+		"codefacturador": "48442",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 956,
+		"department_id": 29,
+		"name": "Sucre",
+		"code": "70771",
+		"codefacturador": "13472",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 957,
+		"department_id": 29,
+		"name": "Santiago De Tolú",
+		"code": "70820",
+		"codefacturador": "13333",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 958,
+		"department_id": 29,
+		"name": "Tolú Viejo ",
+		"code": "70823",
+		"codefacturador": "13473",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 959,
+		"department_id": 30,
+		"name": "Ibagué",
+		"code": "73001",
+		"codefacturador": "13496",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 960,
+		"department_id": 30,
+		"name": "Alpujarra",
+		"code": "73024",
+		"codefacturador": "13475",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 961,
+		"department_id": 30,
+		"name": "Alvarado",
+		"code": "73026",
+		"codefacturador": "13476",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 962,
+		"department_id": 30,
+		"name": "Ambalema",
+		"code": "73030",
+		"codefacturador": "13477",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 963,
+		"department_id": 30,
+		"name": "Anzoátegui",
+		"code": "73043",
+		"codefacturador": "13478",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 964,
+		"department_id": 30,
+		"name": "Armero",
+		"code": "73055",
+		"codefacturador": "13337",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 965,
+		"department_id": 30,
+		"name": "Ataco",
+		"code": "73067",
+		"codefacturador": "13479",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 966,
+		"department_id": 30,
+		"name": "Cajamarca",
+		"code": "73124",
+		"codefacturador": "13480",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 967,
+		"department_id": 30,
+		"name": "Carmen De Apicalá",
+		"code": "73148",
+		"codefacturador": "13481",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 968,
+		"department_id": 30,
+		"name": "Casabianca",
+		"code": "73152",
+		"codefacturador": "13482",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 969,
+		"department_id": 30,
+		"name": "Chaparral",
+		"code": "73168",
+		"codefacturador": "13483",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 970,
+		"department_id": 30,
+		"name": "Coello",
+		"code": "73200",
+		"codefacturador": "13484",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 971,
+		"department_id": 30,
+		"name": "Coyaima",
+		"code": "73217",
+		"codefacturador": "13485",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 972,
+		"department_id": 30,
+		"name": "Cunday",
+		"code": "73226",
+		"codefacturador": "13486",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 973,
+		"department_id": 30,
+		"name": "Dolores",
+		"code": "73236",
+		"codefacturador": "13487",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 974,
+		"department_id": 30,
+		"name": "Espinal",
+		"code": "73268",
+		"codefacturador": "13488",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 975,
+		"department_id": 30,
+		"name": "Falan",
+		"code": "73270",
+		"codefacturador": "13489",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 976,
+		"department_id": 30,
+		"name": "Flandes",
+		"code": "73275",
+		"codefacturador": "13490",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 977,
+		"department_id": 30,
+		"name": "Fresno",
+		"code": "73283",
+		"codefacturador": "13491",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 978,
+		"department_id": 30,
+		"name": "Guamo",
+		"code": "73319",
+		"codefacturador": "13492",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 979,
+		"department_id": 30,
+		"name": "Herveo",
+		"code": "73347",
+		"codefacturador": "13494",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 980,
+		"department_id": 30,
+		"name": "Honda",
+		"code": "73349",
+		"codefacturador": "13495",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 981,
+		"department_id": 30,
+		"name": "Icononzo",
+		"code": "73352",
+		"codefacturador": "13497",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 982,
+		"department_id": 30,
+		"name": "Lérida",
+		"code": "73408",
+		"codefacturador": "13498",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 983,
+		"department_id": 30,
+		"name": "Líbano",
+		"code": "73411",
+		"codefacturador": "13499",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 984,
+		"department_id": 30,
+		"name": "San Sebastián De Mariquita",
+		"code": "73443",
+		"codefacturador": "13222",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 985,
+		"department_id": 30,
+		"name": "Melgar",
+		"code": "73449",
+		"codefacturador": "13501",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 986,
+		"department_id": 30,
+		"name": "Murillo",
+		"code": "73461",
+		"codefacturador": "13502",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 987,
+		"department_id": 30,
+		"name": "Natagaima",
+		"code": "73483",
+		"codefacturador": "13503",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 988,
+		"department_id": 30,
+		"name": "Ortega",
+		"code": "73504",
+		"codefacturador": "13504",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 989,
+		"department_id": 30,
+		"name": "Palocabildo",
+		"code": "73520",
+		"codefacturador": "13505",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 990,
+		"department_id": 30,
+		"name": "Piedras",
+		"code": "73547",
+		"codefacturador": "13506",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 991,
+		"department_id": 30,
+		"name": "Planadas",
+		"code": "73555",
+		"codefacturador": "13507",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 992,
+		"department_id": 30,
+		"name": "Prado",
+		"code": "73563",
+		"codefacturador": "13508",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 993,
+		"department_id": 30,
+		"name": "Purificación",
+		"code": "73585",
+		"codefacturador": "13509",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 994,
+		"department_id": 30,
+		"name": "Rioblanco",
+		"code": "73616",
+		"codefacturador": "13510",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 995,
+		"department_id": 30,
+		"name": "Roncesvalles",
+		"code": "73622",
+		"codefacturador": "13511",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 996,
+		"department_id": 30,
+		"name": "Rovira",
+		"code": "73624",
+		"codefacturador": "13512",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 997,
+		"department_id": 30,
+		"name": "Saldaña",
+		"code": "73671",
+		"codefacturador": "13513",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 998,
+		"department_id": 30,
+		"name": "San Antonio ",
+		"code": "73675",
+		"codefacturador": "13514",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 999,
+		"department_id": 30,
+		"name": "San Luis ",
+		"code": "73678",
+		"codefacturador": "13515",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1000,
+		"department_id": 30,
+		"name": "Santa Isabel ",
+		"code": "73686",
+		"codefacturador": "13516",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1001,
+		"department_id": 30,
+		"name": "Suárez",
+		"code": "73770",
+		"codefacturador": "13517",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1002,
+		"department_id": 30,
+		"name": "Valle De San Juan",
+		"code": "73854",
+		"codefacturador": "13518",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1003,
+		"department_id": 30,
+		"name": "Venadillo",
+		"code": "73861",
+		"codefacturador": "13519",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1004,
+		"department_id": 30,
+		"name": "Villahermosa",
+		"code": "73870",
+		"codefacturador": "13520",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1005,
+		"department_id": 30,
+		"name": "Villarrica",
+		"code": "73873",
+		"codefacturador": "13521",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1006,
+		"department_id": 31,
+		"name": "Cali",
+		"code": "76001",
+		"codefacturador": "48324",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1007,
+		"department_id": 31,
+		"name": "Alcalá",
+		"code": "76020",
+		"codefacturador": "13364",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1008,
+		"department_id": 31,
+		"name": "Andalucía",
+		"code": "76036",
+		"codefacturador": "13262",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1009,
+		"department_id": 31,
+		"name": "Ansermanuevo",
+		"code": "76041",
+		"codefacturador": "12858",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1010,
+		"department_id": 31,
+		"name": "Argelia",
+		"code": "76054",
+		"codefacturador": "12920",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1011,
+		"department_id": 31,
+		"name": "Bolívar",
+		"code": "76100",
+		"codefacturador": "13370",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1012,
+		"department_id": 31,
+		"name": "Buenaventura",
+		"code": "76109",
+		"codefacturador": "48320",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1013,
+		"department_id": 31,
+		"name": "Guadalajara De Buga",
+		"code": "76111",
+		"codefacturador": "48321",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1014,
+		"department_id": 31,
+		"name": "Bugalagrande",
+		"code": "76113",
+		"codefacturador": "48322",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1015,
+		"department_id": 31,
+		"name": "Caicedonia",
+		"code": "76122",
+		"codefacturador": "48323",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1016,
+		"department_id": 31,
+		"name": "Calima",
+		"code": "76126",
+		"codefacturador": "48325",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1017,
+		"department_id": 31,
+		"name": "Candelaria",
+		"code": "76130",
+		"codefacturador": "12668",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1018,
+		"department_id": 31,
+		"name": "Cartago",
+		"code": "76147",
+		"codefacturador": "48327",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1019,
+		"department_id": 31,
+		"name": "Dagua",
+		"code": "76233",
+		"codefacturador": "12573",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1020,
+		"department_id": 31,
+		"name": "El Águila ",
+		"code": "76243",
+		"codefacturador": "12575",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1021,
+		"department_id": 31,
+		"name": "El Cairo ",
+		"code": "76246",
+		"codefacturador": "12928",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1022,
+		"department_id": 31,
+		"name": "El Cerrito ",
+		"code": "76248",
+		"codefacturador": "48331",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1023,
+		"department_id": 31,
+		"name": "El Dovio ",
+		"code": "76250",
+		"codefacturador": "13239",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1024,
+		"department_id": 31,
+		"name": "Florida",
+		"code": "76275",
+		"codefacturador": "13394",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1025,
+		"department_id": 31,
+		"name": "Ginebra",
+		"code": "76306",
+		"codefacturador": "48334",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1026,
+		"department_id": 31,
+		"name": "Guacarí",
+		"code": "76318",
+		"codefacturador": "12772",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1027,
+		"department_id": 31,
+		"name": "Jamundí",
+		"code": "76364",
+		"codefacturador": "48336",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1028,
+		"department_id": 31,
+		"name": "La Cumbre ",
+		"code": "76377",
+		"codefacturador": "13287",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1029,
+		"department_id": 31,
+		"name": "La Unión ",
+		"code": "76400",
+		"codefacturador": "13458",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1030,
+		"department_id": 31,
+		"name": "La Victoria ",
+		"code": "76403",
+		"codefacturador": "12781",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1031,
+		"department_id": 31,
+		"name": "Obando",
+		"code": "76497",
+		"codefacturador": "48340",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1032,
+		"department_id": 31,
+		"name": "Palmira",
+		"code": "76520",
+		"codefacturador": "48341",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1033,
+		"department_id": 31,
+		"name": "Pradera",
+		"code": "76563",
+		"codefacturador": "13304",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1034,
+		"department_id": 31,
+		"name": "Restrepo",
+		"code": "76606",
+		"codefacturador": "13253",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1035,
+		"department_id": 31,
+		"name": "Riofrío",
+		"code": "76616",
+		"codefacturador": "13510",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1036,
+		"department_id": 31,
+		"name": "Roldanillo",
+		"code": "76622",
+		"codefacturador": "12979",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1037,
+		"department_id": 31,
+		"name": "San Pedro ",
+		"code": "76670",
+		"codefacturador": "13469",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1038,
+		"department_id": 31,
+		"name": "Sevilla",
+		"code": "76736",
+		"codefacturador": "13125",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1039,
+		"department_id": 31,
+		"name": "Toro",
+		"code": "76823",
+		"codefacturador": "12957",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1040,
+		"department_id": 31,
+		"name": "Trujillo",
+		"code": "76828",
+		"codefacturador": "12916",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1041,
+		"department_id": 31,
+		"name": "Tuluá",
+		"code": "76834",
+		"codefacturador": "12686",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1042,
+		"department_id": 31,
+		"name": "Ulloa",
+		"code": "76845",
+		"codefacturador": "13147",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1043,
+		"department_id": 31,
+		"name": "Versalles",
+		"code": "76863",
+		"codefacturador": "13150",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1044,
+		"department_id": 31,
+		"name": "Vijes",
+		"code": "76869",
+		"codefacturador": "12652",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1045,
+		"department_id": 31,
+		"name": "Yotoco",
+		"code": "76890",
+		"codefacturador": "12918",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1046,
+		"department_id": 31,
+		"name": "Yumbo",
+		"code": "76892",
+		"codefacturador": "48355",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1047,
+		"department_id": 31,
+		"name": "Zarzal",
+		"code": "76895",
+		"codefacturador": "48356",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1048,
+		"department_id": 3,
+		"name": "Arauca",
+		"code": "81001",
+		"codefacturador": "12658",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1049,
+		"department_id": 3,
+		"name": "Arauquita",
+		"code": "81065",
+		"codefacturador": "12659",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1050,
+		"department_id": 3,
+		"name": "Cravo Norte ",
+		"code": "81220",
+		"codefacturador": "12660",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1051,
+		"department_id": 3,
+		"name": "Fortul",
+		"code": "81300",
+		"codefacturador": "12661",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1052,
+		"department_id": 3,
+		"name": "Puerto Rondón ",
+		"code": "81591",
+		"codefacturador": "12662",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1053,
+		"department_id": 3,
+		"name": "Saravena",
+		"code": "81736",
+		"codefacturador": "12663",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1054,
+		"department_id": 3,
+		"name": "Tame",
+		"code": "81794",
+		"codefacturador": "12664",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1055,
+		"department_id": 10,
+		"name": "Yopal",
+		"code": "85001",
+		"codefacturador": "12918",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1056,
+		"department_id": 10,
+		"name": "Aguazul",
+		"code": "85010",
+		"codefacturador": "12900",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1057,
+		"department_id": 10,
+		"name": "Chámeza",
+		"code": "85015",
+		"codefacturador": "12901",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1058,
+		"department_id": 10,
+		"name": "Hato Corozal ",
+		"code": "85125",
+		"codefacturador": "12902",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1059,
+		"department_id": 10,
+		"name": "La Salina ",
+		"code": "85136",
+		"codefacturador": "12903",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1060,
+		"department_id": 10,
+		"name": "Maní",
+		"code": "85139",
+		"codefacturador": "12904",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1061,
+		"department_id": 10,
+		"name": "Monterrey",
+		"code": "85162",
+		"codefacturador": "12905",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1062,
+		"department_id": 10,
+		"name": "Nunchía",
+		"code": "85225",
+		"codefacturador": "12906",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1063,
+		"department_id": 10,
+		"name": "Orocué",
+		"code": "85230",
+		"codefacturador": "12907",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1064,
+		"department_id": 10,
+		"name": "Paz De Ariporo",
+		"code": "85250",
+		"codefacturador": "12908",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1065,
+		"department_id": 10,
+		"name": "Pore",
+		"code": "85263",
+		"codefacturador": "12909",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1066,
+		"department_id": 10,
+		"name": "Recetor",
+		"code": "85279",
+		"codefacturador": "12910",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1067,
+		"department_id": 10,
+		"name": "Sabanalarga",
+		"code": "85300",
+		"codefacturador": "12911",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1068,
+		"department_id": 10,
+		"name": "Sácama",
+		"code": "85315",
+		"codefacturador": "12912",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1069,
+		"department_id": 10,
+		"name": "San Luis De Palenque",
+		"code": "85325",
+		"codefacturador": "12913",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1070,
+		"department_id": 10,
+		"name": "Támara",
+		"code": "85400",
+		"codefacturador": "12914",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1071,
+		"department_id": 10,
+		"name": "Tauramena",
+		"code": "85410",
+		"codefacturador": "12915",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1072,
+		"department_id": 10,
+		"name": "Trinidad",
+		"code": "85430",
+		"codefacturador": "12916",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1073,
+		"department_id": 10,
+		"name": "Villanueva",
+		"code": "85440",
+		"codefacturador": "13448",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1074,
+		"department_id": 24,
+		"name": "Mocoa",
+		"code": "86001",
+		"codefacturador": "13325",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1075,
+		"department_id": 24,
+		"name": "Colón",
+		"code": "86219",
+		"codefacturador": "13324",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1076,
+		"department_id": 24,
+		"name": "Orito",
+		"code": "86320",
+		"codefacturador": "13326",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1077,
+		"department_id": 24,
+		"name": "Puerto Asís ",
+		"code": "86568",
+		"codefacturador": "13327",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1078,
+		"department_id": 24,
+		"name": "Puerto Caicedo ",
+		"code": "86569",
+		"codefacturador": "12806",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1079,
+		"department_id": 24,
+		"name": "Puerto Guzmán ",
+		"code": "86571",
+		"codefacturador": "13329",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1080,
+		"department_id": 24,
+		"name": "Puerto Leguízamo ",
+		"code": "86573",
+		"codefacturador": "13330",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1081,
+		"department_id": 24,
+		"name": "Sibundoy",
+		"code": "86749",
+		"codefacturador": "13334",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1082,
+		"department_id": 24,
+		"name": "San Francisco ",
+		"code": "86755",
+		"codefacturador": "13331",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1083,
+		"department_id": 24,
+		"name": "San Miguel ",
+		"code": "86757",
+		"codefacturador": "13435",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1084,
+		"department_id": 24,
+		"name": "Santiago",
+		"code": "86760",
+		"codefacturador": "13333",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1085,
+		"department_id": 24,
+		"name": "Valle Del Guamuez",
+		"code": "86865",
+		"codefacturador": "13335",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1086,
+		"department_id": 24,
+		"name": "Villagarzón",
+		"code": "86885",
+		"codefacturador": "13336",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1087,
+		"department_id": 27,
+		"name": "San Andrés ",
+		"code": "88001",
+		"codefacturador": "48357",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1088,
+		"department_id": 27,
+		"name": "Providencia",
+		"code": "88564",
+		"codefacturador": "48358",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1089,
+		"department_id": 1,
+		"name": "Leticia",
+		"code": "91001",
+		"codefacturador": "12531",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1090,
+		"department_id": 1,
+		"name": "El Encanto ",
+		"code": "91263",
+		"codefacturador": "13239",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1091,
+		"department_id": 1,
+		"name": "La Chorrera ",
+		"code": "91405",
+		"codefacturador": "13354",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1092,
+		"department_id": 1,
+		"name": "La Pedrera ",
+		"code": "91407",
+		"codefacturador": "13408",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1093,
+		"department_id": 1,
+		"name": "La Victoria ",
+		"code": "91430",
+		"codefacturador": "12781",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1094,
+		"department_id": 1,
+		"name": "Mirití - Paraná",
+		"code": "91460",
+		"codefacturador": "12938",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1095,
+		"department_id": 1,
+		"name": "Puerto Alegría ",
+		"code": "91530",
+		"codefacturador": "13306",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1096,
+		"department_id": 1,
+		"name": "Puerto Arica ",
+		"code": "91536",
+		"codefacturador": "13306",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1097,
+		"department_id": 1,
+		"name": "Puerto Nariño ",
+		"code": "91540",
+		"codefacturador": "12532",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1098,
+		"department_id": 1,
+		"name": "Puerto Santander ",
+		"code": "91669",
+		"codefacturador": "13112",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1099,
+		"department_id": 1,
+		"name": "Tarapacá",
+		"code": "91798",
+		"codefacturador": "13525",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1100,
+		"department_id": 16,
+		"name": "Inírida",
+		"code": "94001",
+		"codefacturador": "13159",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1101,
+		"department_id": 16,
+		"name": "Barranco Minas ",
+		"code": "94343",
+		"codefacturador": "12694",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1102,
+		"department_id": 16,
+		"name": "Mapiripana",
+		"code": "94663",
+		"codefacturador": "13246",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1103,
+		"department_id": 16,
+		"name": "San Felipe ",
+		"code": "94883",
+		"codefacturador": "12716",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1104,
+		"department_id": 16,
+		"name": "Puerto Colombia ",
+		"code": "94884",
+		"codefacturador": "12678",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1105,
+		"department_id": 16,
+		"name": "La Guadalupe ",
+		"code": "94885",
+		"codefacturador": "12972",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1106,
+		"department_id": 16,
+		"name": "Cacahual",
+		"code": "94886",
+		"codefacturador": "13233",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1107,
+		"department_id": 16,
+		"name": "Pana Pana ",
+		"code": "94887",
+		"codefacturador": "13505",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1108,
+		"department_id": 16,
+		"name": "Morichal",
+		"code": "94888",
+		"codefacturador": "12893",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1109,
+		"department_id": 17,
+		"name": "San José Del Guaviare",
+		"code": "95001",
+		"codefacturador": "13163",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1110,
+		"department_id": 17,
+		"name": "Calamar",
+		"code": "95015",
+		"codefacturador": "13160",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1111,
+		"department_id": 17,
+		"name": "El Retorno ",
+		"code": "95025",
+		"codefacturador": "13161",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1112,
+		"department_id": 17,
+		"name": "Miraflores",
+		"code": "95200",
+		"codefacturador": "13162",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1113,
+		"department_id": 32,
+		"name": "Mitú",
+		"code": "97001",
+		"codefacturador": "13523",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1114,
+		"department_id": 32,
+		"name": "Carurú",
+		"code": "97161",
+		"codefacturador": "12886",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1115,
+		"department_id": 32,
+		"name": "Pacoa",
+		"code": "97511",
+		"codefacturador": "13107",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1116,
+		"department_id": 32,
+		"name": "Taraira",
+		"code": "97666",
+		"codefacturador": "13525",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1117,
+		"department_id": 32,
+		"name": "Papunahua",
+		"code": "97777",
+		"codefacturador": "12800",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1118,
+		"department_id": 32,
+		"name": "Yavaraté",
+		"code": "97889",
+		"codefacturador": "13527",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1119,
+		"department_id": 33,
+		"name": "Puerto Carreño ",
+		"code": "99001",
+		"codefacturador": "13530",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1120,
+		"department_id": 33,
+		"name": "La Primavera ",
+		"code": "99524",
+		"codefacturador": "13529",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 1121,
+		"department_id": 33,
+		"name": "Santa Rosalía ",
+		"code": "99624",
+		"codefacturador": "13531",
+		"created_at": null,
+		"updated_at": null
+	}
+]

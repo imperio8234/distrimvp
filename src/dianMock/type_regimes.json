@@ -1,0 +1,4 @@
+[
+	{ "id": 1, "name": "Responsable de IVA", "code": "48", "created_at": null, "updated_at": null },
+	{ "id": 2, "name": "No Responsable de IVA", "code": "49", "created_at": null, "updated_at": null }
+]

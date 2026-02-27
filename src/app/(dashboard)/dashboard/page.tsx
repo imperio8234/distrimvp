@@ -3,6 +3,7 @@ import { prisma } from "@/lib/prisma";
 import Link from "next/link";
 import { StatCard } from "@/components/ui/StatCard";
 import { ColdBadge } from "@/components/ui/ColdBadge";
+import { OnboardingCard } from "@/components/OnboardingCard";
 
 const DAY_MS = 1000 * 60 * 60 * 24;
 
@@ -23,7 +24,7 @@ async function getDashboardData(companyId: string) {
   const startOfMonth = new Date(now.getFullYear(), now.getMonth(), 1);
   const startOfToday = new Date(now.getFullYear(), now.getMonth(), now.getDate());
 
-  const [customers, pendingOrders, todayVisits, monthRevenue] = await Promise.all([
+  const [customers, pendingOrders, todayVisits, monthRevenue, vendorCount] = await Promise.all([
     prisma.customer.findMany({
       where: { companyId, active: true },
       select: {
@@ -35,7 +36,7 @@ async function getDashboardData(companyId: string) {
       },
       orderBy: { lastVisitAt: "asc" },
     }),
-    prisma.order.count({ where: { companyId, status: "PENDING" } }),
+    prisma.order.count({ where: { companyId, status: { in: ["PENDING_REVIEW", "PENDING"] } } }),
     prisma.visit.count({
       where: { customer: { companyId }, visitedAt: { gte: startOfToday } },
     }),
@@ -47,6 +48,7 @@ async function getDashboardData(companyId: string) {
       },
       _sum: { amount: true },
     }),
+    prisma.user.count({ where: { companyId, role: "VENDOR", active: true } }),
   ]);
 
   const withStatus = customers.map((c) => {
@@ -59,12 +61,13 @@ async function getDashboardData(companyId: string) {
     pendingOrders,
     todayVisits,
     monthRevenue: Number(monthRevenue._sum.amount ?? 0),
+    vendorCount,
   };
 }
 
 export default async function DashboardPage() {
   const session = await auth();
-  const { customers, pendingOrders, todayVisits, monthRevenue } =
+  const { customers, pendingOrders, todayVisits, monthRevenue, vendorCount } =
     await getDashboardData(session!.user.companyId!);
 
   const frozen  = customers.filter((c) => c.status === "FROZEN");
@@ -89,6 +92,12 @@ export default async function DashboardPage() {
           })}
         </p>
       </div>
+
+      {/* Onboarding: primeros pasos si la cuenta está recién creada */}
+      <OnboardingCard
+        customerCount={customers.length}
+        vendorCount={vendorCount}
+      />
 
       {/* Métricas */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">

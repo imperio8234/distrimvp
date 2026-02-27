@@ -1,0 +1,25 @@
+Para comenzar a utilizar nuestra API, hemos adjuntado las credenciales de acceso necesarias, así como los endpoints y la información relevante que necesitarás para integrarla con tu aplicación.
+
+ 
+
+Recursos incluidos en este correo:
+
+1Endpoint Sandbox
+
+https://api-sandbox.factus.com.co
+
+ 
+
+correo/usuario
+
+sandbox@factus.com.co
+
+ 
+
+contraseña
+
+sandbox2024%
+
+- CLIENT ID : 9e4a0abb-994d-4320-abb6-0c8423ce8895
+- CLIENT SECRET: qaSDg4vNblUIm4ocgpaeyM5hBF5To0KMuLWXSPGw
+2. Endpoint: https://api-sandbox.factus.com.co

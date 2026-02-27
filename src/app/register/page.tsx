@@ -117,6 +117,18 @@ export default function RegisterPage() {
             />
           </div>
 
+          <p className="text-xs text-gray-600">
+            Al crear tu cuenta aceptas nuestros{" "}
+            <Link href="/terms" className="text-brand-700 font-medium hover:underline">
+              Términos de uso
+            </Link>
+            {" "}y la{" "}
+            <Link href="/privacy" className="text-brand-700 font-medium hover:underline">
+              Política de privacidad
+            </Link>
+            .
+          </p>
+
           {error && (
             <p className="text-sm text-red-600 bg-red-50 px-3 py-2 rounded-lg">
               {error}

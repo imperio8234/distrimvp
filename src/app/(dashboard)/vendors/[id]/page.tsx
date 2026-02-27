@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
+import { VendorReminderButton } from "../VendorReminderButton";
 
 const DAY_MS = 1000 * 60 * 60 * 24;
 
@@ -95,11 +96,14 @@ export default async function VendorDetailPage({
         <span className="text-gray-800 font-medium">{vendor.name}</span>
       </div>
 
-      {/* Header con stats */}
+      {/* Header con stats + acciones */}
       <div className="card">
-        <div>
-          <h1 className="text-2xl font-bold text-gray-900">{vendor.name}</h1>
-          <p className="text-gray-500 mt-1">{vendor.email}</p>
+        <div className="flex flex-col gap-2 md:flex-row md:items-start md:justify-between">
+          <div>
+            <h1 className="text-2xl font-bold text-gray-900">{vendor.name}</h1>
+            <p className="text-gray-500 mt-1">{vendor.email}</p>
+          </div>
+          <VendorReminderButton vendorId={vendor.id} />
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6 pt-6 border-t border-gray-100">
           <StatBox label="Clientes asignados" value={vendor.assignedCustomers.length} />

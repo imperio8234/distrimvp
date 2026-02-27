@@ -1,0 +1,26 @@
+[
+	{ "id": 1, "name": "Registro civil", "code": "11", "code_rips": null, "created_at": null, "updated_at": null },
+	{ "id": 2, "name": "Tarjeta de identidad", "code": "12", "code_rips": null, "created_at": null, "updated_at": null },
+	{ "id": 3, "name": "Cédula de ciudadanía", "code": "13", "code_rips": null, "created_at": null, "updated_at": null },
+	{
+		"id": 4,
+		"name": "Tarjeta de extranjería",
+		"code": "21",
+		"code_rips": null,
+		"created_at": null,
+		"updated_at": null
+	},
+	{ "id": 5, "name": "Cédula de extranjería", "code": "22", "code_rips": null, "created_at": null, "updated_at": null },
+	{ "id": 6, "name": "NIT", "code": "31", "code_rips": null, "created_at": null, "updated_at": null },
+	{ "id": 7, "name": "Pasaporte", "code": "41", "code_rips": null, "created_at": null, "updated_at": null },
+	{
+		"id": 8,
+		"name": "Documento de identificación extranjero",
+		"code": "42",
+		"code_rips": null,
+		"created_at": null,
+		"updated_at": null
+	},
+	{ "id": 9, "name": "NIT de otro país", "code": "50", "code_rips": null, "created_at": null, "updated_at": null },
+	{ "id": 10, "name": "NUIP *", "code": "91", "code_rips": null, "created_at": null, "updated_at": null }
+]

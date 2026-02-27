@@ -31,10 +31,11 @@ enum VisitResult {
 }
 
 enum OrderStatus {
-  PENDING     // Pedido tomado, pendiente de despacho
-  IN_DELIVERY // En camino con el repartidor
-  DELIVERED   // Entregado al cliente
-  CANCELLED   // Cancelado
+  PENDING_REVIEW // Tomado por vendedor, pendiente de revisión del admin
+  PENDING        // Aprobado por admin, pendiente de despacho
+  IN_DELIVERY    // En camino con el repartidor
+  DELIVERED      // Entregado al cliente
+  CANCELLED      // Cancelado
 }
 
 enum DeliveryStatus {
@@ -223,6 +224,15 @@ model Customer {
   photoUrl  String?  // foto de fachada del negocio
   notes     String?  // observaciones del vendedor
 
+  // ── Facturación electrónica (Factus/DIAN) ────────────────
+  requiresInvoice      Boolean @default(false) // ¿el cliente requiere factura?
+  billingId            String?                 // CC/NIT sin dígito verificación
+  billingIdType        String? @default("3")   // "3"=CC "6"=NIT "7"=Pasaporte
+  billingLegalOrg      String? @default("2")   // "1"=Jurídica "2"=Natural
+  billingTribute       String? @default("21")  // "1"=Resp IVA "21"=No resp IVA
+  billingMunicipalityId String?                // Código municipio Factus
+  billingEmail         String?                 // Email para envío de factura
+
   active      Boolean   @default(true)
   lastVisitAt DateTime? // se actualiza automáticamente en cada visita
   createdAt   DateTime  @default(now())
@@ -300,9 +310,11 @@ model Order {
   amount       Decimal     @db.Decimal(12, 2)
   status       OrderStatus @default(PENDING)
   deliveryDate DateTime?
-  notes        String?
-  createdAt    DateTime    @default(now())
-  updatedAt    DateTime    @updatedAt
+  notes               String?
+  factusInvoiceId     String? // ID interno en Factus
+  factusInvoiceNumber String? // Número de factura (ej: "SETP990000001")
+  createdAt           DateTime    @default(now())
+  updatedAt           DateTime    @updatedAt
 
   company  Company   @relation(fields: [companyId], references: [id])
   customer Customer  @relation(fields: [customerId], references: [id])

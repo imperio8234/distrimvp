@@ -7,6 +7,7 @@ import { sendPushNotification } from "@/lib/push";
 const schema = z.object({
   deliveryDate:     z.string().nullable().optional(), // ISO string o null
   deliveryPersonId: z.string().nullable().optional(), // string = asignar, null = desasignar, undefined = sin cambio
+  action:           z.enum(["approve"]).optional(),   // aprobar PENDING_REVIEW → PENDING
 });
 
 /**
@@ -30,9 +31,9 @@ export async function PATCH(
   if (!parsed.success) {
     return NextResponse.json({ error: "Datos inválidos" }, { status: 400 });
   }
-  const { deliveryDate, deliveryPersonId } = parsed.data;
+  const { deliveryDate, deliveryPersonId, action } = parsed.data;
 
-  if (deliveryDate === undefined && deliveryPersonId === undefined) {
+  if (deliveryDate === undefined && deliveryPersonId === undefined && action === undefined) {
     return NextResponse.json(
       { error: "Debe indicar al menos un cambio" },
       { status: 400 }
@@ -52,6 +53,18 @@ export async function PATCH(
       { error: "No se puede modificar un pedido ya entregado" },
       { status: 400 }
     );
+  }
+
+  // Aprobar pedido PENDING_REVIEW → PENDING (sin factura)
+  if (action === "approve") {
+    if (order.status !== "PENDING_REVIEW") {
+      return NextResponse.json(
+        { error: "Solo se pueden aprobar pedidos en estado 'Pendiente de revisión'" },
+        { status: 400 }
+      );
+    }
+    await prisma.order.update({ where: { id: orderId }, data: { status: "PENDING" } });
+    return NextResponse.json({ ok: true });
   }
 
   // Validar repartidor si se indica (solo cuando es string, no null)

@@ -77,7 +77,7 @@ export async function PATCH(
             customerId: visit.customerId,
             visitId: id,
             amount: orderAmount,
-            status: "PENDING",
+            status: "PENDING_REVIEW",
             deliveryDate: deliveryDate ? new Date(deliveryDate) : null,
           },
         });

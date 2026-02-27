@@ -6,14 +6,15 @@ import { PedidosTable } from "./PedidosTable";
 
 export const metadata = { title: "Pedidos · DistriApp" };
 
-type OrderStatus = "PENDING" | "IN_DELIVERY" | "DELIVERED" | "CANCELLED";
+type OrderStatus = "PENDING_REVIEW" | "PENDING" | "IN_DELIVERY" | "DELIVERED" | "CANCELLED";
 
 const TABS = [
-  { label: "Todos",        value: ""            },
-  { label: "Pendientes",   value: "PENDING"     },
-  { label: "En reparto",   value: "IN_DELIVERY" },
-  { label: "Entregados",   value: "DELIVERED"   },
-  { label: "Cancelados",   value: "CANCELLED"   },
+  { label: "Todos",          value: ""               },
+  { label: "Por revisar",    value: "PENDING_REVIEW" },
+  { label: "Pendientes",     value: "PENDING"        },
+  { label: "En reparto",     value: "IN_DELIVERY"    },
+  { label: "Entregados",     value: "DELIVERED"      },
+  { label: "Cancelados",     value: "CANCELLED"      },
 ];
 
 const cop = (n: number) =>
@@ -32,14 +33,21 @@ export default async function PedidosPage({
   const companyId = session!.user.companyId!;
   const { status: statusFilter } = await searchParams;
 
-  const [ordersRaw, counts, deliveryPersons] = await Promise.all([
+  const [ordersRaw, counts, deliveryPersons, subscription] = await Promise.all([
     prisma.order.findMany({
       where: {
         companyId,
         ...(statusFilter ? { status: statusFilter as OrderStatus } : {}),
       },
       include: {
-        customer: { select: { id: true, name: true, address: true } },
+        customer: {
+          select: {
+            id: true, name: true, address: true, phone: true,
+            requiresInvoice: true,
+            billingId: true, billingIdType: true, billingLegalOrg: true,
+            billingTribute: true, billingMunicipalityId: true, billingEmail: true,
+          },
+        },
         visit:    { include: { vendor: { select: { name: true } } } },
         delivery: {
           include: { deliveryPerson: { select: { id: true, name: true } } },
@@ -57,17 +65,37 @@ export default async function PedidosPage({
       select:  { id: true, name: true },
       orderBy: { name: "asc" },
     }),
+    prisma.subscription.findUnique({
+      where:   { companyId },
+      include: { plan: { select: { dianEnabled: true } } },
+    }),
   ]);
+
+  const dianEnabled = subscription?.plan.dianEnabled ?? false;
 
   // Serializar: Decimal → number, Date → ISO string
   const orders = ordersRaw.map((o) => ({
-    id:           o.id,
-    status:       o.status as OrderStatus,
-    amount:       Number(o.amount),
-    deliveryDate: o.deliveryDate?.toISOString() ?? null,
-    customer:     o.customer,
-    visit:        o.visit,
-    delivery:     o.delivery
+    id:                  o.id,
+    status:              o.status as OrderStatus,
+    amount:              Number(o.amount),
+    deliveryDate:        o.deliveryDate?.toISOString() ?? null,
+    factusInvoiceId:     o.factusInvoiceId ?? null,
+    factusInvoiceNumber: o.factusInvoiceNumber ?? null,
+    customer: {
+      id:                   o.customer.id,
+      name:                 o.customer.name,
+      address:              o.customer.address,
+      phone:                o.customer.phone,
+      requiresInvoice:      o.customer.requiresInvoice,
+      billingId:            o.customer.billingId ?? null,
+      billingIdType:        o.customer.billingIdType ?? "3",
+      billingLegalOrg:      o.customer.billingLegalOrg ?? "2",
+      billingTribute:       o.customer.billingTribute ?? "21",
+      billingMunicipalityId: o.customer.billingMunicipalityId ?? null,
+      billingEmail:         o.customer.billingEmail ?? null,
+    },
+    visit:               o.visit,
+    delivery:            o.delivery
       ? {
           deliveryPersonId: o.delivery.deliveryPersonId,
           deliveryPerson:   o.delivery.deliveryPerson,
@@ -126,7 +154,7 @@ export default async function PedidosPage({
       </div>
 
       {/* Tabla (client component con modal integrado) */}
-      <PedidosTable orders={orders} deliveryPersons={deliveryPersons} />
+      <PedidosTable orders={orders} deliveryPersons={deliveryPersons} dianEnabled={dianEnabled} />
 
       {/* Resumen de totales */}
       {orders.length > 0 && (

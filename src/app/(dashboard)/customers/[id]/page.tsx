@@ -4,6 +4,7 @@ import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
 import { ColdBadge } from "@/components/ui/ColdBadge";
 import { AssignVendorForm } from "@/components/ui/AssignVendorForm";
+import { CustomerBillingForm } from "@/components/ui/CustomerBillingForm";
 
 const DAY_MS = 1000 * 60 * 60 * 24;
 const PAGE_SIZE = 10;
@@ -28,17 +29,19 @@ const VISIT_RESULT_LABEL: Record<string, string> = {
 };
 
 const ORDER_STATUS_LABEL: Record<string, string> = {
-  PENDING:     "Pendiente",
-  IN_DELIVERY: "En reparto",
-  DELIVERED:   "Entregado",
-  CANCELLED:   "Cancelado",
+  PENDING_REVIEW: "Por revisar",
+  PENDING:        "Pendiente",
+  IN_DELIVERY:    "En reparto",
+  DELIVERED:      "Entregado",
+  CANCELLED:      "Cancelado",
 };
 
 const ORDER_STATUS_COLOR: Record<string, string> = {
-  PENDING:     "text-yellow-700 bg-yellow-50",
-  IN_DELIVERY: "text-blue-700 bg-blue-50",
-  DELIVERED:   "text-green-700 bg-green-50",
-  CANCELLED:   "text-red-700 bg-red-50",
+  PENDING_REVIEW: "text-purple-700 bg-purple-50",
+  PENDING:        "text-yellow-700 bg-yellow-50",
+  IN_DELIVERY:    "text-blue-700 bg-blue-50",
+  DELIVERED:      "text-green-700 bg-green-50",
+  CANCELLED:      "text-red-700 bg-red-50",
 };
 
 const VISIT_RESULT_COLOR: Record<string, string> = {
@@ -83,6 +86,14 @@ async function getVendors(companyId: string) {
   });
 }
 
+async function getDianEnabled(companyId: string): Promise<boolean> {
+  const sub = await prisma.subscription.findUnique({
+    where: { companyId },
+    include: { plan: { select: { dianEnabled: true } } },
+  });
+  return sub?.plan.dianEnabled ?? false;
+}
+
 export default async function CustomerDetailPage({
   params,
   searchParams,
@@ -98,9 +109,10 @@ export default async function CustomerDetailPage({
   const session = await auth();
   const companyId = session!.user.companyId!;
 
-  const [{ customer, visitCount, orderCount }, vendors] = await Promise.all([
+  const [{ customer, visitCount, orderCount }, vendors, dianEnabled] = await Promise.all([
     getCustomer(id, companyId, visitPage, orderPage),
     getVendors(companyId),
+    getDianEnabled(companyId),
   ]);
 
   if (!customer) notFound();
@@ -182,6 +194,23 @@ export default async function CustomerDetailPage({
             customerId={customer.id}
             currentVendorId={customer.assignedVendor?.id ?? null}
             vendors={vendors}
+          />
+        </div>
+
+        {/* Sección datos de facturación */}
+        <div className="mt-4 pt-4 border-t border-gray-100">
+          <CustomerBillingForm
+            customerId={customer.id}
+            dianEnabled={dianEnabled}
+            billing={{
+              requiresInvoice:       customer.requiresInvoice,
+              billingId:             customer.billingId ?? null,
+              billingIdType:         customer.billingIdType ?? null,
+              billingLegalOrg:       customer.billingLegalOrg ?? null,
+              billingTribute:        customer.billingTribute ?? null,
+              billingMunicipalityId: customer.billingMunicipalityId ?? null,
+              billingEmail:          customer.billingEmail ?? null,
+            }}
           />
         </div>
       </div>

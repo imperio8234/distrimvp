@@ -21,7 +21,7 @@ export async function GET(req: NextRequest) {
       select: { lastVisitAt: true },
     }),
     prisma.order.count({
-      where: { companyId: auth.companyId, status: "PENDING" },
+      where: { companyId: auth.companyId, status: { in: ["PENDING_REVIEW", "PENDING"] } },
     }),
     prisma.visit.count({
       where: {

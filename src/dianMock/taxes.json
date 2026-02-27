@@ -1,0 +1,122 @@
+[
+	{
+		"id": 1,
+		"name": "IVA",
+		"description": "Impuesto sobre la Ventas",
+		"code": "01",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 2,
+		"name": "IC",
+		"description": "Impuesto al Consumo Departamental",
+		"code": "02",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 3,
+		"name": "ICA",
+		"description": "Impuesto de Industria, Comercio y Aviso",
+		"code": "03",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 4,
+		"name": "INC",
+		"description": "Impuesto Nacional al Consumo",
+		"code": "04",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 5,
+		"name": "ReteIVA",
+		"description": "Retención sobre el IVA",
+		"code": "05",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 6,
+		"name": "ReteRenta",
+		"description": "Retención sobre Renta",
+		"code": "06",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 7,
+		"name": "ReteICA",
+		"description": "Retención sobre el ICA",
+		"code": "07",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 8,
+		"name": "FtoHorticultura",
+		"description": "Cuota de Fomento Hortifrutícula",
+		"code": "20",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 9,
+		"name": "Timbre",
+		"description": "Impuesto de Timbre",
+		"code": "21",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 10,
+		"name": "INC Bolsas",
+		"description": "Impuesto al Consumo de Bolsa Plástica",
+		"code": "22",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 11,
+		"name": "INCarbono",
+		"description": "Impuesto Nacional al Carbono",
+		"code": "23",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 12,
+		"name": "INCombustibles",
+		"description": "Impuesto Nacional a los Combustibles",
+		"code": "24",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 13,
+		"name": "Sobretasa Combustibles",
+		"description": "Sobretasa a los combustibles",
+		"code": "25",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 14,
+		"name": "Sordicom",
+		"description": "Contribución minoristas (Combustibles)",
+		"code": "26",
+		"created_at": null,
+		"updated_at": null
+	},
+	{
+		"id": 15,
+		"name": "Nombre de la figura tributaria",
+		"description": "Otros tributos, tasas, contribuciones, y similares",
+		"code": "ZZ",
+		"created_at": null,
+		"updated_at": null
+	}
+]
